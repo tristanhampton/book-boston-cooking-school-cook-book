@@ -486,20 +486,20 @@ be utilized by the body; this is the office of the digestive system.
 
 Food is classified as follows:—
 
-                        1. Proteid (nitrogenous or albuminous)
+                        1. Protein (nitrogenous or albuminous)
   I. ORGANIC            2. Carbohydrates (sugar and starch)
                         3. Fats and oils
 
  II. INORGANIC          1. Mineral matter
                         2. Water
 
-The chief office of proteids is to build and repair tissues. They
+The chief office of proteins is to build and repair tissues. They
 furnish energy, but at greater cost than carbohydrates, fats, and oils.
 They contain nitrogen, carbon, oxygen, hydrogen, and sulphur or
 phosphorus, and include all forms of animal foods (excepting fats and
 glycogen) and some vegetable foods. Examples: milk, cheese, eggs, meat,
 fish, cereals, peas, beans, and lentils. The principal constituent of
-proteid food is albumen. Albumen as found in food takes different names,
+protein food is albumen. Albumen as found in food takes different names,
 but has the same chemical composition; as, _albumen_ in eggs, _fibrin_
 in meat, _casein_ in milk and cheese, _vegetable casein_ or _legumen_ in
 peas, beans, and lentils; and _gluten_ in wheat. To this same class
@@ -555,7 +555,7 @@ luncheon-counter!
 
 The daily average ration of an adult requires
 
-                             4½ oz. proteid
+                             4½ oz. protein
                              2 oz. fat
                              18 oz. starch
                              5 pints water
@@ -565,14 +565,14 @@ beverage. To keep in health and do the best mental and physical work,
 authorities agree that a mixed diet is suited for temperate climates,
 although sound arguments appear from the vegetarian. Women, even though
 they do the same amount of work as men, as a rule require less food.
-Brain workers should take their proteid in a form easily digested. In
+Brain workers should take their protein in a form easily digested. In
 consideration of this fact, fish and eggs form desirable substitutes for
 meat. The working man needs quantity as well as quality, that the
 stomach may have something to act upon. Corned beef, cabbage,
 brown-bread, and pastry, will not overtax his digestion. In old age the
 digestive organs lessen in activity, and the diet should be almost as
 simple as that of a child, increasing the amount of carbohydrates and
-decreasing the amount of proteids and fat. Many diseases which occur
+decreasing the amount of proteins and fat. Many diseases which occur
 after middle life are due to eating and drinking such foods as were
 indulged in during vigorous manhood.
 
@@ -774,7 +774,7 @@ F.
 
                             COMPOSITION
 
-                        Proteid, 3.4%
+                        Protein, 3.4%
                         Fat, 4%
                         Mineral matter, .7%
                         Water, 87%
@@ -800,7 +800,7 @@ water varying but little unless milk is adulterated.
 
 =Why Milk Sours.= A germ found floating in the air attacks a portion of
 the lactose in the milk, converting it into lactic acid; this, in turn,
-acts upon the casein (proteid) and precipitates it, producing what is
+acts upon the casein (protein) and precipitates it, producing what is
 known as _curd_ and _whey_. Whey contains water, salts, and some sugar.
 
 Milk is preserved by sterilization, pasteurization, and evaporation.
@@ -868,7 +868,7 @@ fresh, it makes a wholesome beverage.
 
                              COMPOSITION
 
-                         Proteid, 31.23%
+                         Protein, 31.23%
                          Fat, 34.39%
                          Water, 30.17%
                          Mineral matter, 4.31%
@@ -883,8 +883,8 @@ place. This is called ripening. Some cream cheeses are not allowed to
 ripen. Milk from Jersey and Guernsey cows yields the largest amount of
 cheese.
 
-Cheese is very valuable food; being rich in proteid, it may be used as a
-substitute for meat. A pound of cheese is equal in proteid to two pounds
+Cheese is very valuable food; being rich in protein, it may be used as a
+substitute for meat. A pound of cheese is equal in protein to two pounds
 of beef. Cheese in the raw state is difficult of digestion. This is
 somewhat overcome by cooking and adding a small amount of bicarbonate of
 soda. A small piece of rich cheese is often eaten to assist digestion.
@@ -1748,7 +1748,7 @@ prices; they are made from the youngest leaves. Orange Pekoe is scented
 with orange leaves. The best green tea comes from Japan. Some familiar
 brands are Hyson, Japan, and Gunpowder.
 
-From analysis, it has been found that tea is rich in proteid, but taken
+From analysis, it has been found that tea is rich in protein, but taken
 as an infusion acts as a stimulant rather than as a nutrient. The
 nutriment is gained from sugar and milk served with it. The stimulating
 property of tea is due to the alkaloid, _theine_, together with an
@@ -2443,7 +2443,7 @@ bread is principally made, should be considered.
 
 A grain of wheat consists of (1) an outer covering or husk, which is
 always removed before milling; (2) bran coats, which contain mineral
-matter; (3) gluten, the proteid matter and fat; and (4) starch, the
+matter; (3) gluten, the protein matter and fat; and (4) starch, the
 centre and largest part of the grain. Wheat is distinguished as _white_
 and _soft_, or _red_ and _hard_. The former is known as _winter wheat_,
 having been sown in the fall, and living through the winter; the latter
@@ -2526,7 +2526,7 @@ unbolted. Such flours are sold by the different health food companies,
 who have agencies in the large cities. Franklin Mills, Old Grist Mill,
 and Health Food flours are included in this class.
 
-=Gluten=, the proteid of wheat, is a gray, tough, elastic substance,
+=Gluten=, the protein of wheat, is a gray, tough, elastic substance,
 insoluble in water. On account of its great power of expansion, it holds
 the gas developed in bread dough by fermentation, which otherwise would
 escape.
@@ -4222,9 +4222,7 @@ waffles will stick.
 
                        Waffles with Boiled Cider
 
-Follow directions for making Waffles. Serve with
-
-BOILED CIDER. Allow twice as much cider as sugar, and let boil until of
+Follow directions for making Waffles. Serve with BOILED CIDER. Allow twice as much cider as sugar, and let boil until of
 a syrup consistency.
 
 
@@ -4530,7 +4528,7 @@ to wheat, comes rice.
 
                        TABLE SHOWING COMPOSITION
 
-                           Proteid Fat Starch Mineral matter Water
+                           Protein Fat Starch Mineral matter Water
       Oatmeal                 15.6 7.3   68.0            1.9   7.2
       Corn meal                8.9 2.2   75.1            0.9  12.9
       Wheat flour (spring)    11.8 1.1   75.0            0.5  11.6
@@ -4940,7 +4938,7 @@ and condensed tomato may be best bought of an Italian grocer.
 
                                COMPOSITION
 
-                           Proteid, 14.9%
+                           Protein, 14.9%
                            Fat, 10.6%
                            Mineral matter, 1%
                            Water, 73.5%
@@ -4955,7 +4953,7 @@ a certain amount of bulk must be furnished.
 A pound of eggs (nine) is equivalent in nutritive value to a pound of
 beef. From this it may be seen that eggs, at even twenty-five cents per
 dozen, should not be freely used by the strict economist. Eggs being
-rich in proteid serve as a valuable substitute for meat. In most
+rich in protein serve as a valuable substitute for meat. In most
 families, their use in the making of cake, custard, puddings, etc.,
 renders them almost indispensable. It is surprising how many intelligent
 women, who look well to the affairs of the kitchen, are satisfied to use
@@ -8446,7 +8444,7 @@ steak and smelts are often cooked in this way.
 
       TABLE SHOWING COMPOSITION OF THE VARIOUS FISH USED FOR FOOD
 
-     Articles         Refuse     Proteid Fat Mineral               Water
+     Articles         Refuse     Protein Fat Mineral               Water
                                              matter
 
  Bass, black                54.8     9.3  .8      .5                34.6
@@ -10180,7 +10178,7 @@ Broth.
 
                    TABLE SHOWING COMPOSITION OF MEATS
 
-        Articles      Refuse     Proteid Fat  Mineral matter Water
+        Articles      Refuse     Protein Fat  Mineral matter Water
           BEEF
       Fore-quarter          19.8    14.1 16.1             .7  49.3
       Hind-quarter          16.3    15.3 15.6             .8  52.
@@ -14113,7 +14111,7 @@ Cook butter until well browned, and add remaining ingredients.
 
                 Table showing Composition of Vegetables
 
-        Articles       Proteid Fat Carbohydrates Mineral matter Water
+        Articles       Protein Fat Carbohydrates Mineral matter Water
    Artichokes              2.6  .2          16.7             1.  79.5
    Asparagus               1.8  .2           3.3             1.   94.
    Beans, Lima, green      7.1  .7           22.            1.7  68.5
@@ -14143,7 +14141,7 @@ Cook butter until well browned, and add remaining ingredients.
 
 Vegetables include, commonly though not botanically speaking, all plants
 used for food except grains and fruits. With exception of beans, peas,
-and lentils, which contain a large amount of proteid, they are chiefly
+and lentils, which contain a large amount of protein, they are chiefly
 valuable for their potash salts, and should form a part of each day’s
 dietary. Many contain much cellulose, which gives needed bulk to the
 food. The legumes, peas, beans, and lentils may be used in place of
@@ -14916,7 +14914,7 @@ round cakes, roll in flour, and sauté in butter.
 
                                   Peas
 
-Peas contain, next to beans, the largest percentage of proteid of any of
+Peas contain, next to beans, the largest percentage of protein of any of
 the vegetables, and when young are easy of digestion. They appear in
 market as early as April, coming from Florida and California, and
 although high in price are hardly worth buying, having been picked so
@@ -15437,7 +15435,7 @@ yolks two eggs and one-half tablespoon lemon juice.
 
                           Water, 78.9%
                           Starch, 18%
-                          Proteid, 2.1%
+                          Protein, 2.1%
                           Mineral matter, .9%
                           Fat 1.%
 
@@ -15447,7 +15445,7 @@ them easy of cultivation in almost any soil or climate, and, resisting
 early frosts, they may be raised in a higher latitude than the cereals.
 
 They give needed bulk to food rather than nutriment, and, lacking in
-proteid, should be used in combination with meat, fish, or eggs.
+protein, should be used in combination with meat, fish, or eggs.
 
 Potatoes contain an acrid juice, the greater part of which lies near the
 skin; it passes into the water during boiling of potatoes, and escapes
@@ -31548,7 +31546,7 @@ given at hospital.
 
          _Fifth Lesson_
 
- Proteids
+ Proteins
    Composition
    Sources
    Food Value
@@ -31562,7 +31560,7 @@ given at hospital.
 
  Fermentation
  Bread Making and Baking
- Proteids (continued)
+ Proteins (continued)
  Beef Extracts
    Teas
    Balls
@@ -33501,7 +33499,7 @@ Given by appointment. Terms: $2.00. Materials extra.
    Inorganic, 1.
    Organic, 1.
    Proportions of, Correct, 2.
-   Proteid, 1, 2.
+   Protein, 1, 2.
    Ration, Daily Average, 3.
    Salts, 5.
    Water, 2, 4.
