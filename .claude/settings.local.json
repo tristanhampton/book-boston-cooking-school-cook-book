@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(perl:*)",
+      "Bash(s/'/'\"''\"'/g' the-boston-cooking-school-cook-book.tex)",
+      "Bash(pdflatex:*)",
+      "Bash(file:*)",
+      "Bash(timeout 120 pdflatex:*)",
+      "Bash(wc:*)",
+      "Bash(tail:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

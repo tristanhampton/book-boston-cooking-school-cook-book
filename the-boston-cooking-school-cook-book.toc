@@ -1,0 +1,1583 @@
+\contentsline {chapter}{\numberline {1}Food}{37}{}%
+\contentsline {section}{\numberline {1.1}Correct Proportions Of Food}{38}{}%
+\contentsline {section}{\numberline {1.2}Water (H2o)}{38}{}%
+\contentsline {section}{\numberline {1.3}Salts}{39}{}%
+\contentsline {section}{\numberline {1.4}Starch (C6h10o5)}{39}{}%
+\contentsline {section}{\numberline {1.5}Sugar (C12h22o11)}{40}{}%
+\contentsline {section}{\numberline {1.6}Gum, Pectose, And Cellulose}{40}{}%
+\contentsline {section}{\numberline {1.7}Fats And Oils}{40}{}%
+\contentsline {section}{\numberline {1.8}Milk}{41}{}%
+\contentsline {section}{\numberline {1.9}Butter}{42}{}%
+\contentsline {section}{\numberline {1.10}Cheese}{42}{}%
+\contentsline {section}{\numberline {1.11}Fruits}{43}{}%
+\contentsline {section}{\numberline {1.12}Vegetable Acids, And Where Found}{43}{}%
+\contentsline {section}{\numberline {1.13}Condiments}{44}{}%
+\contentsline {section}{\numberline {1.14}Flavoring Extracts}{44}{}%
+\contentsline {chapter}{\numberline {2}Cookery}{45}{}%
+\contentsline {section}{\numberline {2.1}Fire}{46}{}%
+\contentsline {section}{\numberline {2.2}How To Build A Fire}{46}{}%
+\contentsline {section}{\numberline {2.3}Ways Of Cooking}{47}{}%
+\contentsline {section}{\numberline {2.4}Various Ways Of Preparing Food For Cooking}{49}{}%
+\contentsline {subsection}{\numberline {2.4.1}How to Bone a Bird}{50}{}%
+\contentsline {subsection}{\numberline {2.4.2}How to Measure}{50}{}%
+\contentsline {subsection}{\numberline {2.4.3}How to Combine Ingredients}{51}{}%
+\contentsline {subsection}{\numberline {2.4.4}Ways of Preserving}{51}{}%
+\contentsline {section}{\numberline {2.5}Table Of Measures And Weights}{52}{}%
+\contentsline {section}{\numberline {2.6}Time Tables For Cooking}{52}{}%
+\contentsline {chapter}{\numberline {3}Beverages}{55}{}%
+\contentsline {section}{\numberline {3.1}Tea}{55}{}%
+\contentsline {subsection}{\numberline {3.1.1}How to Make Tea}{56}{}%
+\contentsline {subsection}{\numberline {3.1.2}Five o’Clock Tea}{56}{}%
+\contentsline {subsection}{\numberline {3.1.3}Russian Tea}{56}{}%
+\contentsline {subsection}{\numberline {3.1.4}De John’s Tea}{56}{}%
+\contentsline {subsection}{\numberline {3.1.5}Iced Tea}{56}{}%
+\contentsline {subsection}{\numberline {3.1.6}Wellesley Tea}{56}{}%
+\contentsline {section}{\numberline {3.2}Coffee}{57}{}%
+\contentsline {subsection}{\numberline {3.2.1}Filtered Coffee}{58}{}%
+\contentsline {subsection}{\numberline {3.2.2}Boiled Coffee}{58}{}%
+\contentsline {subsection}{\numberline {3.2.3}After-Dinner Coffee}{59}{}%
+\contentsline {section}{\numberline {3.3}Kola}{59}{}%
+\contentsline {section}{\numberline {3.4}Cocoa And Chocolate}{59}{}%
+\contentsline {subsection}{\numberline {3.4.1}Cocoa Shells}{60}{}%
+\contentsline {subsection}{\numberline {3.4.2}Cracked Cocoa}{60}{}%
+\contentsline {subsection}{\numberline {3.4.3}Breakfast Cocoa}{60}{}%
+\contentsline {subsection}{\numberline {3.4.4}Reception Cocoa}{60}{}%
+\contentsline {subsection}{\numberline {3.4.5}Brandy Cocoa}{61}{}%
+\contentsline {subsection}{\numberline {3.4.6}Chocolate I}{61}{}%
+\contentsline {subsection}{\numberline {3.4.7}Chocolate II}{61}{}%
+\contentsline {subsection}{\numberline {3.4.8}Chocolate III}{61}{}%
+\contentsline {section}{\numberline {3.5}Fruit Beverages}{61}{}%
+\contentsline {subsection}{\numberline {3.5.1}Lemonade}{61}{}%
+\contentsline {subsection}{\numberline {3.5.2}Pineapple Lemonade}{62}{}%
+\contentsline {subsection}{\numberline {3.5.3}Orangeade}{62}{}%
+\contentsline {subsection}{\numberline {3.5.4}Mint Julep}{62}{}%
+\contentsline {subsection}{\numberline {3.5.5}Claret Punch}{62}{}%
+\contentsline {subsection}{\numberline {3.5.6}Fruit Punch I}{63}{}%
+\contentsline {subsection}{\numberline {3.5.7}Fruit Punch II}{63}{}%
+\contentsline {subsection}{\numberline {3.5.8}Fruit Punch III}{63}{}%
+\contentsline {subsection}{\numberline {3.5.9}Fruit Punch IV}{63}{}%
+\contentsline {subsection}{\numberline {3.5.10}Ginger Punch}{64}{}%
+\contentsline {subsection}{\numberline {3.5.11}Champagne Punch}{64}{}%
+\contentsline {subsection}{\numberline {3.5.12}Club Punch}{64}{}%
+\contentsline {subsection}{\numberline {3.5.13}Unfermented Grape Juice}{65}{}%
+\contentsline {subsection}{\numberline {3.5.14}Claret Cup}{65}{}%
+\contentsline {subsection}{\numberline {3.5.15}Sauterne Cup}{65}{}%
+\contentsline {chapter}{\numberline {4}Bread And Bread Making}{67}{}%
+\contentsline {section}{\numberline {4.1}Yeast}{69}{}%
+\contentsline {section}{\numberline {4.2}Bread Making}{69}{}%
+\contentsline {section}{\numberline {4.3}Baking Of Bread}{70}{}%
+\contentsline {section}{\numberline {4.4}Care Of Bread After Baking}{70}{}%
+\contentsline {section}{\numberline {4.5}Water Bread}{71}{}%
+\contentsline {section}{\numberline {4.6}Milk And Water Bread}{72}{}%
+\contentsline {section}{\numberline {4.7}Entire Wheat Bread}{72}{}%
+\contentsline {section}{\numberline {4.8}German Caraway Bread}{72}{}%
+\contentsline {section}{\numberline {4.9}Entire Wheat And White Flour Bread}{72}{}%
+\contentsline {section}{\numberline {4.10}Graham Bread}{73}{}%
+\contentsline {section}{\numberline {4.11}Third Bread}{73}{}%
+\contentsline {section}{\numberline {4.12}Rolled Oats Bread}{73}{}%
+\contentsline {section}{\numberline {4.13}Rye Biscuit}{74}{}%
+\contentsline {section}{\numberline {4.14}Rye Bread}{74}{}%
+\contentsline {section}{\numberline {4.15}Date Bread}{74}{}%
+\contentsline {section}{\numberline {4.16}Boston Brown Bread}{74}{}%
+\contentsline {section}{\numberline {4.17}New England Brown Bread}{75}{}%
+\contentsline {section}{\numberline {4.18}Indian Bread}{75}{}%
+\contentsline {section}{\numberline {4.19}Steamed Graham Bread}{75}{}%
+\contentsline {section}{\numberline {4.20}Parker House Rolls}{76}{}%
+\contentsline {section}{\numberline {4.21}Salad Or Dinner Rolls}{76}{}%
+\contentsline {section}{\numberline {4.22}Sticks}{76}{}%
+\contentsline {section}{\numberline {4.23}Salad Sticks}{77}{}%
+\contentsline {section}{\numberline {4.24}Swedish Rolls}{77}{}%
+\contentsline {section}{\numberline {4.25}Sweet French Rolls}{77}{}%
+\contentsline {section}{\numberline {4.26}Luncheon Rolls}{78}{}%
+\contentsline {section}{\numberline {4.27}French Rusks}{78}{}%
+\contentsline {section}{\numberline {4.28}Rusks (Zweiback)}{78}{}%
+\contentsline {section}{\numberline {4.29}German Coffee Bread}{79}{}%
+\contentsline {section}{\numberline {4.30}Coffee Cakes (Brioche)}{79}{}%
+\contentsline {section}{\numberline {4.31}Coffee Rolls}{80}{}%
+\contentsline {section}{\numberline {4.32}Swedish Bread}{80}{}%
+\contentsline {section}{\numberline {4.33}Dutch Apple Cake}{81}{}%
+\contentsline {section}{\numberline {4.34}Buns}{81}{}%
+\contentsline {section}{\numberline {4.35}Hot Cross Buns}{82}{}%
+\contentsline {section}{\numberline {4.36}Raised Muffins}{82}{}%
+\contentsline {section}{\numberline {4.37}Grilled Muffins}{82}{}%
+\contentsline {section}{\numberline {4.38}Raised Hominy Muffins}{83}{}%
+\contentsline {section}{\numberline {4.39}Raised Rice Muffins}{83}{}%
+\contentsline {section}{\numberline {4.40}Raised Oatmeal Muffins}{83}{}%
+\contentsline {section}{\numberline {4.41}Health Food Muffins}{83}{}%
+\contentsline {section}{\numberline {4.42}Squash Biscuits}{84}{}%
+\contentsline {section}{\numberline {4.43}Imperial Muffins}{84}{}%
+\contentsline {section}{\numberline {4.44}Dry Toast}{84}{}%
+\contentsline {section}{\numberline {4.45}Water Toast}{84}{}%
+\contentsline {section}{\numberline {4.46}Milk Toast I}{85}{}%
+\contentsline {section}{\numberline {4.47}Milk Toast Ii}{85}{}%
+\contentsline {section}{\numberline {4.48}Brown Bread Milk Toast}{85}{}%
+\contentsline {section}{\numberline {4.49}Cream Toast}{85}{}%
+\contentsline {section}{\numberline {4.50}Tomato Cream Toast}{85}{}%
+\contentsline {section}{\numberline {4.51}German Toast}{86}{}%
+\contentsline {section}{\numberline {4.52}Brewis}{86}{}%
+\contentsline {section}{\numberline {4.53}Bread For Garnishing}{86}{}%
+\contentsline {section}{\numberline {4.54}Uses For Stale Bread}{86}{}%
+\contentsline {chapter}{\numberline {5}Biscuits, Breakfast Cakes, And Shortcakes}{87}{}%
+\contentsline {section}{\numberline {5.1}Batters, Sponges, And Doughs}{87}{}%
+\contentsline {section}{\numberline {5.2}Cream Scones}{87}{}%
+\contentsline {section}{\numberline {5.3}Baking Powder Biscuit I}{87}{}%
+\contentsline {section}{\numberline {5.4}Baking Powder Biscuit Ii}{88}{}%
+\contentsline {section}{\numberline {5.5}Emergency Biscuit}{88}{}%
+\contentsline {section}{\numberline {5.6}Fruit Rolls (Pin Wheel Biscuit)}{88}{}%
+\contentsline {section}{\numberline {5.7}Twin Mountain Muffins}{89}{}%
+\contentsline {section}{\numberline {5.8}One Egg Muffins I}{89}{}%
+\contentsline {section}{\numberline {5.9}One Egg Muffins Ii}{89}{}%
+\contentsline {section}{\numberline {5.10}Berry Muffins I (Without Eggs)}{89}{}%
+\contentsline {section}{\numberline {5.11}Berry Muffins Ii}{90}{}%
+\contentsline {section}{\numberline {5.12}Queen Of Muffins}{90}{}%
+\contentsline {section}{\numberline {5.13}Rice Muffins}{90}{}%
+\contentsline {section}{\numberline {5.14}Oatmeal Muffins}{91}{}%
+\contentsline {section}{\numberline {5.15}Graham Muffins I}{91}{}%
+\contentsline {section}{\numberline {5.16}Graham Muffins Ii}{91}{}%
+\contentsline {section}{\numberline {5.17}Rye Muffins I}{91}{}%
+\contentsline {section}{\numberline {5.18}Rye Muffins Ii}{92}{}%
+\contentsline {section}{\numberline {5.19}Rye Gems}{92}{}%
+\contentsline {section}{\numberline {5.20}Corn Meal Gems}{92}{}%
+\contentsline {section}{\numberline {5.21}Hominy Gems}{92}{}%
+\contentsline {section}{\numberline {5.22}Berkshire Muffins}{93}{}%
+\contentsline {section}{\numberline {5.23}Golden Corn Cake}{93}{}%
+\contentsline {section}{\numberline {5.24}Corn Cake (Sweetened With Molasses)}{94}{}%
+\contentsline {section}{\numberline {5.25}White Corn Cake}{94}{}%
+\contentsline {section}{\numberline {5.26}Rich Corn Cake}{94}{}%
+\contentsline {section}{\numberline {5.27}Susie’S Spider Corn Cake}{95}{}%
+\contentsline {section}{\numberline {5.28}White Corn Meal Cake}{95}{}%
+\contentsline {section}{\numberline {5.29}Pop-Overs}{95}{}%
+\contentsline {section}{\numberline {5.30}Graham Pop-Overs}{95}{}%
+\contentsline {section}{\numberline {5.31}Breakfast Puffs}{96}{}%
+\contentsline {section}{\numberline {5.32}Fadges}{96}{}%
+\contentsline {section}{\numberline {5.33}Zante Muffins}{96}{}%
+\contentsline {section}{\numberline {5.34}Maryland Biscuit}{96}{}%
+\contentsline {section}{\numberline {5.35}Griddle-Cakes}{97}{}%
+\contentsline {subsection}{\numberline {5.35.1}Sour Milk Griddle-cakes}{97}{}%
+\contentsline {subsection}{\numberline {5.35.2}Sweet Milk Griddle-cakes}{97}{}%
+\contentsline {subsection}{\numberline {5.35.3}Entire Wheat Griddle-cakes}{97}{}%
+\contentsline {subsection}{\numberline {5.35.4}Corn Griddle-cakes}{97}{}%
+\contentsline {subsection}{\numberline {5.35.5}Rice Griddle-cakes I}{98}{}%
+\contentsline {subsection}{\numberline {5.35.6}Rice Griddle-cakes II}{98}{}%
+\contentsline {subsection}{\numberline {5.35.7}Bread Griddle-cakes}{98}{}%
+\contentsline {section}{\numberline {5.36}Buckwheat Cakes}{99}{}%
+\contentsline {section}{\numberline {5.37}Waffles}{99}{}%
+\contentsline {section}{\numberline {5.38}Waffles With Boiled Cider}{99}{}%
+\contentsline {section}{\numberline {5.39}Rice Waffles}{99}{}%
+\contentsline {section}{\numberline {5.40}Virginia Waffles}{100}{}%
+\contentsline {section}{\numberline {5.41}Raised Waffles}{100}{}%
+\contentsline {section}{\numberline {5.42}Fried Drop Cakes}{100}{}%
+\contentsline {section}{\numberline {5.43}Rye Drop Cakes}{101}{}%
+\contentsline {section}{\numberline {5.44}Raised Doughnuts}{101}{}%
+\contentsline {section}{\numberline {5.45}Doughnuts I}{102}{}%
+\contentsline {section}{\numberline {5.46}Doughnuts Ii}{102}{}%
+\contentsline {section}{\numberline {5.47}Doughnuts Iii}{102}{}%
+\contentsline {section}{\numberline {5.48}Crullers}{103}{}%
+\contentsline {section}{\numberline {5.49}Strawberry Short Cake I}{103}{}%
+\contentsline {section}{\numberline {5.50}Strawberry Short Cake Ii}{104}{}%
+\contentsline {section}{\numberline {5.51}Rich Strawberry Short Cake}{104}{}%
+\contentsline {section}{\numberline {5.52}Fruit Short Cake}{104}{}%
+\contentsline {chapter}{\numberline {6}Cereals}{107}{}%
+\contentsline {section}{\numberline {6.1}Table Showing Composition}{107}{}%
+\contentsline {section}{\numberline {6.2}Table For Cooking Cereals}{108}{}%
+\contentsline {section}{\numberline {6.3}Oatmeal Mush With Apples}{108}{}%
+\contentsline {section}{\numberline {6.4}Cereal With Fruit}{108}{}%
+\contentsline {section}{\numberline {6.5}Fried Mushes}{108}{}%
+\contentsline {section}{\numberline {6.6}Fried Corn Meal Mush, Or Fried Hominy}{109}{}%
+\contentsline {section}{\numberline {6.7}Boiled Rice}{109}{}%
+\contentsline {section}{\numberline {6.8}Steamed Rice}{109}{}%
+\contentsline {section}{\numberline {6.9}Rice With Cheese}{109}{}%
+\contentsline {section}{\numberline {6.10}Rice À La Riston}{109}{}%
+\contentsline {section}{\numberline {6.11}Turkish Pilaf I}{110}{}%
+\contentsline {section}{\numberline {6.12}Turkish Pilaf Ii}{110}{}%
+\contentsline {section}{\numberline {6.13}Turkish Pilaf Iii}{110}{}%
+\contentsline {section}{\numberline {6.14}Russian Pilaf}{110}{}%
+\contentsline {section}{\numberline {6.15}Rissoto Creole}{110}{}%
+\contentsline {section}{\numberline {6.16}Boiled Macaroni}{111}{}%
+\contentsline {section}{\numberline {6.17}Macaroni With White Sauce}{111}{}%
+\contentsline {section}{\numberline {6.18}Baked Macaroni}{111}{}%
+\contentsline {section}{\numberline {6.19}Baked Macaroni With Cheese}{111}{}%
+\contentsline {section}{\numberline {6.20}Macaroni With Tomato Sauce}{111}{}%
+\contentsline {section}{\numberline {6.21}Macaroni À L’Italienne}{112}{}%
+\contentsline {section}{\numberline {6.22}Macaroni, Italian Style}{112}{}%
+\contentsline {section}{\numberline {6.23}Macaroni À La Milanaise}{112}{}%
+\contentsline {section}{\numberline {6.24}Spaghetti}{112}{}%
+\contentsline {section}{\numberline {6.25}Knöfli}{112}{}%
+\contentsline {section}{\numberline {6.26}Ravioli}{113}{}%
+\contentsline {section}{\numberline {6.27}Tomato Sauce}{113}{}%
+\contentsline {chapter}{\numberline {7}Eggs}{115}{}%
+\contentsline {section}{\numberline {7.1}Boiled Eggs}{116}{}%
+\contentsline {section}{\numberline {7.2}Dropped Eggs (Poached)}{116}{}%
+\contentsline {section}{\numberline {7.3}Eggs À La Finnoise}{116}{}%
+\contentsline {section}{\numberline {7.4}Poached Eggs À La Reine}{116}{}%
+\contentsline {section}{\numberline {7.5}Eggs À La Suisse}{116}{}%
+\contentsline {section}{\numberline {7.6}Eggs Susette}{117}{}%
+\contentsline {section}{\numberline {7.7}Baked Or Shirred Eggs}{117}{}%
+\contentsline {section}{\numberline {7.8}Eggs À La Tripe}{117}{}%
+\contentsline {section}{\numberline {7.9}Eggs À La Benedict}{117}{}%
+\contentsline {section}{\numberline {7.10}Eggs À La Lee}{117}{}%
+\contentsline {section}{\numberline {7.11}Eggs À La Commodore}{117}{}%
+\contentsline {section}{\numberline {7.12}Eggs, Waldorf Style}{118}{}%
+\contentsline {section}{\numberline {7.13}Poached Eggs With Sauce Bearnaise}{118}{}%
+\contentsline {section}{\numberline {7.14}Scrambled Eggs}{118}{}%
+\contentsline {section}{\numberline {7.15}Scrambled Eggs With Tomato Sauce}{118}{}%
+\contentsline {section}{\numberline {7.16}Scrambled Eggs With Anchovy Toast}{118}{}%
+\contentsline {section}{\numberline {7.17}Eggs À La Buckingham}{119}{}%
+\contentsline {section}{\numberline {7.18}Eggs À La Turk}{119}{}%
+\contentsline {section}{\numberline {7.19}Eggs À La Livingstone}{119}{}%
+\contentsline {section}{\numberline {7.20}Scrambled Eggs, Country Style}{119}{}%
+\contentsline {section}{\numberline {7.21}Buttered Eggs}{119}{}%
+\contentsline {section}{\numberline {7.22}Buttered Eggs With Tomatoes}{119}{}%
+\contentsline {section}{\numberline {7.23}Planked Eggs}{120}{}%
+\contentsline {section}{\numberline {7.24}Fried Eggs}{120}{}%
+\contentsline {section}{\numberline {7.25}Eggs À La Goldenrod}{120}{}%
+\contentsline {section}{\numberline {7.26}Eggs Au Gratin}{120}{}%
+\contentsline {section}{\numberline {7.27}Eggs In Batter}{120}{}%
+\contentsline {section}{\numberline {7.28}Curried Eggs I}{121}{}%
+\contentsline {section}{\numberline {7.29}Curried Eggs Ii}{121}{}%
+\contentsline {section}{\numberline {7.30}Scalloped Eggs}{121}{}%
+\contentsline {section}{\numberline {7.31}Stuffed Eggs}{122}{}%
+\contentsline {section}{\numberline {7.32}Stuffed Eggs In A Nest}{122}{}%
+\contentsline {section}{\numberline {7.33}Eggs À La Sidney}{122}{}%
+\contentsline {section}{\numberline {7.34}Eggs Huntington}{122}{}%
+\contentsline {section}{\numberline {7.35}Egg Farci I}{122}{}%
+\contentsline {section}{\numberline {7.36}Egg Farci Ii}{123}{}%
+\contentsline {section}{\numberline {7.37}Lucanian Eggs}{123}{}%
+\contentsline {section}{\numberline {7.38}Egg Soufflé}{123}{}%
+\contentsline {section}{\numberline {7.39}Egg Timbales}{123}{}%
+\contentsline {section}{\numberline {7.40}Egg Croquettes}{124}{}%
+\contentsline {section}{\numberline {7.41}Eggs À La Juliette}{124}{}%
+\contentsline {section}{\numberline {7.42}Eggs À La Parisienne}{124}{}%
+\contentsline {section}{\numberline {7.43}Eggs Mornay}{125}{}%
+\contentsline {section}{\numberline {7.44}Omelets}{125}{}%
+\contentsline {section}{\numberline {7.45}Plain Omelet}{125}{}%
+\contentsline {section}{\numberline {7.46}To Fold And Turn An Omelet}{125}{}%
+\contentsline {section}{\numberline {7.47}Omelet With Meat Or Vegetables}{125}{}%
+\contentsline {section}{\numberline {7.48}Oyster Omelet}{126}{}%
+\contentsline {section}{\numberline {7.49}Orange Omelet}{126}{}%
+\contentsline {section}{\numberline {7.50}Jelly Omelet}{126}{}%
+\contentsline {section}{\numberline {7.51}Bread Omelet}{126}{}%
+\contentsline {section}{\numberline {7.52}French Omelet}{126}{}%
+\contentsline {section}{\numberline {7.53}Omelet With Croûtons}{127}{}%
+\contentsline {section}{\numberline {7.54}Eggs With Spinach À La Martin}{127}{}%
+\contentsline {section}{\numberline {7.55}Spanish Omelet}{127}{}%
+\contentsline {section}{\numberline {7.56}Rich Omelet}{127}{}%
+\contentsline {section}{\numberline {7.57}Omelette Robespierre}{128}{}%
+\contentsline {section}{\numberline {7.58}Almond Omelet, Caramel Sauce}{128}{}%
+\contentsline {chapter}{\numberline {8}Soups}{129}{}%
+\contentsline {section}{\numberline {8.1}Soup Making}{129}{}%
+\contentsline {subsection}{\numberline {8.1.1}How to Clear Soup Stock}{131}{}%
+\contentsline {subsection}{\numberline {8.1.2}How to Bind Soups}{131}{}%
+\contentsline {section}{\numberline {8.2}Soups With Meat Stock}{131}{}%
+\contentsline {subsection}{\numberline {8.2.1}Brown Soup Stock}{131}{}%
+\contentsline {subsection}{\numberline {8.2.2}Bouillon}{132}{}%
+\contentsline {subsection}{\numberline {8.2.3}Tomato Bouillon with Oysters}{132}{}%
+\contentsline {subsection}{\numberline {8.2.4}Iced Bouillon}{132}{}%
+\contentsline {subsection}{\numberline {8.2.5}Macaroni Soup}{133}{}%
+\contentsline {subsection}{\numberline {8.2.6}Tomato Soup with Stock}{133}{}%
+\contentsline {subsection}{\numberline {8.2.7}Turkish Soup}{133}{}%
+\contentsline {subsection}{\numberline {8.2.8}Creole Soup}{134}{}%
+\contentsline {subsection}{\numberline {8.2.9}Julienne Soup}{134}{}%
+\contentsline {subsection}{\numberline {8.2.10}Dinner Soup}{134}{}%
+\contentsline {subsection}{\numberline {8.2.11}Scotch Soup}{135}{}%
+\contentsline {subsection}{\numberline {8.2.12}White Soup Stock I}{135}{}%
+\contentsline {subsection}{\numberline {8.2.13}White Soup Stock II}{136}{}%
+\contentsline {subsection}{\numberline {8.2.14}White Soup Stock III}{136}{}%
+\contentsline {subsection}{\numberline {8.2.15}Chicken Soup with Wine}{136}{}%
+\contentsline {subsection}{\numberline {8.2.16}French White Soup}{136}{}%
+\contentsline {subsection}{\numberline {8.2.17}White Soup}{137}{}%
+\contentsline {subsection}{\numberline {8.2.18}Chicken Soup}{137}{}%
+\contentsline {subsection}{\numberline {8.2.19}Turkey Soup}{138}{}%
+\contentsline {subsection}{\numberline {8.2.20}Hygienic Soup}{138}{}%
+\contentsline {subsection}{\numberline {8.2.21}Farina Soup}{138}{}%
+\contentsline {subsection}{\numberline {8.2.22}Spring Soup}{138}{}%
+\contentsline {subsection}{\numberline {8.2.23}Duchess Soup}{139}{}%
+\contentsline {subsection}{\numberline {8.2.24}Potage à la Reine}{139}{}%
+\contentsline {subsection}{\numberline {8.2.25}Royal Soup}{139}{}%
+\contentsline {subsection}{\numberline {8.2.26}St. Germain Soup}{140}{}%
+\contentsline {subsection}{\numberline {8.2.27}Imperial Soup}{140}{}%
+\contentsline {subsection}{\numberline {8.2.28}Veal and Sago Soup}{141}{}%
+\contentsline {subsection}{\numberline {8.2.29}Asparagus Soup}{141}{}%
+\contentsline {subsection}{\numberline {8.2.30}Cream of Celery Soup}{141}{}%
+\contentsline {subsection}{\numberline {8.2.31}Spinach Soup}{142}{}%
+\contentsline {subsection}{\numberline {8.2.32}Cream of Lettuce Soup}{142}{}%
+\contentsline {subsection}{\numberline {8.2.33}Mushroom Soup}{142}{}%
+\contentsline {subsection}{\numberline {8.2.34}Cream of Mushroom Soup}{143}{}%
+\contentsline {subsection}{\numberline {8.2.35}Cream of Watercress Soup}{143}{}%
+\contentsline {subsection}{\numberline {8.2.36}Cream of Cauliflower Soup}{143}{}%
+\contentsline {subsection}{\numberline {8.2.37}Cucumber Soup}{144}{}%
+\contentsline {subsection}{\numberline {8.2.38}Almond Soup}{144}{}%
+\contentsline {subsection}{\numberline {8.2.39}String Bean Soup}{145}{}%
+\contentsline {subsection}{\numberline {8.2.40}Soup à la Soubise}{145}{}%
+\contentsline {section}{\numberline {8.3}Chestnut Purée}{145}{}%
+\contentsline {subsection}{\numberline {8.3.1}Crab Soup}{145}{}%
+\contentsline {subsection}{\numberline {8.3.2}Philadelphia Pepper Pot}{146}{}%
+\contentsline {subsection}{\numberline {8.3.3}Mulligatawny Soup}{146}{}%
+\contentsline {subsection}{\numberline {8.3.4}Mock Turtle Soup}{147}{}%
+\contentsline {subsection}{\numberline {8.3.5}Consommé}{147}{}%
+\contentsline {subsection}{\numberline {8.3.6}Consommé à la Royal}{148}{}%
+\contentsline {subsection}{\numberline {8.3.7}Consommé au Parmesan}{148}{}%
+\contentsline {subsection}{\numberline {8.3.8}Consommé Colbert}{148}{}%
+\contentsline {subsection}{\numberline {8.3.9}Consommé aux Pâtes}{148}{}%
+\contentsline {subsection}{\numberline {8.3.10}Consommé d’Orleans}{148}{}%
+\contentsline {subsection}{\numberline {8.3.11}Consommé with Vegetables}{148}{}%
+\contentsline {subsection}{\numberline {8.3.12}Consommé Princess}{148}{}%
+\contentsline {subsection}{\numberline {8.3.13}Claret Consommé}{148}{}%
+\contentsline {subsection}{\numberline {8.3.14}Bortchock Consommé}{148}{}%
+\contentsline {section}{\numberline {8.4}Soups With Fish Stock}{148}{}%
+\contentsline {subsection}{\numberline {8.4.1}Clam Bouillon}{148}{}%
+\contentsline {subsection}{\numberline {8.4.2}Oyster Stew}{149}{}%
+\contentsline {subsection}{\numberline {8.4.3}Scallop Stew}{149}{}%
+\contentsline {subsection}{\numberline {8.4.4}Oyster Soup}{149}{}%
+\contentsline {subsection}{\numberline {8.4.5}French Oyster Soup}{149}{}%
+\contentsline {subsection}{\numberline {8.4.6}Oyster Soup, Amsterdam Style}{150}{}%
+\contentsline {subsection}{\numberline {8.4.7}Oyster Gumbo}{150}{}%
+\contentsline {subsection}{\numberline {8.4.8}Clam Soup with Poached Eggs}{150}{}%
+\contentsline {subsection}{\numberline {8.4.9}Clam and Oyster Soup}{151}{}%
+\contentsline {subsection}{\numberline {8.4.10}Cream of Clam Soup}{151}{}%
+\contentsline {subsection}{\numberline {8.4.11}Clam Consommé}{151}{}%
+\contentsline {subsection}{\numberline {8.4.12}Clam and Chicken Frappé}{151}{}%
+\contentsline {subsection}{\numberline {8.4.13}Clam and Tomato Bisque}{151}{}%
+\contentsline {subsection}{\numberline {8.4.14}Oyster Bisque}{152}{}%
+\contentsline {subsection}{\numberline {8.4.15}Cream of Scallop Soup}{152}{}%
+\contentsline {subsection}{\numberline {8.4.16}Lobster Bisque}{153}{}%
+\contentsline {chapter}{\numberline {9}Soups Without Stock}{155}{}%
+\contentsline {section}{\numberline {9.1}Black Bean Soup}{155}{}%
+\contentsline {section}{\numberline {9.2}Baked Bean Soup}{155}{}%
+\contentsline {section}{\numberline {9.3}Cream Of Lima Bean Soup}{156}{}%
+\contentsline {section}{\numberline {9.4}Cream Of Artichoke Soup}{156}{}%
+\contentsline {section}{\numberline {9.5}Celery Soup I}{157}{}%
+\contentsline {section}{\numberline {9.6}Celery Soup Ii}{157}{}%
+\contentsline {section}{\numberline {9.7}Corn Soup}{157}{}%
+\contentsline {section}{\numberline {9.8}Halibut Soup}{158}{}%
+\contentsline {section}{\numberline {9.9}Pea Soup}{158}{}%
+\contentsline {section}{\numberline {9.10}Split Pea Soup}{158}{}%
+\contentsline {section}{\numberline {9.11}Kornlet Soup}{159}{}%
+\contentsline {section}{\numberline {9.12}Potato Soup}{159}{}%
+\contentsline {section}{\numberline {9.13}Appledore Soup}{159}{}%
+\contentsline {section}{\numberline {9.14}Swiss Potato Soup}{160}{}%
+\contentsline {section}{\numberline {9.15}Leek And Potato Soup}{160}{}%
+\contentsline {section}{\numberline {9.16}Vegetable Soup}{160}{}%
+\contentsline {section}{\numberline {9.17}Salmon Soup}{161}{}%
+\contentsline {section}{\numberline {9.18}Squash Soup}{161}{}%
+\contentsline {section}{\numberline {9.19}Tomato Soup}{161}{}%
+\contentsline {section}{\numberline {9.20}Cream Of Tomato Soup}{162}{}%
+\contentsline {section}{\numberline {9.21}Mock Bisque Soup}{162}{}%
+\contentsline {section}{\numberline {9.22}Tapioca Wine Soup}{163}{}%
+\contentsline {section}{\numberline {9.23}Chowders}{163}{}%
+\contentsline {subsection}{\numberline {9.23.1}Corn Chowder}{163}{}%
+\contentsline {subsection}{\numberline {9.23.2}Fish Chowder}{163}{}%
+\contentsline {subsection}{\numberline {9.23.3}Connecticut Chowder}{164}{}%
+\contentsline {subsection}{\numberline {9.23.4}Clam Chowder}{164}{}%
+\contentsline {subsection}{\numberline {9.23.5}Rhode Island Chowder}{165}{}%
+\contentsline {subsection}{\numberline {9.23.6}Lobster Chowder}{165}{}%
+\contentsline {subsection}{\numberline {9.23.7}German Chowder}{165}{}%
+\contentsline {chapter}{\numberline {10}Soup Garnishings And Force-Meats}{167}{}%
+\contentsline {section}{\numberline {10.1}Crisp Crackers}{167}{}%
+\contentsline {section}{\numberline {10.2}Souffléd Crackers}{167}{}%
+\contentsline {section}{\numberline {10.3}Crackers With Cheese}{167}{}%
+\contentsline {section}{\numberline {10.4}Croûtons (Duchess Crusts)}{167}{}%
+\contentsline {section}{\numberline {10.5}Cheese Sticks}{167}{}%
+\contentsline {section}{\numberline {10.6}Imperial Sticks In Rings}{167}{}%
+\contentsline {section}{\numberline {10.7}Mock Almonds}{168}{}%
+\contentsline {section}{\numberline {10.8}Pulled Bread}{168}{}%
+\contentsline {section}{\numberline {10.9}Egg Balls I}{168}{}%
+\contentsline {section}{\numberline {10.10}Egg Balls Ii}{168}{}%
+\contentsline {section}{\numberline {10.11}Egg Custard}{168}{}%
+\contentsline {section}{\numberline {10.12}Harlequin Slices}{169}{}%
+\contentsline {section}{\numberline {10.13}Royal Custard}{169}{}%
+\contentsline {section}{\numberline {10.14}Chicken Custard}{169}{}%
+\contentsline {section}{\numberline {10.15}Noodles}{169}{}%
+\contentsline {section}{\numberline {10.16}Fritter Beans}{170}{}%
+\contentsline {section}{\numberline {10.17}Pâte À Choux}{170}{}%
+\contentsline {section}{\numberline {10.18}Parmesan Pâte À Choux}{170}{}%
+\contentsline {section}{\numberline {10.19}White Bait Garnish}{170}{}%
+\contentsline {section}{\numberline {10.20}Fish Force-Meat I}{170}{}%
+\contentsline {section}{\numberline {10.21}Fish Force-Meat Ii}{171}{}%
+\contentsline {section}{\numberline {10.22}Salmon Force-Meat}{171}{}%
+\contentsline {section}{\numberline {10.23}Oyster Force-Meat}{171}{}%
+\contentsline {section}{\numberline {10.24}Clam Force-Meat}{171}{}%
+\contentsline {section}{\numberline {10.25}Chicken Force-Meat I}{171}{}%
+\contentsline {section}{\numberline {10.26}Chicken Force-Meat Ii}{172}{}%
+\contentsline {section}{\numberline {10.27}Quenelles}{172}{}%
+\contentsline {chapter}{\numberline {11}Fish}{173}{}%
+\contentsline {section}{\numberline {11.1}White And Oily Fish}{173}{}%
+\contentsline {section}{\numberline {11.2}Shellfish}{175}{}%
+\contentsline {subsection}{\numberline {11.2.1}I. Bivalve Mollusks}{175}{}%
+\contentsline {subsection}{\numberline {11.2.2}II. Crustaceans}{176}{}%
+\contentsline {section}{\numberline {11.3}To Prepare Fish For Cooking}{177}{}%
+\contentsline {section}{\numberline {11.4}Ways Of Cooking Fish}{178}{}%
+\contentsline {section}{\numberline {11.5}Table Showing Composition Of The Various Fish Used For Food}{178}{}%
+\contentsline {section}{\numberline {11.6}Boiled Haddock}{179}{}%
+\contentsline {section}{\numberline {11.7}Boiled Salmon}{179}{}%
+\contentsline {section}{\numberline {11.8}Steamed Halibut, Silesian Sauce}{179}{}%
+\contentsline {section}{\numberline {11.9}Broiled Scrod}{180}{}%
+\contentsline {section}{\numberline {11.10}Broiled Chicken Halibut}{180}{}%
+\contentsline {section}{\numberline {11.11}Broiled Swordfish}{180}{}%
+\contentsline {section}{\numberline {11.12}Broiled Shad Roe}{180}{}%
+\contentsline {section}{\numberline {11.13}Broiled Pompano With Fricassee Of Clams}{180}{}%
+\contentsline {section}{\numberline {11.14}Baked Haddock With Stuffing}{181}{}%
+\contentsline {section}{\numberline {11.15}Fish Stuffing I}{181}{}%
+\contentsline {section}{\numberline {11.16}Fish Stuffing Ii}{181}{}%
+\contentsline {section}{\numberline {11.17}Baked Bluefish}{181}{}%
+\contentsline {section}{\numberline {11.18}Breslin Baked Bluefish}{182}{}%
+\contentsline {section}{\numberline {11.19}Bluefish À L’Italienne}{182}{}%
+\contentsline {section}{\numberline {11.20}Baked Cod With Oyster Stuffing}{182}{}%
+\contentsline {section}{\numberline {11.21}Oyster Stuffing}{182}{}%
+\contentsline {section}{\numberline {11.22}Baked Haddock With Oyster Stuffing}{182}{}%
+\contentsline {section}{\numberline {11.23}Baked Halibut With Tomato Sauce}{183}{}%
+\contentsline {section}{\numberline {11.24}Baked Halibut With Lobster Sauce}{183}{}%
+\contentsline {section}{\numberline {11.25}Hollenden Halibut}{183}{}%
+\contentsline {section}{\numberline {11.26}Baked Mackerel}{183}{}%
+\contentsline {section}{\numberline {11.27}Planked Shad Or Whitefish}{184}{}%
+\contentsline {section}{\numberline {11.28}Planked Shad With Creamed Roe}{184}{}%
+\contentsline {section}{\numberline {11.29}Planked Haddock}{184}{}%
+\contentsline {section}{\numberline {11.30}Baked Stuffed Smelts}{184}{}%
+\contentsline {section}{\numberline {11.31}Smelts À La Langtry}{184}{}%
+\contentsline {section}{\numberline {11.32}Baked Shad Roe With Tomato Sauce}{185}{}%
+\contentsline {section}{\numberline {11.33}Baked Fillets Of Bass Or Halibut}{185}{}%
+\contentsline {section}{\numberline {11.34}Fillets Of Halibut With Brown Sauce}{185}{}%
+\contentsline {section}{\numberline {11.35}Fillets Of Haddock, White Wine Sauce}{185}{}%
+\contentsline {section}{\numberline {11.36}Halibut À La Poulette}{185}{}%
+\contentsline {section}{\numberline {11.37}Moulded Fish, Normandy Sauce}{186}{}%
+\contentsline {section}{\numberline {11.38}Halibut À La Martin}{186}{}%
+\contentsline {section}{\numberline {11.39}Fillets Of Fish À La Bement}{186}{}%
+\contentsline {section}{\numberline {11.40}Halibut À La Rarebit}{186}{}%
+\contentsline {section}{\numberline {11.41}Sandwiches Of Chicken Halibut}{187}{}%
+\contentsline {section}{\numberline {11.42}Sole À La Bercy}{187}{}%
+\contentsline {section}{\numberline {11.43}Halibut Au Lit}{187}{}%
+\contentsline {section}{\numberline {11.44}Fried Cod Steaks}{187}{}%
+\contentsline {section}{\numberline {11.45}Fried Smelts}{187}{}%
+\contentsline {section}{\numberline {11.46}Smelts À La Menière}{188}{}%
+\contentsline {section}{\numberline {11.47}Fried Fillets Of Halibut Or Flounder}{188}{}%
+\contentsline {section}{\numberline {11.48}Fried Fish, Russian Style, Mushroom Sauce}{188}{}%
+\contentsline {section}{\numberline {11.49}Fried Eels}{188}{}%
+\contentsline {section}{\numberline {11.50}Fried Stuffed Smelts}{188}{}%
+\contentsline {section}{\numberline {11.51}Fried Shad Roe}{188}{}%
+\contentsline {section}{\numberline {11.52}Soft-Shell Crabs}{188}{}%
+\contentsline {section}{\numberline {11.53}Frogs’ Hind Legs}{189}{}%
+\contentsline {section}{\numberline {11.54}Terrapin}{189}{}%
+\contentsline {section}{\numberline {11.55}Terrapin À La Baltimore}{189}{}%
+\contentsline {section}{\numberline {11.56}Terrapin À La Maryland}{189}{}%
+\contentsline {section}{\numberline {11.57}Washington Terrapin}{190}{}%
+\contentsline {section}{\numberline {11.58}Ways Of Using Remnants Of Cooked Fish}{190}{}%
+\contentsline {subsection}{\numberline {11.58.1}Fish à la Crême}{190}{}%
+\contentsline {subsection}{\numberline {11.58.2}Turban of Fish}{190}{}%
+\contentsline {subsection}{\numberline {11.58.3}Fish Hash}{190}{}%
+\contentsline {subsection}{\numberline {11.58.4}Fish Croquettes}{191}{}%
+\contentsline {subsection}{\numberline {11.58.5}Fish and Egg Croquettes}{191}{}%
+\contentsline {subsection}{\numberline {11.58.6}Scalloped Cod}{191}{}%
+\contentsline {subsection}{\numberline {11.58.7}Salmon Box}{191}{}%
+\contentsline {section}{\numberline {11.59}Ways Of Cooking Salt Fish}{191}{}%
+\contentsline {subsection}{\numberline {11.59.1}Creamed Salt Codfish}{191}{}%
+\contentsline {subsection}{\numberline {11.59.2}Fish Balls}{191}{}%
+\contentsline {subsection}{\numberline {11.59.3}Salted Codfish Hash}{192}{}%
+\contentsline {subsection}{\numberline {11.59.4}Toasted Salt Fish}{192}{}%
+\contentsline {subsection}{\numberline {11.59.5}Kippered Herrings}{192}{}%
+\contentsline {subsection}{\numberline {11.59.6}Baked Finnan Haddie}{192}{}%
+\contentsline {subsection}{\numberline {11.59.7}Broiled Finnan Haddie}{192}{}%
+\contentsline {subsection}{\numberline {11.59.8}Finnan Haddie à la Delmonico}{192}{}%
+\contentsline {section}{\numberline {11.60}Ways Of Cooking Shellfish}{192}{}%
+\contentsline {subsection}{\numberline {11.60.1}Oysters on the Half Shell}{192}{}%
+\contentsline {subsection}{\numberline {11.60.2}Raw Oysters}{192}{}%
+\contentsline {subsection}{\numberline {11.60.3}Oyster Cocktail I}{193}{}%
+\contentsline {subsection}{\numberline {11.60.4}Oyster Cocktail II}{193}{}%
+\contentsline {subsection}{\numberline {11.60.5}Oyster Cocktail III}{193}{}%
+\contentsline {subsection}{\numberline {11.60.6}Roasted Oysters}{193}{}%
+\contentsline {subsection}{\numberline {11.60.7}Oysters à la Ballard}{193}{}%
+\contentsline {subsection}{\numberline {11.60.8}Panned Oysters}{193}{}%
+\contentsline {subsection}{\numberline {11.60.9}Fancy Roast}{194}{}%
+\contentsline {subsection}{\numberline {11.60.10}Oyster Fricassee}{194}{}%
+\contentsline {subsection}{\numberline {11.60.11}Creamed Oysters}{194}{}%
+\contentsline {subsection}{\numberline {11.60.12}Oysters in Brown Sauce}{194}{}%
+\contentsline {subsection}{\numberline {11.60.13}Savory Oysters}{195}{}%
+\contentsline {subsection}{\numberline {11.60.14}Oysters à la Astor}{195}{}%
+\contentsline {subsection}{\numberline {11.60.15}Broiled Oysters}{195}{}%
+\contentsline {subsection}{\numberline {11.60.16}Oyster Toast}{196}{}%
+\contentsline {subsection}{\numberline {11.60.17}Oysters and Macaroni}{196}{}%
+\contentsline {subsection}{\numberline {11.60.18}Scalloped Oysters}{196}{}%
+\contentsline {subsection}{\numberline {11.60.19}Sautéd Oysters}{196}{}%
+\contentsline {subsection}{\numberline {11.60.20}Oysters with Bacon}{196}{}%
+\contentsline {subsection}{\numberline {11.60.21}Fried Oysters}{197}{}%
+\contentsline {subsection}{\numberline {11.60.22}Fried Oysters in Batter}{197}{}%
+\contentsline {subsection}{\numberline {11.60.23}Batter}{197}{}%
+\contentsline {subsection}{\numberline {11.60.24}Fried Oysters. Philadelphia Relish}{197}{}%
+\contentsline {subsection}{\numberline {11.60.25}Little Neck Clams}{197}{}%
+\contentsline {subsection}{\numberline {11.60.26}Steamed Clams}{197}{}%
+\contentsline {subsection}{\numberline {11.60.27}Roasted Clams}{198}{}%
+\contentsline {subsection}{\numberline {11.60.28}Clams, Union League}{198}{}%
+\contentsline {subsection}{\numberline {11.60.29}Clams à la Grand Union}{198}{}%
+\contentsline {subsection}{\numberline {11.60.30}Fried Scallops}{198}{}%
+\contentsline {section}{\numberline {11.61}Plain Lobster}{198}{}%
+\contentsline {section}{\numberline {11.62}Lobster Cocktail}{198}{}%
+\contentsline {section}{\numberline {11.63}Fried Lobster}{198}{}%
+\contentsline {section}{\numberline {11.64}Buttered Lobster}{199}{}%
+\contentsline {section}{\numberline {11.65}Scalloped Lobster}{199}{}%
+\contentsline {section}{\numberline {11.66}Devilled Lobster}{199}{}%
+\contentsline {section}{\numberline {11.67}Curried Lobster}{199}{}%
+\contentsline {section}{\numberline {11.68}Lobster Farci}{199}{}%
+\contentsline {section}{\numberline {11.69}Lobster And Oyster Filling}{200}{}%
+\contentsline {section}{\numberline {11.70}Fricassee Of Lobster And Mushrooms}{200}{}%
+\contentsline {section}{\numberline {11.71}Lobster And Oyster Ragout}{201}{}%
+\contentsline {section}{\numberline {11.72}Stuffed Lobster À La Béchamel}{201}{}%
+\contentsline {section}{\numberline {11.73}Broiled Live Lobster}{201}{}%
+\contentsline {section}{\numberline {11.74}Baked Live Lobster. Devilled Sauce.}{202}{}%
+\contentsline {section}{\numberline {11.75}Live Lobster En Brochette}{202}{}%
+\contentsline {section}{\numberline {11.76}Lobster À L’Américaine}{202}{}%
+\contentsline {section}{\numberline {11.77}Lobster À La Muisset}{202}{}%
+\contentsline {chapter}{\numberline {12}Beef}{203}{}%
+\contentsline {section}{\numberline {12.1}Division And Ways Of Cooking A Side Of Beef}{204}{}%
+\contentsline {section}{\numberline {12.2}Croquettes}{205}{}%
+\contentsline {section}{\numberline {12.3}The Effect Of Different Temperatures On The Cooking Of Meat}{205}{}%
+\contentsline {section}{\numberline {12.4}Table Showing Composition Of Meats}{205}{}%
+\contentsline {section}{\numberline {12.5}Broiled Beefsteak}{206}{}%
+\contentsline {section}{\numberline {12.6}Beefsteak With Maître D’Hôtel Butter}{206}{}%
+\contentsline {section}{\numberline {12.7}Porterhouse Steak With Mushroom Sauce}{206}{}%
+\contentsline {section}{\numberline {12.8}Porterhouse Steak With Tomato And Mushroom Sauce}{206}{}%
+\contentsline {section}{\numberline {12.9}Porterhouse Steak, Bordelaise Sauce}{206}{}%
+\contentsline {section}{\numberline {12.10}Beefsteak À La Henriette}{206}{}%
+\contentsline {section}{\numberline {12.11}Beefsteak À La Victor Hugo}{207}{}%
+\contentsline {section}{\numberline {12.12}Steak À La Chiron}{207}{}%
+\contentsline {section}{\numberline {12.13}Beefsteak À La Mirabeau}{207}{}%
+\contentsline {section}{\numberline {12.14}Beefsteak With Oyster Blanket}{207}{}%
+\contentsline {section}{\numberline {12.15}Planked Beefsteak}{208}{}%
+\contentsline {section}{\numberline {12.16}Broiled Fillets Of Beef}{208}{}%
+\contentsline {section}{\numberline {12.17}Cutlets Of Tenderloin With Chestnut Purée}{208}{}%
+\contentsline {section}{\numberline {12.18}Sautéd Mignon Fillets Of Beef With Sauce Figaro}{208}{}%
+\contentsline {section}{\numberline {12.19}Sautéd Mignon Fillets Of Beef With Sauce Trianon}{208}{}%
+\contentsline {section}{\numberline {12.20}Sautéd Fillets Of Beef À La Moelle}{208}{}%
+\contentsline {section}{\numberline {12.21}Sautéd Fillets Of Beef, Cherry Sauce}{208}{}%
+\contentsline {section}{\numberline {12.22}Sautéd Fillets Of Beef With Stuffed Mushroom Caps}{209}{}%
+\contentsline {section}{\numberline {12.23}Châteaubriand Of Beef}{209}{}%
+\contentsline {section}{\numberline {12.24}Broiled Meat Cakes}{209}{}%
+\contentsline {section}{\numberline {12.25}Hamburg Steaks}{209}{}%
+\contentsline {section}{\numberline {12.26}Cannelon Of Beef}{209}{}%
+\contentsline {section}{\numberline {12.27}Roast Beef}{210}{}%
+\contentsline {section}{\numberline {12.28}Yorkshire Pudding}{210}{}%
+\contentsline {section}{\numberline {12.29}Larded Fillet Of Beef}{211}{}%
+\contentsline {section}{\numberline {12.30}Fillet Of Beef With Vegetables}{211}{}%
+\contentsline {section}{\numberline {12.31}Braised Beef}{211}{}%
+\contentsline {section}{\numberline {12.32}Beef À La Mode}{212}{}%
+\contentsline {section}{\numberline {12.33}Pressed Beef Flank}{212}{}%
+\contentsline {section}{\numberline {12.34}Beef Stew With Dumplings}{212}{}%
+\contentsline {section}{\numberline {12.35}Dumplings}{213}{}%
+\contentsline {section}{\numberline {12.36}Corned Beef}{213}{}%
+\contentsline {section}{\numberline {12.37}Boiled Dinner}{213}{}%
+\contentsline {section}{\numberline {12.38}Boiled Tongue}{213}{}%
+\contentsline {section}{\numberline {12.39}Braised Tongue}{214}{}%
+\contentsline {section}{\numberline {12.40}Broiled Liver}{214}{}%
+\contentsline {section}{\numberline {12.41}Liver And Bacon}{214}{}%
+\contentsline {section}{\numberline {12.42}Bacon I}{214}{}%
+\contentsline {section}{\numberline {12.43}Bacon Ii}{214}{}%
+\contentsline {section}{\numberline {12.44}Braised Liver}{214}{}%
+\contentsline {section}{\numberline {12.45}Calf’S Liver, Stuffed And Larded}{215}{}%
+\contentsline {section}{\numberline {12.46}Broiled Tripe}{215}{}%
+\contentsline {section}{\numberline {12.47}Tripe In Batter}{215}{}%
+\contentsline {section}{\numberline {12.48}Tripe Fried In Batter}{215}{}%
+\contentsline {section}{\numberline {12.49}Lyonnaise Tripe}{215}{}%
+\contentsline {section}{\numberline {12.50}Tripe À La Creole}{216}{}%
+\contentsline {section}{\numberline {12.51}Tripe À La Provençale}{216}{}%
+\contentsline {section}{\numberline {12.52}Calf’S Head À La Terrapin}{216}{}%
+\contentsline {section}{\numberline {12.53}Calves’ Tongues}{216}{}%
+\contentsline {section}{\numberline {12.54}Calves’ Tongues, Sauce Piquante}{216}{}%
+\contentsline {section}{\numberline {12.55}Calf’S Heart}{216}{}%
+\contentsline {section}{\numberline {12.56}Stuffed Hearts With Vegetables}{217}{}%
+\contentsline {section}{\numberline {12.57}Braised Ox Joints}{217}{}%
+\contentsline {section}{\numberline {12.58}Ways Of Warming Over Beef}{217}{}%
+\contentsline {subsection}{\numberline {12.58.1}Roast Beef with Gravy}{217}{}%
+\contentsline {subsection}{\numberline {12.58.2}Roast Beef, Mexican Sauce}{217}{}%
+\contentsline {subsection}{\numberline {12.58.3}Cottage Pie}{217}{}%
+\contentsline {subsection}{\numberline {12.58.4}Beefsteak Pie}{217}{}%
+\contentsline {subsection}{\numberline {12.58.5}Cecils with Tomato Sauce}{218}{}%
+\contentsline {subsection}{\numberline {12.58.6}Corned Beef Hash}{218}{}%
+\contentsline {subsection}{\numberline {12.58.7}Corned Beef Hash with Beets}{218}{}%
+\contentsline {subsection}{\numberline {12.58.8}Dried Beef with Cream}{218}{}%
+\contentsline {chapter}{\numberline {13}Lamb And Mutton}{219}{}%
+\contentsline {section}{\numberline {13.1}Broiled Lamb Or Mutton Chops}{220}{}%
+\contentsline {section}{\numberline {13.2}Pan-Broiled Chops}{220}{}%
+\contentsline {section}{\numberline {13.3}Breaded Mutton Chops}{220}{}%
+\contentsline {section}{\numberline {13.4}Chops À La Signora}{220}{}%
+\contentsline {section}{\numberline {13.5}Lamb Chops À La Marseilles}{220}{}%
+\contentsline {section}{\numberline {13.6}Chops À La Castillane}{220}{}%
+\contentsline {section}{\numberline {13.7}Chops En Papillote}{221}{}%
+\contentsline {section}{\numberline {13.8}Mutton Cutlets À La Maintenon}{221}{}%
+\contentsline {section}{\numberline {13.9}Boiled Leg Of Mutton}{221}{}%
+\contentsline {section}{\numberline {13.10}Braised Leg Of Mutton}{221}{}%
+\contentsline {section}{\numberline {13.11}Stuffing}{221}{}%
+\contentsline {section}{\numberline {13.12}Roast Lamb}{222}{}%
+\contentsline {section}{\numberline {13.13}Lamb Bretonne}{222}{}%
+\contentsline {section}{\numberline {13.14}Saddle Of Mutton}{222}{}%
+\contentsline {section}{\numberline {13.15}Saddle Of Mutton, Currant Mint Sauce}{222}{}%
+\contentsline {section}{\numberline {13.16}Saddle Of Lamb À L’Estragnon}{222}{}%
+\contentsline {section}{\numberline {13.17}Crown Of Lamb}{223}{}%
+\contentsline {section}{\numberline {13.18}Lamb En Casserole}{223}{}%
+\contentsline {section}{\numberline {13.19}Mutton Curry}{223}{}%
+\contentsline {section}{\numberline {13.20}Fricassee Of Lamb With Brown Gravy}{223}{}%
+\contentsline {section}{\numberline {13.21}Mutton Broth}{223}{}%
+\contentsline {section}{\numberline {13.22}Irish Stew With Dumplings}{224}{}%
+\contentsline {section}{\numberline {13.23}Scotch Broth}{224}{}%
+\contentsline {section}{\numberline {13.24}Lambs’ Kidneys I}{224}{}%
+\contentsline {section}{\numberline {13.25}Lambs’ Kidneys Ii}{224}{}%
+\contentsline {section}{\numberline {13.26}Ragout Of Kidneys}{225}{}%
+\contentsline {section}{\numberline {13.27}Kidney Rolls}{225}{}%
+\contentsline {section}{\numberline {13.28}Ways Of Warming Over Mutton And Lamb}{225}{}%
+\contentsline {subsection}{\numberline {13.28.1}Minced Lamb on Toast}{225}{}%
+\contentsline {subsection}{\numberline {13.28.2}Scalloped Lamb}{225}{}%
+\contentsline {subsection}{\numberline {13.28.3}Blanquette of Lamb}{225}{}%
+\contentsline {subsection}{\numberline {13.28.4}Barbecued Lamb}{225}{}%
+\contentsline {subsection}{\numberline {13.28.5}Rechauffé of Lamb}{226}{}%
+\contentsline {subsection}{\numberline {13.28.6}Salmi of Lamb}{226}{}%
+\contentsline {subsection}{\numberline {13.28.7}Casserole of Rice and Meat}{226}{}%
+\contentsline {subsection}{\numberline {13.28.8}Breast of Lamb}{226}{}%
+\contentsline {chapter}{\numberline {14}Veal}{227}{}%
+\contentsline {section}{\numberline {14.1}Veal Cutlets}{227}{}%
+\contentsline {section}{\numberline {14.2}Veal Chops Bavarian}{228}{}%
+\contentsline {section}{\numberline {14.3}Fricassee Of Veal}{228}{}%
+\contentsline {section}{\numberline {14.4}Minuten Fleisch}{228}{}%
+\contentsline {section}{\numberline {14.5}Loin Of Veal À La Jardinière}{228}{}%
+\contentsline {section}{\numberline {14.6}Braised Shoulder Of Veal}{228}{}%
+\contentsline {section}{\numberline {14.7}English Meat Pie}{229}{}%
+\contentsline {section}{\numberline {14.8}Roast Veal}{229}{}%
+\contentsline {section}{\numberline {14.9}Fricandeau Of Veal}{229}{}%
+\contentsline {section}{\numberline {14.10}India Curry}{229}{}%
+\contentsline {section}{\numberline {14.11}Veal Birds}{230}{}%
+\contentsline {section}{\numberline {14.12}Veal Loaf I}{230}{}%
+\contentsline {section}{\numberline {14.13}Veal Loaf Ii}{230}{}%
+\contentsline {section}{\numberline {14.14}Broiled Veal Kidneys}{230}{}%
+\contentsline {section}{\numberline {14.15}Veal Kidneys À La Canfield}{230}{}%
+\contentsline {section}{\numberline {14.16}Ways Of Warming Over Veal}{231}{}%
+\contentsline {subsection}{\numberline {14.16.1}Minced Veal on Toast}{231}{}%
+\contentsline {subsection}{\numberline {14.16.2}Blanquette of Veal}{231}{}%
+\contentsline {subsection}{\numberline {14.16.3}Ragoût of Veal}{231}{}%
+\contentsline {chapter}{\numberline {15}Sweetbreads}{233}{}%
+\contentsline {section}{\numberline {15.1}Broiled Sweetbread}{233}{}%
+\contentsline {section}{\numberline {15.2}Creamed Sweetbread}{233}{}%
+\contentsline {section}{\numberline {15.3}Creamed Sweetbread And Chicken}{233}{}%
+\contentsline {section}{\numberline {15.4}Sweetbread À La Poulette}{233}{}%
+\contentsline {section}{\numberline {15.5}Sweetbreads, Country Style}{234}{}%
+\contentsline {section}{\numberline {15.6}Larded Sweetbread}{234}{}%
+\contentsline {section}{\numberline {15.7}Sweetbreads À La Napoli}{234}{}%
+\contentsline {section}{\numberline {15.8}Braised Sweetbreads Eugénie}{234}{}%
+\contentsline {section}{\numberline {15.9}Sweetbread Cutlets With Asparagus Tips}{234}{}%
+\contentsline {section}{\numberline {15.10}Sweetbread With Tomato Sauce}{234}{}%
+\contentsline {section}{\numberline {15.11}Sweetbread And Bacon}{234}{}%
+\contentsline {chapter}{\numberline {16}Pork}{235}{}%
+\contentsline {section}{\numberline {16.1}Pork Chops}{235}{}%
+\contentsline {section}{\numberline {16.2}Pork Chops With Fried Apples}{235}{}%
+\contentsline {section}{\numberline {16.3}Roast Pork}{235}{}%
+\contentsline {section}{\numberline {16.4}Pork Tenderloins With Sweet Potatoes}{236}{}%
+\contentsline {section}{\numberline {16.5}Breakfast Bacon}{236}{}%
+\contentsline {section}{\numberline {16.6}Fried Salt Pork With Codfish}{236}{}%
+\contentsline {section}{\numberline {16.7}Broiled Ham}{236}{}%
+\contentsline {section}{\numberline {16.8}Fried Ham And Eggs}{236}{}%
+\contentsline {section}{\numberline {16.9}Barbecued Ham}{236}{}%
+\contentsline {section}{\numberline {16.10}Boiled Ham}{236}{}%
+\contentsline {section}{\numberline {16.11}Roast Ham With Champagne Sauce}{237}{}%
+\contentsline {section}{\numberline {16.12}Westphalian Ham}{237}{}%
+\contentsline {section}{\numberline {16.13}Broiled Pigs’ Feet}{237}{}%
+\contentsline {section}{\numberline {16.14}Fried Pigs’ Feet}{237}{}%
+\contentsline {section}{\numberline {16.15}Sausages}{237}{}%
+\contentsline {section}{\numberline {16.16}Boston Baked Beans}{237}{}%
+\contentsline {chapter}{\numberline {17}Poultry And Game}{239}{}%
+\contentsline {section}{\numberline {17.1}Broiled Chicken}{241}{}%
+\contentsline {section}{\numberline {17.2}Boiled Fowl}{242}{}%
+\contentsline {section}{\numberline {17.3}Boiled Capon With Cauliflower Sauce}{242}{}%
+\contentsline {section}{\numberline {17.4}Chicken À La Providence}{242}{}%
+\contentsline {section}{\numberline {17.5}Stewed Chicken With Onions}{242}{}%
+\contentsline {section}{\numberline {17.6}Chicken À La Stanley}{242}{}%
+\contentsline {section}{\numberline {17.7}Chili Con Carni}{242}{}%
+\contentsline {section}{\numberline {17.8}Roast Chicken}{243}{}%
+\contentsline {section}{\numberline {17.9}Stuffing I}{243}{}%
+\contentsline {section}{\numberline {17.10}Stuffing Ii}{243}{}%
+\contentsline {section}{\numberline {17.11}Gravy}{243}{}%
+\contentsline {section}{\numberline {17.12}Braised Chicken}{244}{}%
+\contentsline {section}{\numberline {17.13}Chicken Fricassee}{244}{}%
+\contentsline {section}{\numberline {17.14}Fried Chicken}{244}{}%
+\contentsline {section}{\numberline {17.15}Fried Chicken (Southern Style)}{244}{}%
+\contentsline {section}{\numberline {17.16}Maryland Chicken}{244}{}%
+\contentsline {section}{\numberline {17.17}Blanketed Chicken}{245}{}%
+\contentsline {section}{\numberline {17.18}Chicken À La Merango}{245}{}%
+\contentsline {section}{\numberline {17.19}Sauce}{245}{}%
+\contentsline {section}{\numberline {17.20}Baked Chicken}{245}{}%
+\contentsline {section}{\numberline {17.21}Planked Chicken}{245}{}%
+\contentsline {section}{\numberline {17.22}Chicken Gumbo}{246}{}%
+\contentsline {section}{\numberline {17.23}Chicken Stew}{246}{}%
+\contentsline {section}{\numberline {17.24}Chicken Pie}{246}{}%
+\contentsline {section}{\numberline {17.25}Chicken Curry}{246}{}%
+\contentsline {section}{\numberline {17.26}Chicken En Casserole}{247}{}%
+\contentsline {section}{\numberline {17.27}Breslin Potted Chicken}{247}{}%
+\contentsline {section}{\numberline {17.28}Jellied Chicken}{247}{}%
+\contentsline {section}{\numberline {17.29}Chickens’ Livers With Madeira Sauce}{247}{}%
+\contentsline {section}{\numberline {17.30}Sautéd Chickens’ Livers}{248}{}%
+\contentsline {section}{\numberline {17.31}Chickens’ Livers With Curry}{248}{}%
+\contentsline {section}{\numberline {17.32}Boiled Turkey}{248}{}%
+\contentsline {section}{\numberline {17.33}Roast Turkey}{248}{}%
+\contentsline {section}{\numberline {17.34}Chestnut Stuffing}{248}{}%
+\contentsline {section}{\numberline {17.35}Oyster Stuffing}{249}{}%
+\contentsline {section}{\numberline {17.36}Turkey Stuffing (Swedish Style)}{249}{}%
+\contentsline {section}{\numberline {17.37}Gravy}{249}{}%
+\contentsline {section}{\numberline {17.38}Chestnut Gravy}{249}{}%
+\contentsline {section}{\numberline {17.39}To Carve Turkey}{249}{}%
+\contentsline {section}{\numberline {17.40}Roast Goose With Potato Stuffing}{250}{}%
+\contentsline {section}{\numberline {17.41}Potato Stuffing}{250}{}%
+\contentsline {section}{\numberline {17.42}Goose Stuffing (Chestnut)}{250}{}%
+\contentsline {section}{\numberline {17.43}To Truss A Goose}{251}{}%
+\contentsline {section}{\numberline {17.44}Roast Wild Duck}{251}{}%
+\contentsline {section}{\numberline {17.45}Duck Stuffing (Peanut)}{251}{}%
+\contentsline {section}{\numberline {17.46}Braised Duck}{251}{}%
+\contentsline {section}{\numberline {17.47}Broiled Quail}{251}{}%
+\contentsline {section}{\numberline {17.48}Roast Quail}{251}{}%
+\contentsline {section}{\numberline {17.49}Larded Grouse}{252}{}%
+\contentsline {section}{\numberline {17.50}Breast Of Grouse Sauté Chasseur}{252}{}%
+\contentsline {section}{\numberline {17.51}Broiled Or Roasted Plover}{252}{}%
+\contentsline {section}{\numberline {17.52}Potted Pigeons}{252}{}%
+\contentsline {section}{\numberline {17.53}Stuffing}{252}{}%
+\contentsline {section}{\numberline {17.54}Broiled Venison Steak}{252}{}%
+\contentsline {section}{\numberline {17.55}Venison Steaks, Sautéd, Cumberland Sauce}{253}{}%
+\contentsline {section}{\numberline {17.56}Venison Steak, Chestnut Sauce}{253}{}%
+\contentsline {section}{\numberline {17.57}Venison Cutlets}{253}{}%
+\contentsline {section}{\numberline {17.58}Roast Leg Of Venison}{253}{}%
+\contentsline {section}{\numberline {17.59}Saddle Of Venison}{253}{}%
+\contentsline {section}{\numberline {17.60}Belgian Hare À La Maryland}{253}{}%
+\contentsline {section}{\numberline {17.61}Belgian Hare, Sour Cream Sauce}{253}{}%
+\contentsline {section}{\numberline {17.62}Ways Of Warming Over Poultry And Game}{254}{}%
+\contentsline {subsection}{\numberline {17.62.1}Creamed Chicken}{254}{}%
+\contentsline {subsection}{\numberline {17.62.2}Creamed Chicken with Mushrooms}{254}{}%
+\contentsline {subsection}{\numberline {17.62.3}Chicken with Potato Border}{254}{}%
+\contentsline {subsection}{\numberline {17.62.4}Chicken in Baskets}{254}{}%
+\contentsline {subsection}{\numberline {17.62.5}Chicken and Oysters à la Métropole}{254}{}%
+\contentsline {subsection}{\numberline {17.62.6}Luncheon Chicken}{254}{}%
+\contentsline {subsection}{\numberline {17.62.7}Blanquette of Chicken}{255}{}%
+\contentsline {subsection}{\numberline {17.62.8}Scalloped Chicken}{255}{}%
+\contentsline {subsection}{\numberline {17.62.9}Mock Terrapin}{255}{}%
+\contentsline {subsection}{\numberline {17.62.10}Chicken Soufflé}{255}{}%
+\contentsline {subsection}{\numberline {17.62.11}Chicken Hollandaise}{256}{}%
+\contentsline {subsection}{\numberline {17.62.12}Chicken Chartreuse}{256}{}%
+\contentsline {subsection}{\numberline {17.62.13}Scalloped Turkey}{256}{}%
+\contentsline {subsection}{\numberline {17.62.14}Minced Turkey}{256}{}%
+\contentsline {subsection}{\numberline {17.62.15}Salmi of Duck}{256}{}%
+\contentsline {chapter}{\numberline {18}Fish And Meat Sauces}{259}{}%
+\contentsline {section}{\numberline {18.1}Thin White Sauce}{259}{}%
+\contentsline {section}{\numberline {18.2}Cream Sauce}{259}{}%
+\contentsline {section}{\numberline {18.3}White Sauce I}{260}{}%
+\contentsline {section}{\numberline {18.4}White Sauce Ii}{260}{}%
+\contentsline {section}{\numberline {18.5}Thick White Sauce (For Cutlets And Croquets)}{260}{}%
+\contentsline {section}{\numberline {18.6}Velouté Sauce}{260}{}%
+\contentsline {section}{\numberline {18.7}Sauce Allemande}{260}{}%
+\contentsline {section}{\numberline {18.8}Soubise Sauce}{261}{}%
+\contentsline {section}{\numberline {18.9}Drawn Butter Sauce}{261}{}%
+\contentsline {section}{\numberline {18.10}Shrimp Sauce}{261}{}%
+\contentsline {section}{\numberline {18.11}Caper Sauce}{261}{}%
+\contentsline {section}{\numberline {18.12}Egg Sauce I}{261}{}%
+\contentsline {section}{\numberline {18.13}Egg Sauce Ii}{261}{}%
+\contentsline {section}{\numberline {18.14}Brown Sauce I}{261}{}%
+\contentsline {section}{\numberline {18.15}Brown Sauce Ii (Espagnole)}{262}{}%
+\contentsline {section}{\numberline {18.16}Brown Mushroom Sauce I}{262}{}%
+\contentsline {section}{\numberline {18.17}Brown Mushroom Sauce Ii}{262}{}%
+\contentsline {section}{\numberline {18.18}Sauce Piquante}{262}{}%
+\contentsline {section}{\numberline {18.19}Olive Sauce}{263}{}%
+\contentsline {section}{\numberline {18.20}Orange Sauce}{263}{}%
+\contentsline {section}{\numberline {18.21}Sauce À L’Italienne}{263}{}%
+\contentsline {section}{\numberline {18.22}Champagne Sauce}{263}{}%
+\contentsline {section}{\numberline {18.23}Tomato Sauce I (Without Stock)}{264}{}%
+\contentsline {section}{\numberline {18.24}Tomato Sauce Ii}{264}{}%
+\contentsline {section}{\numberline {18.25}Tomato Sauce Iii}{264}{}%
+\contentsline {section}{\numberline {18.26}Tomato And Mushroom Sauce}{265}{}%
+\contentsline {section}{\numberline {18.27}Tomato Cream Sauce}{265}{}%
+\contentsline {section}{\numberline {18.28}Spanish Sauce}{265}{}%
+\contentsline {section}{\numberline {18.29}Béchamel Sauce}{265}{}%
+\contentsline {section}{\numberline {18.30}Yellow Béchamel Sauce}{266}{}%
+\contentsline {section}{\numberline {18.31}Olive And Almond Sauce}{266}{}%
+\contentsline {section}{\numberline {18.32}Oyster Sauce}{266}{}%
+\contentsline {section}{\numberline {18.33}Cucumber Sauce I}{267}{}%
+\contentsline {section}{\numberline {18.34}Cucumber Sauce Ii}{267}{}%
+\contentsline {section}{\numberline {18.35}Celery Sauce}{267}{}%
+\contentsline {section}{\numberline {18.36}Suprême Sauce}{267}{}%
+\contentsline {section}{\numberline {18.37}Maître D’Hôtel Butter}{267}{}%
+\contentsline {section}{\numberline {18.38}Tartar Sauce}{268}{}%
+\contentsline {section}{\numberline {18.39}Lemon Butter}{268}{}%
+\contentsline {section}{\numberline {18.40}Anchovy Butter}{268}{}%
+\contentsline {section}{\numberline {18.41}Lobster Butter}{268}{}%
+\contentsline {section}{\numberline {18.42}Hollandaise Sauce I}{268}{}%
+\contentsline {section}{\numberline {18.43}Hollandaise Sauce Ii}{269}{}%
+\contentsline {section}{\numberline {18.44}Anchovy Sauce}{269}{}%
+\contentsline {section}{\numberline {18.45}Horseradish Hollandaise Sauce}{269}{}%
+\contentsline {section}{\numberline {18.46}Lobster Sauce I}{269}{}%
+\contentsline {section}{\numberline {18.47}Lobster Sauce Ii}{269}{}%
+\contentsline {section}{\numberline {18.48}Sauce Béarnaise}{270}{}%
+\contentsline {section}{\numberline {18.49}Sauce Trianon}{270}{}%
+\contentsline {section}{\numberline {18.50}Sauce Figaro}{270}{}%
+\contentsline {section}{\numberline {18.51}Horseradish Sauce I}{270}{}%
+\contentsline {section}{\numberline {18.52}Horseradish Sauce Ii}{270}{}%
+\contentsline {section}{\numberline {18.53}Bread Sauce}{270}{}%
+\contentsline {section}{\numberline {18.54}Rice Sauce}{271}{}%
+\contentsline {section}{\numberline {18.55}Cauliflower Sauce}{271}{}%
+\contentsline {section}{\numberline {18.56}Mint Sauce}{271}{}%
+\contentsline {section}{\numberline {18.57}Currant Jelly Sauce}{271}{}%
+\contentsline {section}{\numberline {18.58}Port Wine Sauce}{272}{}%
+\contentsline {section}{\numberline {18.59}Vinaigrette Sauce}{272}{}%
+\contentsline {section}{\numberline {18.60}Sauce Tartare}{272}{}%
+\contentsline {section}{\numberline {18.61}Hot Sauce Tartare}{273}{}%
+\contentsline {section}{\numberline {18.62}Hot Mayonnaise}{273}{}%
+\contentsline {section}{\numberline {18.63}Sauce Tyrolienne}{273}{}%
+\contentsline {section}{\numberline {18.64}Creole Sauce}{273}{}%
+\contentsline {section}{\numberline {18.65}Russian Sauce}{274}{}%
+\contentsline {section}{\numberline {18.66}Sauce Finiste}{274}{}%
+\contentsline {chapter}{\numberline {19}Vegetables}{275}{}%
+\contentsline {section}{\numberline {19.1}Care Of Vegetables}{275}{}%
+\contentsline {section}{\numberline {19.2}Cooking Of Vegetables}{276}{}%
+\contentsline {section}{\numberline {19.3}Mushrooms And Truffles}{276}{}%
+\contentsline {section}{\numberline {19.4}Truffles}{276}{}%
+\contentsline {section}{\numberline {19.5}Artichokes}{276}{}%
+\contentsline {section}{\numberline {19.6}Boiled Artichokes}{277}{}%
+\contentsline {section}{\numberline {19.7}Fried Artichokes}{277}{}%
+\contentsline {section}{\numberline {19.8}Artichoke Bottoms}{277}{}%
+\contentsline {section}{\numberline {19.9}Stuffed Artichokes}{277}{}%
+\contentsline {section}{\numberline {19.10}Asparagus}{277}{}%
+\contentsline {section}{\numberline {19.11}Boiled Asparagus}{277}{}%
+\contentsline {section}{\numberline {19.12}Asparagus On Toast}{277}{}%
+\contentsline {section}{\numberline {19.13}Asparagus In White Sauce}{278}{}%
+\contentsline {section}{\numberline {19.14}Asparagus À La Hollandaise}{278}{}%
+\contentsline {section}{\numberline {19.15}Asparagus In Crusts}{278}{}%
+\contentsline {section}{\numberline {19.16}Beans}{278}{}%
+\contentsline {section}{\numberline {19.17}String Beans}{278}{}%
+\contentsline {section}{\numberline {19.18}Shell Beans}{278}{}%
+\contentsline {section}{\numberline {19.19}Cream Of Lima Beans}{278}{}%
+\contentsline {section}{\numberline {19.20}Boiled Beets}{278}{}%
+\contentsline {section}{\numberline {19.21}Sugared Beets}{279}{}%
+\contentsline {section}{\numberline {19.22}Pickled Beets}{279}{}%
+\contentsline {section}{\numberline {19.23}Beets, Sour Sauce}{279}{}%
+\contentsline {section}{\numberline {19.24}Harvard Beets}{279}{}%
+\contentsline {section}{\numberline {19.25}Brussels Sprouts}{279}{}%
+\contentsline {section}{\numberline {19.26}Brussels Sprouts In White Sauce}{279}{}%
+\contentsline {section}{\numberline {19.27}Scalloped Brussels Sprouts}{279}{}%
+\contentsline {section}{\numberline {19.28}Cabbage}{280}{}%
+\contentsline {section}{\numberline {19.29}Boiled Cabbage}{280}{}%
+\contentsline {section}{\numberline {19.30}Escalloped Cabbage}{280}{}%
+\contentsline {section}{\numberline {19.31}German Cabbage}{280}{}%
+\contentsline {section}{\numberline {19.32}Cole-Slaw}{280}{}%
+\contentsline {section}{\numberline {19.33}Hot Slaw}{280}{}%
+\contentsline {section}{\numberline {19.34}Carrots}{280}{}%
+\contentsline {section}{\numberline {19.35}Carrots And Peas}{281}{}%
+\contentsline {section}{\numberline {19.36}Carrots, Poulette Sauce}{281}{}%
+\contentsline {section}{\numberline {19.37}Cauliflower}{281}{}%
+\contentsline {section}{\numberline {19.38}Creamed Cauliflower}{281}{}%
+\contentsline {section}{\numberline {19.39}Cauliflower À La Hollandaise}{281}{}%
+\contentsline {section}{\numberline {19.40}Cauliflower Au Gratin}{281}{}%
+\contentsline {section}{\numberline {19.41}Cauliflower À La Parmesan}{281}{}%
+\contentsline {section}{\numberline {19.42}Cauliflower À La Huntington}{282}{}%
+\contentsline {section}{\numberline {19.43}Celery}{282}{}%
+\contentsline {section}{\numberline {19.44}Celery In White Sauce}{282}{}%
+\contentsline {section}{\numberline {19.45}Fried Celery, Tomato Sauce}{282}{}%
+\contentsline {section}{\numberline {19.46}Chiccory Or Endive}{282}{}%
+\contentsline {section}{\numberline {19.47}Corn}{282}{}%
+\contentsline {section}{\numberline {19.48}Boiled Green Corn}{283}{}%
+\contentsline {section}{\numberline {19.49}Succotash}{283}{}%
+\contentsline {section}{\numberline {19.50}Corn Oysters}{283}{}%
+\contentsline {section}{\numberline {19.51}Corn Fritters}{283}{}%
+\contentsline {section}{\numberline {19.52}Corn À La Southern}{283}{}%
+\contentsline {section}{\numberline {19.53}Chestnuts}{283}{}%
+\contentsline {subsection}{\numberline {19.53.1}Chestnut Purée}{283}{}%
+\contentsline {section}{\numberline {19.54}Baked Chestnuts}{284}{}%
+\contentsline {section}{\numberline {19.55}Cucumbers}{284}{}%
+\contentsline {section}{\numberline {19.56}Sliced Cucumbers}{284}{}%
+\contentsline {section}{\numberline {19.57}Boiled Cucumbers}{284}{}%
+\contentsline {section}{\numberline {19.58}Fried Cucumbers}{284}{}%
+\contentsline {section}{\numberline {19.59}Stuffed Cucumbers}{284}{}%
+\contentsline {section}{\numberline {19.60}Fried Eggplant I}{284}{}%
+\contentsline {section}{\numberline {19.61}Fried Eggplant Ii}{285}{}%
+\contentsline {section}{\numberline {19.62}Stuffed Eggplant}{285}{}%
+\contentsline {section}{\numberline {19.63}Scalloped Eggplant}{285}{}%
+\contentsline {section}{\numberline {19.64}Greens}{285}{}%
+\contentsline {section}{\numberline {19.65}Boiled Beet Greens}{285}{}%
+\contentsline {section}{\numberline {19.66}Dandelions}{285}{}%
+\contentsline {section}{\numberline {19.67}Lettuce}{285}{}%
+\contentsline {section}{\numberline {19.68}Leeks On Toast}{286}{}%
+\contentsline {section}{\numberline {19.69}Onions}{286}{}%
+\contentsline {section}{\numberline {19.70}Boiled Onions}{286}{}%
+\contentsline {section}{\numberline {19.71}Onions In Cream}{286}{}%
+\contentsline {section}{\numberline {19.72}Scalloped Onions}{286}{}%
+\contentsline {section}{\numberline {19.73}Glazed Onions}{286}{}%
+\contentsline {section}{\numberline {19.74}Fried Onions}{287}{}%
+\contentsline {section}{\numberline {19.75}French Fried Onions}{287}{}%
+\contentsline {section}{\numberline {19.76}Stuffed Onions}{287}{}%
+\contentsline {section}{\numberline {19.77}Creamed Oyster Plant (Salsify)}{287}{}%
+\contentsline {section}{\numberline {19.78}Salsify Fritters}{287}{}%
+\contentsline {section}{\numberline {19.79}Parsnips}{287}{}%
+\contentsline {section}{\numberline {19.80}Parsnips With Drawn Butter Sauce}{287}{}%
+\contentsline {section}{\numberline {19.81}Parsnip Fritters}{288}{}%
+\contentsline {section}{\numberline {19.82}Peas}{288}{}%
+\contentsline {section}{\numberline {19.83}Boiled Peas}{288}{}%
+\contentsline {section}{\numberline {19.84}Creamed Peas}{288}{}%
+\contentsline {section}{\numberline {19.85}Pea Timbales}{288}{}%
+\contentsline {section}{\numberline {19.86}Stuffed Peppers I}{288}{}%
+\contentsline {section}{\numberline {19.87}Stuffed Peppers Ii}{289}{}%
+\contentsline {section}{\numberline {19.88}Pumpkins}{289}{}%
+\contentsline {section}{\numberline {19.89}Radishes}{289}{}%
+\contentsline {section}{\numberline {19.90}Spinach}{289}{}%
+\contentsline {section}{\numberline {19.91}Boiled Spinach}{289}{}%
+\contentsline {section}{\numberline {19.92}Spinach À La Béchamel}{290}{}%
+\contentsline {section}{\numberline {19.93}Purée Of Spinach}{290}{}%
+\contentsline {section}{\numberline {19.94}Spinach (French Style)}{290}{}%
+\contentsline {section}{\numberline {19.95}Squash}{290}{}%
+\contentsline {section}{\numberline {19.96}Boiled Summer Squash}{290}{}%
+\contentsline {section}{\numberline {19.97}Fried Summer Squash I}{290}{}%
+\contentsline {section}{\numberline {19.98}Fried Summer Squash Ii}{290}{}%
+\contentsline {section}{\numberline {19.99}Steamed Winter Squash}{291}{}%
+\contentsline {section}{\numberline {19.100}Boiled Winter Squash}{291}{}%
+\contentsline {section}{\numberline {19.101}Baked Winter Squash I}{291}{}%
+\contentsline {section}{\numberline {19.102}Baked Winter Squash Ii}{291}{}%
+\contentsline {section}{\numberline {19.103}Tomatoes}{291}{}%
+\contentsline {section}{\numberline {19.104}Sliced Tomatoes}{291}{}%
+\contentsline {section}{\numberline {19.105}Stewed Tomatoes}{291}{}%
+\contentsline {section}{\numberline {19.106}Broiled Tomatoes}{292}{}%
+\contentsline {section}{\numberline {19.107}Tomatoes À La Crême}{292}{}%
+\contentsline {section}{\numberline {19.108}Devilled Tomatoes}{292}{}%
+\contentsline {section}{\numberline {19.109}Baked Tomatoes I}{292}{}%
+\contentsline {section}{\numberline {19.110}Baked Tomatoes Ii}{292}{}%
+\contentsline {section}{\numberline {19.111}Stuffed Tomatoes}{293}{}%
+\contentsline {section}{\numberline {19.112}Turnips}{293}{}%
+\contentsline {section}{\numberline {19.113}Mashed Turnip}{293}{}%
+\contentsline {section}{\numberline {19.114}Creamed Turnip}{293}{}%
+\contentsline {section}{\numberline {19.115}Turnip Croquettes}{293}{}%
+\contentsline {section}{\numberline {19.116}Stewed Mushrooms}{293}{}%
+\contentsline {section}{\numberline {19.117}Stewed Mushrooms In Cream}{293}{}%
+\contentsline {section}{\numberline {19.118}Broiled Mushrooms}{294}{}%
+\contentsline {section}{\numberline {19.119}Baked Mushrooms In Cream}{294}{}%
+\contentsline {section}{\numberline {19.120}Sautéd Mushrooms}{294}{}%
+\contentsline {section}{\numberline {19.121}Mushrooms À La Sabine}{294}{}%
+\contentsline {section}{\numberline {19.122}Mushrooms À L’Algonquin}{294}{}%
+\contentsline {section}{\numberline {19.123}Mushrooms Allamande}{294}{}%
+\contentsline {section}{\numberline {19.124}Stuffed Mushrooms}{295}{}%
+\contentsline {section}{\numberline {19.125}Mushrooms Under Glass I}{295}{}%
+\contentsline {section}{\numberline {19.126}Mushrooms Under Glass Ii}{295}{}%
+\contentsline {section}{\numberline {19.127}Vegetable Soufflé}{295}{}%
+\contentsline {section}{\numberline {19.128}Curried Vegetables}{296}{}%
+\contentsline {section}{\numberline {19.129}Macedoine Of Vegetables À La Poulette}{296}{}%
+\contentsline {chapter}{\numberline {20}Potatoes}{297}{}%
+\contentsline {section}{\numberline {20.1}Sweet Potatoes}{297}{}%
+\contentsline {section}{\numberline {20.2}Baked Potatoes}{297}{}%
+\contentsline {section}{\numberline {20.3}Boiled Potatoes}{298}{}%
+\contentsline {section}{\numberline {20.4}Riced Potatoes}{298}{}%
+\contentsline {section}{\numberline {20.5}Mashed Potatoes}{298}{}%
+\contentsline {section}{\numberline {20.6}Potato Omelet}{298}{}%
+\contentsline {section}{\numberline {20.7}Potato Border}{298}{}%
+\contentsline {section}{\numberline {20.8}Escalloped Potatoes}{298}{}%
+\contentsline {section}{\numberline {20.9}Potatoes À La Hollandaise}{299}{}%
+\contentsline {section}{\numberline {20.10}Chambery Potatoes}{299}{}%
+\contentsline {section}{\numberline {20.11}Potatoes Baked In Half Shell}{299}{}%
+\contentsline {section}{\numberline {20.12}Duchess Potatoes}{299}{}%
+\contentsline {section}{\numberline {20.13}Maître D’Hôtel Potatoes}{299}{}%
+\contentsline {section}{\numberline {20.14}Maître D’Hôtel Butter}{299}{}%
+\contentsline {section}{\numberline {20.15}Franconia Potatoes}{299}{}%
+\contentsline {section}{\numberline {20.16}Brabant Potatoes}{300}{}%
+\contentsline {section}{\numberline {20.17}Anna Potatoes}{300}{}%
+\contentsline {section}{\numberline {20.18}Persillade Potatoes}{300}{}%
+\contentsline {section}{\numberline {20.19}Potato Balls}{300}{}%
+\contentsline {section}{\numberline {20.20}Hongroise Potatoes}{300}{}%
+\contentsline {section}{\numberline {20.21}Fried Potatoes}{300}{}%
+\contentsline {subsection}{\numberline {20.21.1}Shadow Potatoes (Saratoga Chips)}{300}{}%
+\contentsline {subsection}{\numberline {20.21.2}Shredded Potatoes}{300}{}%
+\contentsline {subsection}{\numberline {20.21.3}Lattice Potatoes}{301}{}%
+\contentsline {subsection}{\numberline {20.21.4}Potato Nests}{301}{}%
+\contentsline {subsection}{\numberline {20.21.5}French Fried Potatoes}{301}{}%
+\contentsline {subsection}{\numberline {20.21.6}O’Brion Potatoes}{301}{}%
+\contentsline {subsection}{\numberline {20.21.7}Potato Marbles}{301}{}%
+\contentsline {subsection}{\numberline {20.21.8}Fried Potato Balls}{301}{}%
+\contentsline {subsection}{\numberline {20.21.9}Potatoes, Somerset Style}{301}{}%
+\contentsline {subsection}{\numberline {20.21.10}Potato Fritters}{302}{}%
+\contentsline {subsection}{\numberline {20.21.11}Potato Curls}{302}{}%
+\contentsline {subsection}{\numberline {20.21.12}Potato Croquettes}{302}{}%
+\contentsline {subsection}{\numberline {20.21.13}French Potato Croquettes}{302}{}%
+\contentsline {subsection}{\numberline {20.21.14}Potato Apples}{303}{}%
+\contentsline {subsection}{\numberline {20.21.15}Potatoes en Surprise}{303}{}%
+\contentsline {section}{\numberline {20.22}Sweet Potatoes}{303}{}%
+\contentsline {subsection}{\numberline {20.22.1}Baked Sweet Potatoes}{303}{}%
+\contentsline {subsection}{\numberline {20.22.2}Sweet Potatoes, Southern Style}{303}{}%
+\contentsline {subsection}{\numberline {20.22.3}Boiled Sweet Potatoes}{303}{}%
+\contentsline {subsection}{\numberline {20.22.4}Mashed Sweet Potatoes}{303}{}%
+\contentsline {subsection}{\numberline {20.22.5}Sweet Potatoes, Georgian Style}{303}{}%
+\contentsline {subsection}{\numberline {20.22.6}Glazed Sweet Potatoes}{304}{}%
+\contentsline {subsection}{\numberline {20.22.7}Sweet Potatoes au Gratin}{304}{}%
+\contentsline {subsection}{\numberline {20.22.8}Sweet Potatoes en Brochette}{304}{}%
+\contentsline {subsection}{\numberline {20.22.9}Sweet Potato Balls}{304}{}%
+\contentsline {subsection}{\numberline {20.22.10}Sweet Potato Croquettes}{304}{}%
+\contentsline {section}{\numberline {20.23}Warmed Over Potatoes}{304}{}%
+\contentsline {subsection}{\numberline {20.23.1}Potato Cakes}{304}{}%
+\contentsline {subsection}{\numberline {20.23.2}Creamed Potatoes}{304}{}%
+\contentsline {subsection}{\numberline {20.23.3}Potatoes au Gratin}{304}{}%
+\contentsline {subsection}{\numberline {20.23.4}Delmonico Potatoes}{305}{}%
+\contentsline {subsection}{\numberline {20.23.5}Potatoes à l’Antlers}{305}{}%
+\contentsline {subsection}{\numberline {20.23.6}Hashed Brown Potatoes}{305}{}%
+\contentsline {subsection}{\numberline {20.23.7}Sautéd Potatoes}{305}{}%
+\contentsline {subsection}{\numberline {20.23.8}Chartreuse Potatoes}{305}{}%
+\contentsline {subsection}{\numberline {20.23.9}Lyonnaise Potatoes I}{305}{}%
+\contentsline {subsection}{\numberline {20.23.10}Lyonnaise Potatoes II}{305}{}%
+\contentsline {subsection}{\numberline {20.23.11}Oak Hill Potatoes}{305}{}%
+\contentsline {subsection}{\numberline {20.23.12}Curried Potatoes}{306}{}%
+\contentsline {chapter}{\numberline {21}Salads And Salad Dressings}{307}{}%
+\contentsline {section}{\numberline {21.1}Salad Dressings}{307}{}%
+\contentsline {subsection}{\numberline {21.1.1}French Dressing}{307}{}%
+\contentsline {subsection}{\numberline {21.1.2}Parisian French Dressing}{308}{}%
+\contentsline {subsection}{\numberline {21.1.3}Club French Dressing}{308}{}%
+\contentsline {subsection}{\numberline {21.1.4}Curry Dressing}{308}{}%
+\contentsline {subsection}{\numberline {21.1.5}Cream Dressing I}{309}{}%
+\contentsline {subsection}{\numberline {21.1.6}Cream Dressing II}{309}{}%
+\contentsline {subsection}{\numberline {21.1.7}Boiled Dressing I}{309}{}%
+\contentsline {subsection}{\numberline {21.1.8}Boiled Dressing II}{310}{}%
+\contentsline {subsection}{\numberline {21.1.9}German Dressing}{310}{}%
+\contentsline {subsection}{\numberline {21.1.10}Chicken Salad Dressing}{310}{}%
+\contentsline {subsection}{\numberline {21.1.11}Oil Dressing I}{310}{}%
+\contentsline {subsection}{\numberline {21.1.12}Oil Dressing II}{311}{}%
+\contentsline {subsection}{\numberline {21.1.13}Mayonnaise Dressing I}{311}{}%
+\contentsline {subsection}{\numberline {21.1.14}Mayonnaise Dressing II}{311}{}%
+\contentsline {subsection}{\numberline {21.1.15}Cream Mayonnaise Dressing}{312}{}%
+\contentsline {subsection}{\numberline {21.1.16}Green Mayonnaise}{312}{}%
+\contentsline {subsection}{\numberline {21.1.17}Potato Mayonnaise}{312}{}%
+\contentsline {section}{\numberline {21.2}Salads}{312}{}%
+\contentsline {subsection}{\numberline {21.2.1}Dressed Lettuce}{312}{}%
+\contentsline {subsection}{\numberline {21.2.2}Lettuce and Cucumber Salad}{312}{}%
+\contentsline {subsection}{\numberline {21.2.3}Lettuce and Radish Salad}{312}{}%
+\contentsline {subsection}{\numberline {21.2.4}Lettuce and Tomato Salad}{312}{}%
+\contentsline {subsection}{\numberline {21.2.5}Dressed Watercress}{313}{}%
+\contentsline {subsection}{\numberline {21.2.6}Cucumber Salad}{313}{}%
+\contentsline {subsection}{\numberline {21.2.7}Watercress and Cucumber Salad}{313}{}%
+\contentsline {subsection}{\numberline {21.2.8}Cucumber and Tomato Salad}{313}{}%
+\contentsline {subsection}{\numberline {21.2.9}Cucumber Cups with Lettuce}{313}{}%
+\contentsline {subsection}{\numberline {21.2.10}Cucumber Baskets}{313}{}%
+\contentsline {subsection}{\numberline {21.2.11}Dressed Celery}{313}{}%
+\contentsline {subsection}{\numberline {21.2.12}Celery and Cabbage Salad}{313}{}%
+\contentsline {subsection}{\numberline {21.2.13}Asparagus Salad}{314}{}%
+\contentsline {subsection}{\numberline {21.2.14}Corn Salad}{314}{}%
+\contentsline {subsection}{\numberline {21.2.15}String Bean Salad}{314}{}%
+\contentsline {subsection}{\numberline {21.2.16}Potato Salad I}{314}{}%
+\contentsline {subsection}{\numberline {21.2.17}Potato Salad II}{314}{}%
+\contentsline {subsection}{\numberline {21.2.18}Hot Potato Salad}{314}{}%
+\contentsline {subsection}{\numberline {21.2.19}Potato and Celery Salad}{314}{}%
+\contentsline {subsection}{\numberline {21.2.20}Bolivia Salad}{315}{}%
+\contentsline {subsection}{\numberline {21.2.21}Lettuce Salad}{315}{}%
+\contentsline {subsection}{\numberline {21.2.22}Macédoine Salad}{315}{}%
+\contentsline {subsection}{\numberline {21.2.23}Russian Salad}{315}{}%
+\contentsline {subsection}{\numberline {21.2.24}Tomatoes Stuffed with Pineapple}{315}{}%
+\contentsline {subsection}{\numberline {21.2.25}Stuffed Tomato Salad I}{315}{}%
+\contentsline {subsection}{\numberline {21.2.26}Stuffed Tomato Salad II}{316}{}%
+\contentsline {subsection}{\numberline {21.2.27}Stuffed Tomato Salad (German Style)}{316}{}%
+\contentsline {subsection}{\numberline {21.2.28}Tomato and Horseradish Salad}{316}{}%
+\contentsline {subsection}{\numberline {21.2.29}Hindoo Salad}{316}{}%
+\contentsline {subsection}{\numberline {21.2.30}Tomato Ciboulettes}{316}{}%
+\contentsline {subsection}{\numberline {21.2.31}Tomato and Watercress Salad}{316}{}%
+\contentsline {subsection}{\numberline {21.2.32}Tomato and Cucumber Salad}{316}{}%
+\contentsline {subsection}{\numberline {21.2.33}Salad Chiffonade}{316}{}%
+\contentsline {subsection}{\numberline {21.2.34}Wiersbick’s Salad}{317}{}%
+\contentsline {subsection}{\numberline {21.2.35}Tomato and Cheese Salad}{317}{}%
+\contentsline {subsection}{\numberline {21.2.36}Tomato Jelly Salad}{317}{}%
+\contentsline {subsection}{\numberline {21.2.37}Frozen Tomato Salad}{317}{}%
+\contentsline {subsection}{\numberline {21.2.38}Salad à la Russe}{317}{}%
+\contentsline {subsection}{\numberline {21.2.39}Spinach Salad}{317}{}%
+\contentsline {subsection}{\numberline {21.2.40}Moulded Russian Salad}{318}{}%
+\contentsline {subsection}{\numberline {21.2.41}Mexican Jelly}{318}{}%
+\contentsline {subsection}{\numberline {21.2.42}Egg Salad I}{318}{}%
+\contentsline {subsection}{\numberline {21.2.43}Egg Salad II}{318}{}%
+\contentsline {subsection}{\numberline {21.2.44}Lenten Salad}{318}{}%
+\contentsline {subsection}{\numberline {21.2.45}Crackers and Cheese}{318}{}%
+\contentsline {subsection}{\numberline {21.2.46}Cottage Cheese I}{319}{}%
+\contentsline {subsection}{\numberline {21.2.47}Cottage Cheese II}{319}{}%
+\contentsline {subsection}{\numberline {21.2.48}Cheese Salad}{319}{}%
+\contentsline {subsection}{\numberline {21.2.49}Neufchâtel Salad I}{319}{}%
+\contentsline {subsection}{\numberline {21.2.50}Neufchâtel Salad II}{319}{}%
+\contentsline {subsection}{\numberline {21.2.51}Cheese and Olive Salad}{319}{}%
+\contentsline {subsection}{\numberline {21.2.52}Cheese and Currant Salad}{319}{}%
+\contentsline {subsection}{\numberline {21.2.53}East India Salad}{319}{}%
+\contentsline {subsection}{\numberline {21.2.54}Nut Salad}{320}{}%
+\contentsline {subsection}{\numberline {21.2.55}Nut and Celery Salad I}{320}{}%
+\contentsline {subsection}{\numberline {21.2.56}Nut and Celery Salad II}{320}{}%
+\contentsline {subsection}{\numberline {21.2.57}Banana Salad}{320}{}%
+\contentsline {section}{\numberline {21.3}Orange Salad}{320}{}%
+\contentsline {subsection}{\numberline {21.3.1}Orange Mint Salad}{320}{}%
+\contentsline {subsection}{\numberline {21.3.2}French Fruit Salad}{320}{}%
+\contentsline {subsection}{\numberline {21.3.3}Hungarian Salad}{320}{}%
+\contentsline {subsection}{\numberline {21.3.4}Waldorf Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.5}Malaga Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.6}Brazilian Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.7}De John’s Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.8}Pear Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.9}Game Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.10}Pepper and Grape Fruit Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.11}Grape Fruit and Celery Salad}{321}{}%
+\contentsline {subsection}{\numberline {21.3.12}Monte Carlo Salad}{322}{}%
+\contentsline {subsection}{\numberline {21.3.13}Salmon Salad}{322}{}%
+\contentsline {subsection}{\numberline {21.3.14}Shrimp Salad}{322}{}%
+\contentsline {subsection}{\numberline {21.3.15}Sardine Salad}{322}{}%
+\contentsline {subsection}{\numberline {21.3.16}Lobster Salad I}{322}{}%
+\contentsline {subsection}{\numberline {21.3.17}Lobster Salad II}{322}{}%
+\contentsline {subsection}{\numberline {21.3.18}Lobster Salad III}{323}{}%
+\contentsline {subsection}{\numberline {21.3.19}Fish Salad with Cucumbers}{323}{}%
+\contentsline {subsection}{\numberline {21.3.20}Crab and Tomato Salad}{323}{}%
+\contentsline {subsection}{\numberline {21.3.21}Scallop and Tomato Salad}{323}{}%
+\contentsline {subsection}{\numberline {21.3.22}Salmon à la Martin, Ravigôte Mayonnaise}{323}{}%
+\contentsline {subsection}{\numberline {21.3.23}Oyster and Grape Fruit Salad}{324}{}%
+\contentsline {subsection}{\numberline {21.3.24}Chicken Salad I}{324}{}%
+\contentsline {subsection}{\numberline {21.3.25}Chicken Salad II}{324}{}%
+\contentsline {subsection}{\numberline {21.3.26}Individual Chicken Salads in Aspic}{324}{}%
+\contentsline {subsection}{\numberline {21.3.27}Swiss Salad}{324}{}%
+\contentsline {subsection}{\numberline {21.3.28}Nile Salad}{324}{}%
+\contentsline {subsection}{\numberline {21.3.29}Berkshire Salad in Boxes}{325}{}%
+\contentsline {subsection}{\numberline {21.3.30}Chicken and Oyster Salad}{325}{}%
+\contentsline {subsection}{\numberline {21.3.31}Sweetbread and Cucumber Salad I}{325}{}%
+\contentsline {subsection}{\numberline {21.3.32}Sweetbread and Cucumber Salad II}{325}{}%
+\contentsline {subsection}{\numberline {21.3.33}Sweetbread and Celery Salad}{325}{}%
+\contentsline {subsection}{\numberline {21.3.34}Harvard Salad}{325}{}%
+\contentsline {section}{\numberline {21.4}Batters And Fritters}{326}{}%
+\contentsline {section}{\numberline {21.5}Batter I}{326}{}%
+\contentsline {section}{\numberline {21.6}Batter Ii}{326}{}%
+\contentsline {section}{\numberline {21.7}Batter Iii}{326}{}%
+\contentsline {section}{\numberline {21.8}Batter Iv}{326}{}%
+\contentsline {section}{\numberline {21.9}Batter V}{327}{}%
+\contentsline {section}{\numberline {21.10}Apple Fritters I}{327}{}%
+\contentsline {section}{\numberline {21.11}Apple Fritters Ii}{327}{}%
+\contentsline {section}{\numberline {21.12}Apple Fritters Iii}{327}{}%
+\contentsline {section}{\numberline {21.13}Banana Fritters I}{327}{}%
+\contentsline {section}{\numberline {21.14}Banana Fritters Ii}{328}{}%
+\contentsline {section}{\numberline {21.15}Orange Fritters}{328}{}%
+\contentsline {section}{\numberline {21.16}Fruit Fritters}{328}{}%
+\contentsline {section}{\numberline {21.17}Cauliflower Fritters}{328}{}%
+\contentsline {section}{\numberline {21.18}Fried Celery}{328}{}%
+\contentsline {section}{\numberline {21.19}Sardines Fried In Batter}{328}{}%
+\contentsline {section}{\numberline {21.20}Tomato Fritters}{329}{}%
+\contentsline {section}{\numberline {21.21}Cherry Fritters}{329}{}%
+\contentsline {section}{\numberline {21.22}Maraschino Sauce}{329}{}%
+\contentsline {section}{\numberline {21.23}Farina Cakes With Jelly}{330}{}%
+\contentsline {section}{\numberline {21.24}Gnocchi À La Romaine}{330}{}%
+\contentsline {section}{\numberline {21.25}Queen Fritters}{330}{}%
+\contentsline {section}{\numberline {21.26}Chocolate Fritters With Vanilla Sauce}{330}{}%
+\contentsline {section}{\numberline {21.27}Coffee Fritters, Coffee Cream Sauce}{331}{}%
+\contentsline {section}{\numberline {21.28}Sponge Fritters}{331}{}%
+\contentsline {subsection}{\numberline {21.28.1}Quince Marmalade}{331}{}%
+\contentsline {subsection}{\numberline {21.28.2}Currant Jelly}{331}{}%
+\contentsline {section}{\numberline {21.29}Calf’S Brains Fritters}{331}{}%
+\contentsline {section}{\numberline {21.30}Clam Fritters}{331}{}%
+\contentsline {section}{\numberline {21.31}Banana Croquettes}{332}{}%
+\contentsline {section}{\numberline {21.32}Cheese Croquettes}{332}{}%
+\contentsline {section}{\numberline {21.33}Chestnut Croquettes}{332}{}%
+\contentsline {section}{\numberline {21.34}Chestnut Roulettes}{333}{}%
+\contentsline {section}{\numberline {21.35}Lenten Croquettes}{333}{}%
+\contentsline {section}{\numberline {21.36}Rice Croquettes With Jelly}{333}{}%
+\contentsline {section}{\numberline {21.37}Sweet Rice Croquettes}{333}{}%
+\contentsline {section}{\numberline {21.38}Rice And Tomato Croquettes}{334}{}%
+\contentsline {section}{\numberline {21.39}Oyster Crabs À La Newburg}{334}{}%
+\contentsline {section}{\numberline {21.40}Oyster And Macaroni Croquettes}{335}{}%
+\contentsline {section}{\numberline {21.41}Oysters À La Somerset}{335}{}%
+\contentsline {section}{\numberline {21.42}Salmon Croquettes}{335}{}%
+\contentsline {section}{\numberline {21.43}Salmon Cutlets}{336}{}%
+\contentsline {section}{\numberline {21.44}Lobster Croquettes}{336}{}%
+\contentsline {section}{\numberline {21.45}Lobster Cutlets}{336}{}%
+\contentsline {section}{\numberline {21.46}Beef And Rice Croquettes}{336}{}%
+\contentsline {section}{\numberline {21.47}Lamb Croquettes}{337}{}%
+\contentsline {section}{\numberline {21.48}Veal Croquettes}{337}{}%
+\contentsline {section}{\numberline {21.49}Chicken Croquettes I}{337}{}%
+\contentsline {section}{\numberline {21.50}Chicken Croquettes Ii}{338}{}%
+\contentsline {section}{\numberline {21.51}Chicken And Mushroom Croquettes}{338}{}%
+\contentsline {section}{\numberline {21.52}Maryland Croquettes}{338}{}%
+\contentsline {section}{\numberline {21.53}Lincoln Croquettes}{338}{}%
+\contentsline {section}{\numberline {21.54}Cutlets Of Sweetbreads À La Victoria}{338}{}%
+\contentsline {section}{\numberline {21.55}Epigrams Of Sweetbreads}{339}{}%
+\contentsline {section}{\numberline {21.56}Swedish Timbales}{339}{}%
+\contentsline {section}{\numberline {21.57}Bunuelos}{340}{}%
+\contentsline {section}{\numberline {21.58}Strawberry Baskets}{340}{}%
+\contentsline {section}{\numberline {21.59}Rice Timbales}{340}{}%
+\contentsline {section}{\numberline {21.60}Macaroni Timbales}{340}{}%
+\contentsline {section}{\numberline {21.61}Spaghetti Timbales}{340}{}%
+\contentsline {section}{\numberline {21.62}Pimento Timbales}{340}{}%
+\contentsline {section}{\numberline {21.63}Brown Mushroom Sauce}{340}{}%
+\contentsline {section}{\numberline {21.64}Halibut Timbales I}{341}{}%
+\contentsline {section}{\numberline {21.65}Halibut Timbales Ii}{341}{}%
+\contentsline {section}{\numberline {21.66}Lobster Timbales I}{341}{}%
+\contentsline {section}{\numberline {21.67}Lobster Timbales Ii}{342}{}%
+\contentsline {section}{\numberline {21.68}Lobster Cream I}{342}{}%
+\contentsline {section}{\numberline {21.69}Lobster Cream Ii}{342}{}%
+\contentsline {section}{\numberline {21.70}Chicken Timbales I}{343}{}%
+\contentsline {section}{\numberline {21.71}Chicken Timbales Ii}{343}{}%
+\contentsline {section}{\numberline {21.72}Chicken Timbales Iii}{343}{}%
+\contentsline {section}{\numberline {21.73}Ham Timbales}{343}{}%
+\contentsline {section}{\numberline {21.74}Sweetbread And Mushroom Timbales}{344}{}%
+\contentsline {section}{\numberline {21.75}Sweetbread Mousse}{344}{}%
+\contentsline {section}{\numberline {21.76}Suprême Of Chicken}{344}{}%
+\contentsline {section}{\numberline {21.77}Devilled Oysters}{344}{}%
+\contentsline {section}{\numberline {21.78}Crab Meat, Indienne}{345}{}%
+\contentsline {section}{\numberline {21.79}Devilled Crabs}{345}{}%
+\contentsline {section}{\numberline {21.80}Devilled Scallops}{345}{}%
+\contentsline {section}{\numberline {21.81}Fried Oyster Crabs}{346}{}%
+\contentsline {section}{\numberline {21.82}Bouchées Of Oyster Crabs}{346}{}%
+\contentsline {section}{\numberline {21.83}Halibut Marguerites}{346}{}%
+\contentsline {section}{\numberline {21.84}Cromesquis À La Russe}{346}{}%
+\contentsline {section}{\numberline {21.85}Shad Roe With Celery}{346}{}%
+\contentsline {section}{\numberline {21.86}Stuffed Clams}{347}{}%
+\contentsline {section}{\numberline {21.87}Crab Meat, Terrapin Style}{347}{}%
+\contentsline {section}{\numberline {21.88}Mock Crabs}{347}{}%
+\contentsline {section}{\numberline {21.89}Martin’S Specialty}{347}{}%
+\contentsline {section}{\numberline {21.90}Sweetbread Ramequins}{348}{}%
+\contentsline {section}{\numberline {21.91}Sweetbread À La Mont Vert}{348}{}%
+\contentsline {section}{\numberline {21.92}Sweetbread In Peppers}{348}{}%
+\contentsline {section}{\numberline {21.93}Cutlets Of Chicken}{348}{}%
+\contentsline {section}{\numberline {21.94}Fillets Of Game}{349}{}%
+\contentsline {section}{\numberline {21.95}Chicken Cutlets}{349}{}%
+\contentsline {section}{\numberline {21.96}Russian Cutlets}{349}{}%
+\contentsline {section}{\numberline {21.97}Brown Mushroom Sauce}{349}{}%
+\contentsline {section}{\numberline {21.98}Chicken À La Mcdonald}{350}{}%
+\contentsline {section}{\numberline {21.99}Chicken Mousse}{350}{}%
+\contentsline {section}{\numberline {21.100}Fillets Of Chicken, Sauce Suprême}{350}{}%
+\contentsline {section}{\numberline {21.101}Birds On Canapés}{351}{}%
+\contentsline {section}{\numberline {21.102}Breast Of Quail Lucullus}{351}{}%
+\contentsline {section}{\numberline {21.103}Pan Broiled Lamb Chops À La Lucullus}{351}{}%
+\contentsline {section}{\numberline {21.104}Chickens’ Livers En Brochette}{351}{}%
+\contentsline {section}{\numberline {21.105}Chestnuts En Casserole}{351}{}%
+\contentsline {section}{\numberline {21.106}Cheese Fondue}{352}{}%
+\contentsline {section}{\numberline {21.107}Cheese Soufflé}{352}{}%
+\contentsline {section}{\numberline {21.108}Ramequins Soufflés}{352}{}%
+\contentsline {section}{\numberline {21.109}Cheese Balls}{352}{}%
+\contentsline {section}{\numberline {21.110}Compote Of Rice With Peaches}{353}{}%
+\contentsline {section}{\numberline {21.111}Compote Of Rice And Pears}{353}{}%
+\contentsline {section}{\numberline {21.112}Croustades Of Bread}{353}{}%
+\contentsline {section}{\numberline {21.113}Rice Croustades}{353}{}%
+\contentsline {section}{\numberline {21.114}Soufflé Au Rhum}{353}{}%
+\contentsline {section}{\numberline {21.115}Omelet Soufflé}{353}{}%
+\contentsline {section}{\numberline {21.116}Patties}{354}{}%
+\contentsline {section}{\numberline {21.117}Bouchées}{354}{}%
+\contentsline {section}{\numberline {21.118}Vol-Au-Vents}{354}{}%
+\contentsline {section}{\numberline {21.119}Rissoles}{354}{}%
+\contentsline {section}{\numberline {21.120}Cigarettes À La Prince Henry}{354}{}%
+\contentsline {section}{\numberline {21.121}Zigaras À La Russe}{354}{}%
+\contentsline {section}{\numberline {21.122}Dresden Patties}{355}{}%
+\contentsline {section}{\numberline {21.123}Russian Patties}{355}{}%
+\contentsline {section}{\numberline {21.124}Cheese Soufflé With Pastry}{355}{}%
+\contentsline {section}{\numberline {21.125}Lamb Rissoles À L’Indienne}{355}{}%
+\contentsline {section}{\numberline {21.126}Quail Pies}{356}{}%
+\contentsline {section}{\numberline {21.127}Aspic Jelly}{356}{}%
+\contentsline {section}{\numberline {21.128}Tomatoes In Aspic}{357}{}%
+\contentsline {section}{\numberline {21.129}Stuffed Olives In Aspic}{357}{}%
+\contentsline {section}{\numberline {21.130}Tongue In Aspic}{357}{}%
+\contentsline {section}{\numberline {21.131}Birds In Aspic}{358}{}%
+\contentsline {section}{\numberline {21.132}Egg Custard For Decorating}{358}{}%
+\contentsline {section}{\numberline {21.133}Stuffing For Chicken In Aspic}{358}{}%
+\contentsline {section}{\numberline {21.134}Spring Mousse}{358}{}%
+\contentsline {section}{\numberline {21.135}Chaud-Froid Of Eggs}{358}{}%
+\contentsline {section}{\numberline {21.136}Jellied Vegetables}{359}{}%
+\contentsline {section}{\numberline {21.137}Mayonnaise Of Mackerel}{359}{}%
+\contentsline {section}{\numberline {21.138}Chaud-Froid Of Chicken}{359}{}%
+\contentsline {section}{\numberline {21.139}Moulded Salmon, Cucumber Sauce}{359}{}%
+\contentsline {section}{\numberline {21.140}Moulded Chicken, Sauterne Jelly}{360}{}%
+\contentsline {section}{\numberline {21.141}Lenox Chicken}{360}{}%
+\contentsline {section}{\numberline {21.142}Rum Cakes}{361}{}%
+\contentsline {section}{\numberline {21.143}Rum Sauce}{361}{}%
+\contentsline {section}{\numberline {21.144}Flûtes}{361}{}%
+\contentsline {section}{\numberline {21.145}Baba Cakes}{361}{}%
+\contentsline {section}{\numberline {21.146}Baba Cakes With Apricots}{361}{}%
+\contentsline {chapter}{\numberline {22}Hot Puddings}{363}{}%
+\contentsline {section}{\numberline {22.1}Rice Pudding}{363}{}%
+\contentsline {section}{\numberline {22.2}Poor Man’S Pudding}{363}{}%
+\contentsline {section}{\numberline {22.3}Indian Pudding}{363}{}%
+\contentsline {section}{\numberline {22.4}Cerealine Pudding}{364}{}%
+\contentsline {section}{\numberline {22.5}Newton Tapioca}{364}{}%
+\contentsline {section}{\numberline {22.6}Apple Tapioca}{364}{}%
+\contentsline {section}{\numberline {22.7}Tapioca Custard Pudding}{364}{}%
+\contentsline {section}{\numberline {22.8}Peach Tapioca}{365}{}%
+\contentsline {section}{\numberline {22.9}Corn Pudding}{365}{}%
+\contentsline {section}{\numberline {22.10}Scalloped Apples}{365}{}%
+\contentsline {section}{\numberline {22.11}Bread Pudding}{366}{}%
+\contentsline {section}{\numberline {22.12}Cracker Custard Pudding}{366}{}%
+\contentsline {section}{\numberline {22.13}Bread And Butter Pudding}{366}{}%
+\contentsline {section}{\numberline {22.14}Bread And Butter Apple Pudding}{367}{}%
+\contentsline {section}{\numberline {22.15}Chocolate Bread Pudding}{367}{}%
+\contentsline {section}{\numberline {22.16}Mock Indian Pudding}{367}{}%
+\contentsline {section}{\numberline {22.17}Bangor Pudding}{367}{}%
+\contentsline {section}{\numberline {22.18}Steamed Lemon Pudding}{368}{}%
+\contentsline {section}{\numberline {22.19}Cottage Pudding}{368}{}%
+\contentsline {section}{\numberline {22.20}Strawberry Cottage Pudding}{368}{}%
+\contentsline {section}{\numberline {22.21}Orange Puffs}{369}{}%
+\contentsline {section}{\numberline {22.22}Chocolate Pudding}{369}{}%
+\contentsline {section}{\numberline {22.23}Custard Soufflé}{369}{}%
+\contentsline {section}{\numberline {22.24}Apricot Soufflé}{370}{}%
+\contentsline {section}{\numberline {22.25}Lemon Soufflé}{370}{}%
+\contentsline {section}{\numberline {22.26}Chocolate Soufflé}{370}{}%
+\contentsline {section}{\numberline {22.27}Mocha Soufflé}{370}{}%
+\contentsline {section}{\numberline {22.28}Fruit Soufflé}{371}{}%
+\contentsline {section}{\numberline {22.29}Spanish Soufflé}{371}{}%
+\contentsline {section}{\numberline {22.30}Chestnut Soufflé}{371}{}%
+\contentsline {section}{\numberline {22.31}Chocolate Rice Meringue}{372}{}%
+\contentsline {section}{\numberline {22.32}Steamed Apple Pudding}{372}{}%
+\contentsline {section}{\numberline {22.33}Steamed Blueberry Pudding}{372}{}%
+\contentsline {section}{\numberline {22.34}Steamed Cranberry Pudding}{373}{}%
+\contentsline {section}{\numberline {22.35}Ginger Pudding}{373}{}%
+\contentsline {section}{\numberline {22.36}Harvard Pudding}{373}{}%
+\contentsline {section}{\numberline {22.37}Steamed Chocolate Pudding}{374}{}%
+\contentsline {section}{\numberline {22.38}Cream Sauce}{374}{}%
+\contentsline {section}{\numberline {22.39}Swiss Pudding}{374}{}%
+\contentsline {section}{\numberline {22.40}Snowballs}{374}{}%
+\contentsline {section}{\numberline {22.41}Graham Pudding}{375}{}%
+\contentsline {section}{\numberline {22.42}St. James Pudding}{375}{}%
+\contentsline {section}{\numberline {22.43}Suet Pudding}{375}{}%
+\contentsline {section}{\numberline {22.44}Thanksgiving Pudding I}{376}{}%
+\contentsline {section}{\numberline {22.45}Thanksgiving Pudding Ii}{376}{}%
+\contentsline {section}{\numberline {22.46}Hunters’ Pudding}{377}{}%
+\contentsline {section}{\numberline {22.47}French Fruit Pudding}{377}{}%
+\contentsline {section}{\numberline {22.48}Fig Pudding I}{378}{}%
+\contentsline {section}{\numberline {22.49}Fig Pudding Ii}{378}{}%
+\contentsline {section}{\numberline {22.50}English Plum Pudding I}{378}{}%
+\contentsline {section}{\numberline {22.51}English Plum Pudding Ii}{379}{}%
+\contentsline {chapter}{\numberline {23}Pudding Sauces}{381}{}%
+\contentsline {section}{\numberline {23.1}Lemon Sauce I}{381}{}%
+\contentsline {section}{\numberline {23.2}Lemon Sauce Ii}{381}{}%
+\contentsline {section}{\numberline {23.3}Lemon Sauce Iii}{381}{}%
+\contentsline {section}{\numberline {23.4}Vanilla Sauce}{382}{}%
+\contentsline {section}{\numberline {23.5}Molasses Sauce}{382}{}%
+\contentsline {section}{\numberline {23.6}Cream Sauce I}{382}{}%
+\contentsline {section}{\numberline {23.7}Cream Sauce Ii}{382}{}%
+\contentsline {section}{\numberline {23.8}Yellow Sauce I}{382}{}%
+\contentsline {section}{\numberline {23.9}Yellow Sauce Ii}{383}{}%
+\contentsline {section}{\numberline {23.10}Orange Sauce}{383}{}%
+\contentsline {section}{\numberline {23.11}Strawberry Sauce}{383}{}%
+\contentsline {section}{\numberline {23.12}Creamy Sauce I}{383}{}%
+\contentsline {section}{\numberline {23.13}Creamy Sauce Ii}{383}{}%
+\contentsline {section}{\numberline {23.14}Foamy Sauce I}{384}{}%
+\contentsline {section}{\numberline {23.15}Foamy Sauce Ii}{384}{}%
+\contentsline {section}{\numberline {23.16}Chocolate Sauce}{384}{}%
+\contentsline {section}{\numberline {23.17}Sabyon Sauce}{384}{}%
+\contentsline {section}{\numberline {23.18}Hard Sauce}{385}{}%
+\contentsline {section}{\numberline {23.19}Sterling Sauce}{385}{}%
+\contentsline {section}{\numberline {23.20}Wine Sauce}{385}{}%
+\contentsline {section}{\numberline {23.21}Brandy Sauce}{385}{}%
+\contentsline {section}{\numberline {23.22}Caramel Brandy Sauce}{385}{}%
+\contentsline {section}{\numberline {23.23}Apricot Sauce}{386}{}%
+\contentsline {chapter}{\numberline {24}Cold Desserts}{387}{}%
+\contentsline {section}{\numberline {24.1}Irish Moss Blanc-Mange}{387}{}%
+\contentsline {section}{\numberline {24.2}Chocolate Blanc-Mange}{387}{}%
+\contentsline {section}{\numberline {24.3}Rebecca Pudding}{387}{}%
+\contentsline {section}{\numberline {24.4}Moulded Snow}{388}{}%
+\contentsline {section}{\numberline {24.5}Chocolate Cream}{388}{}%
+\contentsline {section}{\numberline {24.6}Pineapple Pudding}{388}{}%
+\contentsline {section}{\numberline {24.7}Caramel Junket}{388}{}%
+\contentsline {section}{\numberline {24.8}Boiled Custard}{389}{}%
+\contentsline {section}{\numberline {24.9}Tipsy Pudding}{389}{}%
+\contentsline {section}{\numberline {24.10}Peach Custard}{389}{}%
+\contentsline {section}{\numberline {24.11}Orange Custard}{389}{}%
+\contentsline {section}{\numberline {24.12}Apple Meringue}{389}{}%
+\contentsline {section}{\numberline {24.13}Apple Snow}{389}{}%
+\contentsline {section}{\numberline {24.14}Prune Whip}{390}{}%
+\contentsline {section}{\numberline {24.15}Raspberry Whip}{390}{}%
+\contentsline {section}{\numberline {24.16}Baked Custard}{390}{}%
+\contentsline {section}{\numberline {24.17}Caramel Custard}{391}{}%
+\contentsline {section}{\numberline {24.18}Caramel Sauce}{391}{}%
+\contentsline {section}{\numberline {24.19}Coffee Custard}{391}{}%
+\contentsline {section}{\numberline {24.20}Tapioca Cream}{391}{}%
+\contentsline {section}{\numberline {24.21}Norwegian Prune Pudding}{392}{}%
+\contentsline {section}{\numberline {24.22}Nut Prune Soufflé}{392}{}%
+\contentsline {section}{\numberline {24.23}Apples In Bloom}{392}{}%
+\contentsline {section}{\numberline {24.24}Neapolitan Baskets}{392}{}%
+\contentsline {section}{\numberline {24.25}Wine Cream}{392}{}%
+\contentsline {subsection}{\numberline {24.25.1}Orange Salad}{392}{}%
+\contentsline {section}{\numberline {24.26}Fruit Salad I}{393}{}%
+\contentsline {section}{\numberline {24.27}Fruit Salad Ii}{393}{}%
+\contentsline {section}{\numberline {24.28}Fruit Salad With Wine Dressing}{393}{}%
+\contentsline {section}{\numberline {24.29}Wine Dressing}{393}{}%
+\contentsline {section}{\numberline {24.30}Cream Whips}{393}{}%
+\contentsline {section}{\numberline {24.31}Sautéd Pears With Chocolate Sauce}{393}{}%
+\contentsline {section}{\numberline {24.32}Lemon Jelly}{393}{}%
+\contentsline {section}{\numberline {24.33}Orange Jelly}{394}{}%
+\contentsline {section}{\numberline {24.34}Kumquat Jelly}{394}{}%
+\contentsline {section}{\numberline {24.35}Coffee Jelly}{394}{}%
+\contentsline {section}{\numberline {24.36}Cider Jelly}{395}{}%
+\contentsline {section}{\numberline {24.37}Wine Jelly I}{395}{}%
+\contentsline {section}{\numberline {24.38}Wine Jelly Ii}{395}{}%
+\contentsline {section}{\numberline {24.39}Russian Jelly}{396}{}%
+\contentsline {section}{\numberline {24.40}Jelly In Glasses}{396}{}%
+\contentsline {section}{\numberline {24.41}Sauterne Jelly}{396}{}%
+\contentsline {section}{\numberline {24.42}Jellied Prunes}{396}{}%
+\contentsline {section}{\numberline {24.43}Jellied Walnuts}{397}{}%
+\contentsline {section}{\numberline {24.44}Apricot And Wine Jelly}{397}{}%
+\contentsline {section}{\numberline {24.45}Snow Pudding I}{397}{}%
+\contentsline {section}{\numberline {24.46}Snow Pudding Ii}{398}{}%
+\contentsline {section}{\numberline {24.47}Amber Pudding}{398}{}%
+\contentsline {section}{\numberline {24.48}Toasted Marshmallows}{398}{}%
+\contentsline {section}{\numberline {24.49}Pudding À La Macédoine}{398}{}%
+\contentsline {section}{\numberline {24.50}Fruit Chartreuse}{398}{}%
+\contentsline {section}{\numberline {24.51}Spanish Cream}{399}{}%
+\contentsline {section}{\numberline {24.52}Coffee Soufflé}{399}{}%
+\contentsline {section}{\numberline {24.53}Columbian Pudding}{399}{}%
+\contentsline {section}{\numberline {24.54}Macaroon Cream}{399}{}%
+\contentsline {section}{\numberline {24.55}Cold Cabinet Pudding}{400}{}%
+\contentsline {section}{\numberline {24.56}Mont Blanc}{400}{}%
+\contentsline {section}{\numberline {24.57}Crême Aux Fruits}{400}{}%
+\contentsline {section}{\numberline {24.58}To Whip Cream}{401}{}%
+\contentsline {section}{\numberline {24.59}Charlotte Russe}{401}{}%
+\contentsline {section}{\numberline {24.60}Orange Trifle}{402}{}%
+\contentsline {section}{\numberline {24.61}Banana Cantaloupe}{402}{}%
+\contentsline {section}{\numberline {24.62}Chocolate Charlotte}{403}{}%
+\contentsline {section}{\numberline {24.63}Caramel Charlotte Russe}{403}{}%
+\contentsline {section}{\numberline {24.64}Burnt Almond Charlotte}{404}{}%
+\contentsline {section}{\numberline {24.65}Ginger Cream}{404}{}%
+\contentsline {section}{\numberline {24.66}Orange Charlotte}{404}{}%
+\contentsline {section}{\numberline {24.67}Strawberry Sponge}{405}{}%
+\contentsline {section}{\numberline {24.68}Orange Baskets}{405}{}%
+\contentsline {section}{\numberline {24.69}Orange Jelly In Ambush}{405}{}%
+\contentsline {section}{\numberline {24.70}Bavarian Cream (Quick)}{405}{}%
+\contentsline {section}{\numberline {24.71}Strawberry Bavarian Cream}{406}{}%
+\contentsline {section}{\numberline {24.72}Pineapple Bavarian Cream}{406}{}%
+\contentsline {section}{\numberline {24.73}Royal Diplomatic Pudding}{406}{}%
+\contentsline {section}{\numberline {24.74}Fruit Cream}{406}{}%
+\contentsline {section}{\numberline {24.75}Ivory Cream}{406}{}%
+\contentsline {section}{\numberline {24.76}Pudding À L’Adrea}{407}{}%
+\contentsline {section}{\numberline {24.77}French Easter Cream}{407}{}%
+\contentsline {section}{\numberline {24.78}Marshmallow Pudding À La Stanley}{408}{}%
+\contentsline {chapter}{\numberline {25}Ices, Ice Creams, And Other Frozen Desserts}{409}{}%
+\contentsline {section}{\numberline {25.1}How To Freeze Desserts}{409}{}%
+\contentsline {section}{\numberline {25.2}To Line A Mould}{410}{}%
+\contentsline {section}{\numberline {25.3}To Mould Frozen Mixtures}{410}{}%
+\contentsline {section}{\numberline {25.4}Lemon Ice}{410}{}%
+\contentsline {section}{\numberline {25.5}Cup St. Jacques}{410}{}%
+\contentsline {section}{\numberline {25.6}Orange Ice}{410}{}%
+\contentsline {section}{\numberline {25.7}Maraschino Ice}{411}{}%
+\contentsline {section}{\numberline {25.8}Pomegranate Ice}{411}{}%
+\contentsline {section}{\numberline {25.9}Raspberry Ice I}{411}{}%
+\contentsline {section}{\numberline {25.10}Raspberry Ice Ii}{411}{}%
+\contentsline {section}{\numberline {25.11}Strawberry Ice I}{411}{}%
+\contentsline {section}{\numberline {25.12}Strawberry Ice Ii}{412}{}%
+\contentsline {section}{\numberline {25.13}Currant Ice}{412}{}%
+\contentsline {section}{\numberline {25.14}Raspberry And Currant Ice}{412}{}%
+\contentsline {section}{\numberline {25.15}Crême De Menthe Ice}{412}{}%
+\contentsline {section}{\numberline {25.16}Icebergs}{412}{}%
+\contentsline {section}{\numberline {25.17}Canton Sherbet}{413}{}%
+\contentsline {section}{\numberline {25.18}Milk Sherbet}{413}{}%
+\contentsline {section}{\numberline {25.19}Frozen Chocolate With Whipped Cream}{413}{}%
+\contentsline {section}{\numberline {25.20}Pineapple Frappé}{413}{}%
+\contentsline {section}{\numberline {25.21}Pineapple Sorbet}{414}{}%
+\contentsline {section}{\numberline {25.22}Sicilian Sorbet}{414}{}%
+\contentsline {section}{\numberline {25.23}Italian Sorbet}{414}{}%
+\contentsline {section}{\numberline {25.24}Apricot Sorbet}{414}{}%
+\contentsline {section}{\numberline {25.25}Café Frappé}{415}{}%
+\contentsline {section}{\numberline {25.26}Cranberry Frappé}{415}{}%
+\contentsline {section}{\numberline {25.27}Grape Frappé}{415}{}%
+\contentsline {section}{\numberline {25.28}Pomona Frappé}{415}{}%
+\contentsline {section}{\numberline {25.29}Clam Frappé}{416}{}%
+\contentsline {section}{\numberline {25.30}Frozen Cranberries}{416}{}%
+\contentsline {section}{\numberline {25.31}Frozen Apricots}{416}{}%
+\contentsline {section}{\numberline {25.32}Pineapple Cream}{416}{}%
+\contentsline {section}{\numberline {25.33}Cardinal Punch}{416}{}%
+\contentsline {section}{\numberline {25.34}Punch Hollandaise}{417}{}%
+\contentsline {section}{\numberline {25.35}Victoria Punch}{417}{}%
+\contentsline {section}{\numberline {25.36}Lenox Punch}{417}{}%
+\contentsline {section}{\numberline {25.37}German Punch}{418}{}%
+\contentsline {section}{\numberline {25.38}London Sherbet}{418}{}%
+\contentsline {section}{\numberline {25.39}Roman Punch}{418}{}%
+\contentsline {section}{\numberline {25.40}Coup Sicilienne}{419}{}%
+\contentsline {section}{\numberline {25.41}Coup A L’Ananas}{419}{}%
+\contentsline {section}{\numberline {25.42}Vanilla Ice Cream I (Philadelphia)}{419}{}%
+\contentsline {section}{\numberline {25.43}Vanilla Ice Cream Ii}{419}{}%
+\contentsline {section}{\numberline {25.44}Chocolate Sauce I}{419}{}%
+\contentsline {section}{\numberline {25.45}Chocolate Sauce Ii}{420}{}%
+\contentsline {section}{\numberline {25.46}Coffee Sauce}{420}{}%
+\contentsline {section}{\numberline {25.47}Vanilla Ice Cream Croquettes}{420}{}%
+\contentsline {section}{\numberline {25.48}Chocolate Ice Cream I}{420}{}%
+\contentsline {section}{\numberline {25.49}Chocolate Ice Cream Ii}{421}{}%
+\contentsline {section}{\numberline {25.50}Strawberry Ice Cream I}{421}{}%
+\contentsline {section}{\numberline {25.51}Strawberry Ice Cream Ii}{421}{}%
+\contentsline {section}{\numberline {25.52}Orange Ice Cream}{421}{}%
+\contentsline {section}{\numberline {25.53}Pineapple Ice Cream}{422}{}%
+\contentsline {section}{\numberline {25.54}Coffee Ice Cream}{422}{}%
+\contentsline {section}{\numberline {25.55}Caramel Ice Cream}{422}{}%
+\contentsline {section}{\numberline {25.56}Burnt Almond Ice Cream}{422}{}%
+\contentsline {section}{\numberline {25.57}Brown Bread Ice Cream}{422}{}%
+\contentsline {section}{\numberline {25.58}Bisque Ice Cream}{423}{}%
+\contentsline {section}{\numberline {25.59}Burnt Walnut Bisque}{423}{}%
+\contentsline {section}{\numberline {25.60}Praline Ice Cream}{423}{}%
+\contentsline {section}{\numberline {25.61}Macaroon Ice Cream}{423}{}%
+\contentsline {section}{\numberline {25.62}Banana Ice Cream}{424}{}%
+\contentsline {section}{\numberline {25.63}Ginger Ice Cream}{424}{}%
+\contentsline {section}{\numberline {25.64}Pistachio Ice Cream}{424}{}%
+\contentsline {section}{\numberline {25.65}Pistachio Bisque}{424}{}%
+\contentsline {section}{\numberline {25.66}Fig Ice Cream}{424}{}%
+\contentsline {section}{\numberline {25.67}Junket Ice Cream With Peaches}{425}{}%
+\contentsline {section}{\numberline {25.68}Violet Ice Cream}{425}{}%
+\contentsline {section}{\numberline {25.69}Neapolitan Or Harlequin Ice Cream}{425}{}%
+\contentsline {section}{\numberline {25.70}Baked Alaska}{425}{}%
+\contentsline {section}{\numberline {25.71}Pudding Glacé}{426}{}%
+\contentsline {section}{\numberline {25.72}Frozen Pudding I}{426}{}%
+\contentsline {section}{\numberline {25.73}Frozen Pudding Ii}{426}{}%
+\contentsline {section}{\numberline {25.74}Frozen Tom And Jerry}{427}{}%
+\contentsline {section}{\numberline {25.75}University Pudding}{427}{}%
+\contentsline {section}{\numberline {25.76}Covington Cream}{427}{}%
+\contentsline {section}{\numberline {25.77}Delmonico Ice Cream With Angel Food}{427}{}%
+\contentsline {section}{\numberline {25.78}Angel Food}{428}{}%
+\contentsline {section}{\numberline {25.79}Manhattan Pudding}{428}{}%
+\contentsline {section}{\numberline {25.80}Sultana Roll With Claret Sauce}{428}{}%
+\contentsline {section}{\numberline {25.81}Claret Sauce}{428}{}%
+\contentsline {section}{\numberline {25.82}Angel Parfait}{428}{}%
+\contentsline {section}{\numberline {25.83}Café Parfait}{429}{}%
+\contentsline {section}{\numberline {25.84}Italian Meringue}{429}{}%
+\contentsline {section}{\numberline {25.85}Bombe Glacée}{429}{}%
+\contentsline {section}{\numberline {25.86}Noisette Bomb}{430}{}%
+\contentsline {section}{\numberline {25.87}Nesselrode Pudding}{430}{}%
+\contentsline {section}{\numberline {25.88}Pistachio Fruit Ice Cream}{430}{}%
+\contentsline {section}{\numberline {25.89}Nougat Ice Cream}{431}{}%
+\contentsline {section}{\numberline {25.90}Orange Pekoe Ice Cream}{431}{}%
+\contentsline {section}{\numberline {25.91}Orange Delicious}{431}{}%
+\contentsline {section}{\numberline {25.92}Strawberry Mousse}{432}{}%
+\contentsline {section}{\numberline {25.93}Coffee Mousse}{432}{}%
+\contentsline {section}{\numberline {25.94}Pineapple Mousse}{432}{}%
+\contentsline {section}{\numberline {25.95}Chocolate Mousse}{432}{}%
+\contentsline {section}{\numberline {25.96}Maple Parfait}{433}{}%
+\contentsline {section}{\numberline {25.97}Mousse Marron}{433}{}%
+\contentsline {section}{\numberline {25.98}Cardinal Mousse, With Iced Madeira Sauce}{433}{}%
+\contentsline {section}{\numberline {25.99}Iced Madeira Sauce}{433}{}%
+\contentsline {section}{\numberline {25.100}Cocoanut Naples, Sauterne Sauce}{434}{}%
+\contentsline {section}{\numberline {25.101}Sauterne Sauce}{434}{}%
+\contentsline {section}{\numberline {25.102}Ice À La Margot}{434}{}%
+\contentsline {section}{\numberline {25.103}Coup Aux Marrons}{434}{}%
+\contentsline {section}{\numberline {25.104}Plombière Glacé}{434}{}%
+\contentsline {section}{\numberline {25.105}Demi-Glacé Aux Fraises}{434}{}%
+\contentsline {section}{\numberline {25.106}Mazarine}{434}{}%
+\contentsline {section}{\numberline {25.107}Flowering Ice Cream}{435}{}%
+\contentsline {section}{\numberline {25.108}Concord Cream}{435}{}%
+\contentsline {section}{\numberline {25.109}German Ice Cream}{435}{}%
+\contentsline {section}{\numberline {25.110}Frozen Orange Soufflé}{435}{}%
+\contentsline {section}{\numberline {25.111}Biscuit Tortoni In Boxes}{436}{}%
+\contentsline {section}{\numberline {25.112}Frozen Soufflé Glacé}{436}{}%
+\contentsline {section}{\numberline {25.113}Frozen Plum Pudding}{436}{}%
+\contentsline {section}{\numberline {25.114}Frozen Charlotte Glacé}{437}{}%
+\contentsline {chapter}{\numberline {26}Pastry}{439}{}%
+\contentsline {section}{\numberline {26.1}Puff Paste}{439}{}%
+\contentsline {section}{\numberline {26.2}To Bake Puff Paste}{440}{}%
+\contentsline {section}{\numberline {26.3}Patty Shells}{440}{}%
+\contentsline {section}{\numberline {26.4}Vol-Au-Vents}{440}{}%
+\contentsline {section}{\numberline {26.5}Quick Puff Paste}{441}{}%
+\contentsline {section}{\numberline {26.6}Plain Paste}{441}{}%
+\contentsline {section}{\numberline {26.7}Chopped Paste}{441}{}%
+\contentsline {section}{\numberline {26.8}Quick Paste}{442}{}%
+\contentsline {section}{\numberline {26.9}Paste With Lard}{442}{}%
+\contentsline {section}{\numberline {26.10}Entire Wheat Paste}{442}{}%
+\contentsline {chapter}{\numberline {27}Pies}{443}{}%
+\contentsline {section}{\numberline {27.1}Apple Pie I}{443}{}%
+\contentsline {section}{\numberline {27.2}Apple Pie Ii}{444}{}%
+\contentsline {section}{\numberline {27.3}Blackberry Pie}{444}{}%
+\contentsline {section}{\numberline {27.4}Blueberry Pie}{444}{}%
+\contentsline {section}{\numberline {27.5}Cranberry Pie}{444}{}%
+\contentsline {section}{\numberline {27.6}Currant Pie}{445}{}%
+\contentsline {section}{\numberline {27.7}Cream Pie}{445}{}%
+\contentsline {section}{\numberline {27.8}Custard Pie}{445}{}%
+\contentsline {section}{\numberline {27.9}Date Pie}{445}{}%
+\contentsline {section}{\numberline {27.10}Lemon Pie I}{445}{}%
+\contentsline {section}{\numberline {27.11}Lemon Pie Ii}{446}{}%
+\contentsline {section}{\numberline {27.12}Lemon Pie Iii}{446}{}%
+\contentsline {section}{\numberline {27.13}Lemon Pie Iv}{446}{}%
+\contentsline {section}{\numberline {27.14}Lemon Pie V}{447}{}%
+\contentsline {section}{\numberline {27.15}Mince Pies}{447}{}%
+\contentsline {section}{\numberline {27.16}Mince Pie Meat I}{447}{}%
+\contentsline {section}{\numberline {27.17}Mince Pie Meat Ii}{448}{}%
+\contentsline {section}{\numberline {27.18}English Mince Meat}{448}{}%
+\contentsline {section}{\numberline {27.19}Mince Meat (Without Alcoholic Liquor)}{449}{}%
+\contentsline {section}{\numberline {27.20}Mock Mince Pie}{449}{}%
+\contentsline {section}{\numberline {27.21}Mock Cherry Pie}{449}{}%
+\contentsline {section}{\numberline {27.22}Peach Pie}{449}{}%
+\contentsline {section}{\numberline {27.23}Prune Pie}{449}{}%
+\contentsline {section}{\numberline {27.24}Rhubarb Pie}{450}{}%
+\contentsline {section}{\numberline {27.25}Squash Pie I}{450}{}%
+\contentsline {section}{\numberline {27.26}Squash Pie Ii}{450}{}%
