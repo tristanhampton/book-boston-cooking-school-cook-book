@@ -51,7 +51,8 @@ push @output, "\\usepackage{titlesec}";
 push @output, "\\usepackage{enumitem}";
 push @output, "\\usepackage{array}";
 push @output, "\\usepackage[table]{xcolor}";
-push @output, "\\definecolor{tablerowgray}{gray}{0.9}";
+push @output, "\\definecolor{tablerowgray}{gray}{0.75}";
+push @output, "\\setlength{\\extrarowheight}{3pt}";
 push @output, "";
 push @output, "\\title{The Boston Cooking-School Cook Book}";
 push @output, "\\author{Fannie Merritt Farmer}";
@@ -124,9 +125,22 @@ for (my $i = 0; $i < @lines; $i++) {
         my $section_title = lc($escaped_heading);
         $section_title =~ s/\b(\w)/\U$1/g;
 
+        # Fix possessives (convert 'S back to 's)
+        $section_title =~ s/'S\b/'s/g;
+
         # Fix Roman numerals (should be all uppercase)
         # Match common patterns: I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, etc.
         $section_title =~ s/\b(I|Ii|Iii|Iv|V|Vi|Vii|Viii|Ix|X|Xi|Xii|Xiii|Xiv|Xv|Xvi|Xvii|Xviii|Xix|Xx)\b/\U$1/g;
+
+        # Add clearpage before large table sections to prevent stretching
+        if ($section_title =~ /Division And Ways Of Cooking A Side Of Beef/i) {
+            push @output, "";
+            push @output, "\\clearpage";
+        }
+        if ($section_title =~ /Table Showing Composition Of Meats/i) {
+            push @output, "";
+            push @output, "\\clearpage";
+        }
 
         push @output, "";
         push @output, "\\section{$section_title}";
@@ -553,11 +567,40 @@ for (my $i = 0; $i < @lines; $i++) {
                     $row =~ s/^\s+//;  # Remove leading spaces
                     $row =~ s/\s+/ /g;  # Normalize all whitespace to single spaces
 
+                    # Special case: if row starts with water amount (e.g., "2¾–3¼ cups Rice...")
+                    # Extract the leading water amount first
+                    my $leading_water = "";
+                    if ($row =~ /^(\d+(?:\s*\d+\/\d+|[½¾¼⅓⅔])?(?:–|--|-)\d+(?:\s*\d+\/\d+|[½¾¼⅓⅔])?\s+cups?)\s+(.+)$/i) {
+                        $leading_water = $1;
+                        $row = $2;  # Continue with the rest
+                    }
+
                     # Try to parse: kind (text), quantity (X cup), water (Y cups), time (Z minutes/hours)
                     # Look for pattern: text ... N cup ... M cups ... X minutes/hours
-                    if ($row =~ /^(.+?)\s+(\d+(?:\s+\d+\/\d+|\.\d+|\/\d+|[½¾¼⅓⅔⅛⅜⅝⅞])?\s*cups?)\s+(.+?)\s+(\d+(?:–\d+)?\s*(?:minutes?|hours?))/i) {
-                        my ($kind, $qty, $water, $time) = ($1, $2, $3, $4);
+                    # Also capture any text after time
+                    if ($row =~ /^(.+?)\s+(\d+(?:\s+\d+\/\d+|\.\d+|\/\d+|[½¾¼⅓⅔⅛⅜⅝⅞])?\s*cups?)\s+(.+?)\s+(\d+(?:–\d+)?\s*(?:minutes?|hours?))\s*(.*)$/i) {
+                        my ($kind, $qty, $water, $time, $trailing) = ($1, $2, $3, $4, $5);
                         $kind =~ s/\s+$//;
+
+                        # If we found a leading water amount, use it; otherwise use parsed water
+                        if ($leading_water) {
+                            # Combine leading water with any additional water description
+                            $water = $leading_water . " " . $water;
+                        }
+
+                        # Decide where to put trailing text based on its content
+                        if ($trailing && $trailing =~ /\S/) {
+                            $trailing =~ s/^\s+|\s+$//g;  # Trim whitespace
+                            # If trailing starts with lowercase or "(", it's a water description
+                            # Otherwise it's product names for the kind column
+                            if ($trailing =~ /^[a-z(]/) {
+                                $water .= " " . $trailing;
+                            } else {
+                                # Product names - add to kind
+                                $kind .= " " . $trailing;
+                            }
+                        }
+
                         $water =~ s/\s+$//;
                         push @output, escape_latex($kind) . " & " . escape_latex($qty) . " & " . escape_latex($water) . " & " . escape_latex($time) . " \\\\";
                     } else {
@@ -578,6 +621,159 @@ for (my $i = 0; $i < @lines; $i++) {
                 push @output, "\\end{center}";
                 push @output, "";
             }
+
+            # Skip the lines we processed
+            $i = $j - 1;
+        }
+        # Check if this is the beef cuts table
+        elsif ($section_title =~ /Division And Ways Of Cooking A Side Of Beef/i) {
+            # This table has two columns: DIVISIONS and WAYS OF COOKING
+            # Some entries have sub-divisions with extra indentation
+            my $j = $i + 1;
+
+            # Start the table
+            push @output, "";
+            push @output, "\\begin{center}";
+            push @output, "\\begin{tabular}{|p{2.5in}|p{2.5in}|}";
+            push @output, "\\hline";
+
+            # We'll process sections: HIND-QUARTER and FORE-QUARTER
+            while ($j < @lines) {
+                my $line = $lines[$j];
+                chomp($line);
+                $line =~ s/\r$//;
+
+                # Check if we've hit the next section (looks like a heading with 4-10 spaces)
+                if ($line =~ /^\s{4,10}[A-Z]/ && $line !~ /(HIND-QUARTER|FORE-QUARTER|DIVISIONS|WAYS OF COOKING|Other Parts)/i) {
+                    # This looks like the next section heading, stop here
+                    last;
+                }
+
+                # Check if we've hit a blank line
+                if ($line =~ /^\s*$/) {
+                    $j++;
+                    next;
+                }
+
+                # Check for subsection headers (HIND-QUARTER, FORE-QUARTER, Other Parts)
+                if ($line =~ /^\s+(HIND-QUARTER|FORE-QUARTER)\s*$/i) {
+                    push @output, "\\multicolumn{2}{|c|}{\\textbf{" . escape_latex($1) . "}} \\\\";
+                    push @output, "\\hline";
+                    $j++;
+                    next;
+                }
+
+                # Check for "Other Parts of Beef Creature used for Food" subsection
+                if ($line =~ /^\s+Other Parts of Beef/i) {
+                    push @output, "\\multicolumn{2}{|c|}{\\textbf{Other Parts of Beef Creature used for Food}} \\\\";
+                    push @output, "\\hline";
+                    $j++;
+                    next;
+                }
+
+                # Skip column headers (DIVISIONS, WAYS OF COOKING)
+                if ($line =~ /(DIVISIONS|WAYS OF COOKING)/i) {
+                    $j++;
+                    next;
+                }
+
+                # Parse table rows
+                # Three formats:
+                # 1. " Main-Division    Cooking" (e.g., "Flank (thick and boneless)    Stuffed...")
+                # 2. " Main-Division    Sub-Division    Cooking" (e.g., "Round    Aitchbone    Cheap roast...")
+                # 3. "                  Sub-Division    Cooking" (very indented sub-divisions)
+
+                # Format 1 & 2: Line starts with 1 space and division name
+                if ($line =~ /^\s{1}(\S.+?)\s{2,}(.+)$/) {
+                    my ($col1, $rest) = ($1, $2);
+                    $col1 =~ s/\s+$//;
+                    $rest =~ s/^\s+//;
+
+                    # Check if rest has two columns (sub-division + cooking)
+                    if ($rest =~ /^(\S.+?)\s{2,}(.+)$/) {
+                        # Format 2: Main + Sub + Cooking
+                        my ($sub, $cooking) = ($1, $2);
+                        $sub =~ s/\s+$//;
+                        $cooking =~ s/\s+$//;
+
+                        # Collect continuation lines
+                        my $k = $j + 1;
+                        while ($k < @lines) {
+                            my $next = $lines[$k];
+                            chomp($next);
+                            $next =~ s/\r$//;
+                            # Sub-division continuation: 15-25 spaces
+                            if ($next =~ /^\s{15,25}(\S.+)$/) {
+                                $sub .= " " . $1;
+                                $k++;
+                            }
+                            # Cooking continuation: 35+ spaces
+                            elsif ($next =~ /^\s{35,}(.+)$/) {
+                                $cooking .= " " . $1;
+                                $k++;
+                            } else {
+                                last;
+                            }
+                        }
+
+                        push @output, escape_latex("$col1 — $sub") . " & " . escape_latex($cooking) . " \\\\";
+                        push @output, "\\arrayrulecolor{tablerowgray}\\hline";
+                        $j = $k;
+                    } else {
+                        # Format 1: Main + Cooking (no sub-division)
+                        my $cooking = $rest;
+
+                        # Collect continuation lines
+                        my $k = $j + 1;
+                        while ($k < @lines) {
+                            my $next = $lines[$k];
+                            chomp($next);
+                            $next =~ s/\r$//;
+                            if ($next =~ /^\s{30,}(.+)$/) {
+                                $cooking .= " " . $1;
+                                $k++;
+                            } else {
+                                last;
+                            }
+                        }
+
+                        push @output, escape_latex($col1) . " & " . escape_latex($cooking) . " \\\\";
+                        push @output, "\\arrayrulecolor{tablerowgray}\\hline";
+                        $j = $k;
+                    }
+                }
+                # Format 3: Very indented sub-division
+                elsif ($line =~ /^\s{15,}(\S.+?)\s{2,}(.+)$/) {
+                    my ($sub, $cooking) = ($1, $2);
+                    $sub =~ s/\s+$//;
+                    $cooking =~ s/\s+$//;
+
+                    # Collect continuation lines
+                    my $k = $j + 1;
+                    while ($k < @lines) {
+                        my $next = $lines[$k];
+                        chomp($next);
+                        $next =~ s/\r$//;
+                        if ($next =~ /^\s{30,}(.+)$/) {
+                            $cooking .= " " . $1;
+                            $k++;
+                        } else {
+                            last;
+                        }
+                    }
+
+                    push @output, "\\hspace{0.3in}" . escape_latex($sub) . " & " . escape_latex($cooking) . " \\\\";
+                    push @output, "\\arrayrulecolor{tablerowgray}\\hline";
+                    $j = $k;
+                } else {
+                    $j++;
+                }
+            }
+
+            push @output, "\\arrayrulecolor{black}";
+            push @output, "\\end{tabular}";
+            push @output, "\\end{center}";
+            push @output, "";
 
             # Skip the lines we processed
             $i = $j - 1;
@@ -732,7 +928,7 @@ for (my $i = 0; $i < @lines; $i++) {
         chomp($next_line);
         $next_line =~ s/^\s+|\s+$//g;
 
-        if ($next_line =~ /^[A-Z\s\-',]+$/ && length($next_line) < 60) {
+        if ($next_line =~ /^[A-ZÀ-ÿ\s\-',]+$/i && length($next_line) < 60) {
             my $title = escape_latex($next_line);
             $title = lc($title);
             $title =~ s/\b(\w)/\U$1/g;  # Title case
@@ -868,10 +1064,89 @@ for (my $i = 0; $i < @lines; $i++) {
         }
     }
 
+    # Check for vegetables parts table (introduced by "For the various vegetables different parts")
+    if ($line =~ /For the various vegetables different parts of the plant are used/i) {
+        # Output the introduction paragraph
+        push @output, escape_latex($line);
+        my $j = $i + 1;
+
+        # Get the next line "are eaten in the natural state, others are cooked."
+        if ($j < @lines && $lines[$j] =~ /\S/) {
+            push @output, escape_latex($lines[$j]);
+            $j++;
+        }
+
+        # Skip blank lines
+        while ($j < @lines && $lines[$j] =~ /^\s*$/) {
+            $j++;
+        }
+
+        # Start the table
+        push @output, "";
+        push @output, "\\begin{center}";
+        push @output, "\\arrayrulecolor{tablerowgray}";
+        push @output, "\\begin{tabular}{|p{1in}|p{3.5in}|}";
+        push @output, "\\hline";
+
+        # Process table rows
+        while ($j < @lines) {
+            my $tline = $lines[$j];
+            chomp($tline);
+            $tline =~ s/\r$//;
+
+            # Stop at next paragraph (line that doesn't start with space or is blank followed by non-table content)
+            if ($tline =~ /^\s*$/) {
+                $j++;
+                # Check if we've reached the end of the table
+                if ($j < @lines && $lines[$j] =~ /^[A-Z]/ && $lines[$j] !~ /^\s+[A-Z]/) {
+                    last;
+                }
+                next;
+            }
+
+            # Parse table row: " Category  Examples"
+            if ($tline =~ /^\s+([A-Z][a-z]+)\s{2,}(.+)$/) {
+                my ($category, $examples) = ($1, $2);
+                $examples =~ s/\s+$//;
+
+                # Collect continuation lines (heavily indented)
+                my $k = $j + 1;
+                while ($k < @lines) {
+                    my $cont = $lines[$k];
+                    chomp($cont);
+                    $cont =~ s/\r$//;
+
+                    # Check if it's a continuation (10+ spaces, no category name at start)
+                    if ($cont =~ /^\s{10,}(.+)$/) {
+                        $examples .= " " . $1;
+                        $k++;
+                    } else {
+                        last;
+                    }
+                }
+
+                push @output, escape_latex($category) . " & " . escape_latex($examples) . " \\\\";
+                push @output, "\\hline";
+                $j = $k;
+            } else {
+                $j++;
+            }
+        }
+
+        push @output, "\\arrayrulecolor{black}";
+        push @output, "\\end{tabular}";
+        push @output, "\\end{center}";
+        push @output, "";
+
+        # Skip the lines we processed
+        $i = $j - 1;
+        next;
+    }
+
     # Check for recipe ingredient lists (indented lines with measurements)
-    # Match patterns like: 1 cup, 1/2 cup, 1 1/2 cup (after escape_latex converts Unicode fractions)
-    # Require at least 10 spaces of indentation to distinguish from regular text
-    if ($line =~ /^\s{10,}(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)\s+(cup|tablespoon|teaspoon|pound|quart|pint|slice|sprig|stalk|can|square|ounce)s?\s+/i) {
+    # Match patterns like: 1 cup, 1/2 cup, 1 1/2 cup, 2 3/4 to 3 1/4 cups, 4 eggs, 3 "hard-boiled" eggs, 6 lbs, 3 large cucumbers (after escape_latex converts Unicode fractions)
+    # Require at least 7 spaces of indentation to distinguish from regular text
+    if ($line =~ /^\s{7,}(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)(?:\s+(?:to|-|--)\s+\d+(?:\s+\d+\/\d+)?|\d+\/\d+)?\s+(?:.*?\s+)?(cup|tablespoon|teaspoon|pound|lb|quart|pint|slice|sprig|stalk|can|square|ounce|egg|cucumber|crab|clove|head|artichoke|potato|potatoe|turnip|leek|breast|terrapin|oyster|knuckle|veal|beet|pepper|onion|tomatoe|chicken|fish|shrimp|lobster|salmon|lamb|pork|beef|mutton|duck|turkey|sardine|anchovy|scallop|sweetbread|carrot|celery|mushroom|squash|radish|parsnip|bean|pea|apple|orange|lemon|lime|banana|peach|pear|plum|cherry|grape|roll|biscuit|cracker|cookie|truffle|quail|loaf|box|gelatine|clam|pineapple)s?\.?(?:\s+|$)/i) {
         # Start of ingredient list - look ahead to collect all ingredients
         my @ingredients;
         my $j = $i;
@@ -945,7 +1220,7 @@ for (my $i = 0; $i < @lines; $i++) {
             $ingline = escape_latex($ingline);
 
             # Check if this line is an ingredient (starts with measurement)
-            if ($ingline =~ /^\s{10,}(.+)$/) {
+            if ($ingline =~ /^\s{7,}(.+)$/) {
                 my $ing = $1;
                 # Stop if we hit a blank line or non-ingredient text
                 if ($ing =~ /^\s*$/ || $ing =~ /^[A-Z][a-z].*\.$/) {
@@ -1044,6 +1319,7 @@ sub escape_latex {
     # Replace other common Unicode characters
     $text =~ s/[""]/"/g;     # smart quotes
     $text =~ s/['']/'/g;     # smart apostrophes
+    $text =~ s/\x{2019}/'/g; # right single quotation mark (another curly apostrophe)
     $text =~ s/[–—]/--/g;    # en/em dashes
     $text =~ s/[…]/.../g;    # ellipsis
     $text =~ s/[◆◇]/*/g;     # diamond symbols

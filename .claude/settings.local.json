@@ -9,7 +9,8 @@
       "Bash(wc:*)",
       "Bash(tail:*)",
       "Bash(ls:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(grep:*)"
     ],
     "deny": [],
     "ask": []

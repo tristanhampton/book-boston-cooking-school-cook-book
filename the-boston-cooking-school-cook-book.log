@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  2 DEC 2025 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 DEC 2025 23:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -139,20 +139,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./the-boston-cooking-school-cook-book.aux)
 \openout1 = `the-boston-cooking-school-cook-book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -188,20 +188,20 @@ LaTeX Font Info:    ... okay on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 16.
-Package microtype Info: Applying patch `item' on input line 16.
-Package microtype Info: Applying patch `toc' on input line 16.
-Package microtype Info: Applying patch `eqnum' on input line 16.
-Package microtype Info: Applying patch `footnote' on input line 16.
-Package microtype Info: Applying patch `verbatim' on input line 16.
-LaTeX Info: Redefining \microtypesetup on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 17.
+Package microtype Info: Applying patch `item' on input line 17.
+Package microtype Info: Applying patch `toc' on input line 17.
+Package microtype Info: Applying patch `eqnum' on input line 17.
+Package microtype Info: Applying patch `footnote' on input line 17.
+Package microtype Info: Applying patch `verbatim' on input line 17.
+LaTeX Info: Redefining \microtypesetup on input line 17.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 16.
+LaTeX Info: Redefining \showhyphens on input line 17.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -374,32 +374,32 @@ Overfull \hbox (3.87465pt too wide) detected at line 509
 [17]
 
 [18]
-Overfull \hbox (3.87465pt too wide) detected at line 752
+Overfull \hbox (3.87465pt too wide) detected at line 751
 \T1/cmr/m/n/10.95 17.62.10 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 753
+Overfull \hbox (3.87465pt too wide) detected at line 752
 \T1/cmr/m/n/10.95 17.62.11 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 754
+Overfull \hbox (3.87465pt too wide) detected at line 753
 \T1/cmr/m/n/10.95 17.62.12 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 755
+Overfull \hbox (3.87465pt too wide) detected at line 754
 \T1/cmr/m/n/10.95 17.62.13 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 756
+Overfull \hbox (3.87465pt too wide) detected at line 755
 \T1/cmr/m/n/10.95 17.62.14 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 757
+Overfull \hbox (3.87465pt too wide) detected at line 756
 \T1/cmr/m/n/10.95 17.62.15 
  []
 
@@ -410,211 +410,211 @@ Overfull \hbox (3.87465pt too wide) detected at line 757
 [20]
 
 [21]
-Overfull \hbox (5.20364pt too wide) detected at line 926
+Overfull \hbox (5.20364pt too wide) detected at line 925
 \T1/cmr/m/n/10.95 19.100 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 927
+Overfull \hbox (5.20364pt too wide) detected at line 926
 \T1/cmr/m/n/10.95 19.101 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 928
+Overfull \hbox (5.20364pt too wide) detected at line 927
 \T1/cmr/m/n/10.95 19.102 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 929
+Overfull \hbox (5.20364pt too wide) detected at line 928
 \T1/cmr/m/n/10.95 19.103 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 930
+Overfull \hbox (5.20364pt too wide) detected at line 929
 \T1/cmr/m/n/10.95 19.104 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 931
+Overfull \hbox (5.20364pt too wide) detected at line 930
 \T1/cmr/m/n/10.95 19.105 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 932
+Overfull \hbox (5.20364pt too wide) detected at line 931
 \T1/cmr/m/n/10.95 19.106 
+ []
+
+
+Overfull \hbox (5.20364pt too wide) detected at line 932
+\T1/cmr/m/n/10.95 19.107 
  []
 
 
 
 [22]
 Overfull \hbox (5.20364pt too wide) detected at line 933
-\T1/cmr/m/n/10.95 19.107 
- []
-
-
-Overfull \hbox (5.20364pt too wide) detected at line 934
 \T1/cmr/m/n/10.95 19.108 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 935
+Overfull \hbox (5.20364pt too wide) detected at line 934
 \T1/cmr/m/n/10.95 19.109 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 936
+Overfull \hbox (5.20364pt too wide) detected at line 935
 \T1/cmr/m/n/10.95 19.110 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 937
+Overfull \hbox (5.20364pt too wide) detected at line 936
 \T1/cmr/m/n/10.95 19.111 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 938
+Overfull \hbox (5.20364pt too wide) detected at line 937
 \T1/cmr/m/n/10.95 19.112 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 939
+Overfull \hbox (5.20364pt too wide) detected at line 938
 \T1/cmr/m/n/10.95 19.113 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 940
+Overfull \hbox (5.20364pt too wide) detected at line 939
 \T1/cmr/m/n/10.95 19.114 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 941
+Overfull \hbox (5.20364pt too wide) detected at line 940
 \T1/cmr/m/n/10.95 19.115 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 942
+Overfull \hbox (5.20364pt too wide) detected at line 941
 \T1/cmr/m/n/10.95 19.116 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 943
+Overfull \hbox (5.20364pt too wide) detected at line 942
 \T1/cmr/m/n/10.95 19.117 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 944
+Overfull \hbox (5.20364pt too wide) detected at line 943
 \T1/cmr/m/n/10.95 19.118 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 945
+Overfull \hbox (5.20364pt too wide) detected at line 944
 \T1/cmr/m/n/10.95 19.119 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 946
+Overfull \hbox (5.20364pt too wide) detected at line 945
 \T1/cmr/m/n/10.95 19.120 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 947
+Overfull \hbox (5.20364pt too wide) detected at line 946
 \T1/cmr/m/n/10.95 19.121 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 948
+Overfull \hbox (5.20364pt too wide) detected at line 947
 \T1/cmr/m/n/10.95 19.122 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 949
+Overfull \hbox (5.20364pt too wide) detected at line 948
 \T1/cmr/m/n/10.95 19.123 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 950
+Overfull \hbox (5.20364pt too wide) detected at line 949
 \T1/cmr/m/n/10.95 19.124 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 951
+Overfull \hbox (5.20364pt too wide) detected at line 950
 \T1/cmr/m/n/10.95 19.125 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 952
+Overfull \hbox (5.20364pt too wide) detected at line 951
 \T1/cmr/m/n/10.95 19.126 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 953
+Overfull \hbox (5.20364pt too wide) detected at line 952
 \T1/cmr/m/n/10.95 19.127 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 954
+Overfull \hbox (5.20364pt too wide) detected at line 953
 \T1/cmr/m/n/10.95 19.128 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 955
+Overfull \hbox (5.20364pt too wide) detected at line 954
 \T1/cmr/m/n/10.95 19.129 
  []
 
 
-Overfull \hbox (5.20364pt too wide) detected at line 956
+Overfull \hbox (5.20364pt too wide) detected at line 955
 \T1/cmr/m/n/10.95 19.130 
  []
 
 
 
 [23]
-Overfull \hbox (3.87465pt too wide) detected at line 988
+Overfull \hbox (3.87465pt too wide) detected at line 987
 \T1/cmr/m/n/10.95 20.21.10 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 989
+Overfull \hbox (3.87465pt too wide) detected at line 988
 \T1/cmr/m/n/10.95 20.21.11 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 990
+Overfull \hbox (3.87465pt too wide) detected at line 989
 \T1/cmr/m/n/10.95 20.21.12 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 991
+Overfull \hbox (3.87465pt too wide) detected at line 990
 \T1/cmr/m/n/10.95 20.21.13 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 992
+Overfull \hbox (3.87465pt too wide) detected at line 991
 \T1/cmr/m/n/10.95 20.21.14 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 993
+Overfull \hbox (3.87465pt too wide) detected at line 992
 \T1/cmr/m/n/10.95 20.21.15 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 1004
+Overfull \hbox (3.87465pt too wide) detected at line 1003
 \T1/cmr/m/n/10.95 20.22.10 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 1015
+Overfull \hbox (3.87465pt too wide) detected at line 1014
 \T1/cmr/m/n/10.95 20.23.10 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 1016
+Overfull \hbox (3.87465pt too wide) detected at line 1015
 \T1/cmr/m/n/10.95 20.23.11 
  []
 
 
-Overfull \hbox (3.87465pt too wide) detected at line 1017
+Overfull \hbox (3.87465pt too wide) detected at line 1016
 \T1/cmr/m/n/10.95 20.23.12 
  []
 
@@ -629,240 +629,230 @@ Overfull \hbox (3.87465pt too wide) detected at line 1017
 [27]
 
 [28]
-Overfull \hbox (5.20364pt too wide) detected at line 1228
-\T1/cmr/m/n/10.95 21.100 
- []
-
-
 Overfull \hbox (5.20364pt too wide) detected at line 1229
-\T1/cmr/m/n/10.95 21.101 
+\T1/cmr/m/n/10.95 22.100 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1230
-\T1/cmr/m/n/10.95 21.102 
+\T1/cmr/m/n/10.95 22.101 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1231
-\T1/cmr/m/n/10.95 21.103 
+\T1/cmr/m/n/10.95 22.102 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1232
-\T1/cmr/m/n/10.95 21.104 
+\T1/cmr/m/n/10.95 22.103 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1233
-\T1/cmr/m/n/10.95 21.105 
+\T1/cmr/m/n/10.95 22.104 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1234
-\T1/cmr/m/n/10.95 21.106 
+\T1/cmr/m/n/10.95 22.105 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1235
-\T1/cmr/m/n/10.95 21.107 
+\T1/cmr/m/n/10.95 22.106 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1236
-\T1/cmr/m/n/10.95 21.108 
+\T1/cmr/m/n/10.95 22.107 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1237
-\T1/cmr/m/n/10.95 21.109 
+\T1/cmr/m/n/10.95 22.108 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1238
-\T1/cmr/m/n/10.95 21.110 
+\T1/cmr/m/n/10.95 22.109 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1239
-\T1/cmr/m/n/10.95 21.111 
+\T1/cmr/m/n/10.95 22.110 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1240
-\T1/cmr/m/n/10.95 21.112 
+\T1/cmr/m/n/10.95 22.111 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1241
-\T1/cmr/m/n/10.95 21.113 
+\T1/cmr/m/n/10.95 22.112 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1242
-\T1/cmr/m/n/10.95 21.114 
+\T1/cmr/m/n/10.95 22.113 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1243
-\T1/cmr/m/n/10.95 21.115 
+\T1/cmr/m/n/10.95 22.114 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1244
-\T1/cmr/m/n/10.95 21.116 
+\T1/cmr/m/n/10.95 22.115 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1245
-\T1/cmr/m/n/10.95 21.117 
+\T1/cmr/m/n/10.95 22.116 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1246
-\T1/cmr/m/n/10.95 21.118 
+\T1/cmr/m/n/10.95 22.117 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1247
-\T1/cmr/m/n/10.95 21.119 
+\T1/cmr/m/n/10.95 22.118 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1248
-\T1/cmr/m/n/10.95 21.120 
+\T1/cmr/m/n/10.95 22.119 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1249
-\T1/cmr/m/n/10.95 21.121 
+\T1/cmr/m/n/10.95 22.120 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1250
-\T1/cmr/m/n/10.95 21.122 
+\T1/cmr/m/n/10.95 22.121 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1251
-\T1/cmr/m/n/10.95 21.123 
+\T1/cmr/m/n/10.95 22.122 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1252
-\T1/cmr/m/n/10.95 21.124 
+\T1/cmr/m/n/10.95 22.123 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1253
-\T1/cmr/m/n/10.95 21.125 
+\T1/cmr/m/n/10.95 22.124 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1254
-\T1/cmr/m/n/10.95 21.126 
+\T1/cmr/m/n/10.95 22.125 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1255
-\T1/cmr/m/n/10.95 21.127 
+\T1/cmr/m/n/10.95 22.126 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1256
-\T1/cmr/m/n/10.95 21.128 
+\T1/cmr/m/n/10.95 22.127 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1257
-\T1/cmr/m/n/10.95 21.129 
+\T1/cmr/m/n/10.95 22.128 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1258
-\T1/cmr/m/n/10.95 21.130 
+\T1/cmr/m/n/10.95 22.129 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1259
-\T1/cmr/m/n/10.95 21.131 
+\T1/cmr/m/n/10.95 22.130 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1260
-\T1/cmr/m/n/10.95 21.132 
+\T1/cmr/m/n/10.95 22.131 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1261
-\T1/cmr/m/n/10.95 21.133 
+\T1/cmr/m/n/10.95 22.132 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1262
-\T1/cmr/m/n/10.95 21.134 
+\T1/cmr/m/n/10.95 22.133 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1263
-\T1/cmr/m/n/10.95 21.135 
+\T1/cmr/m/n/10.95 22.134 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1264
-\T1/cmr/m/n/10.95 21.136 
+\T1/cmr/m/n/10.95 22.135 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1265
-\T1/cmr/m/n/10.95 21.137 
- []
-
-
-Overfull \hbox (5.20364pt too wide) detected at line 1266
-\T1/cmr/m/n/10.95 21.138 
+\T1/cmr/m/n/10.95 22.136 
  []
 
 
 
 [29]
+Overfull \hbox (5.20364pt too wide) detected at line 1266
+\T1/cmr/m/n/10.95 22.137 
+ []
+
+
 Overfull \hbox (5.20364pt too wide) detected at line 1267
-\T1/cmr/m/n/10.95 21.139 
+\T1/cmr/m/n/10.95 22.138 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1268
-\T1/cmr/m/n/10.95 21.140 
+\T1/cmr/m/n/10.95 22.139 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1269
-\T1/cmr/m/n/10.95 21.141 
+\T1/cmr/m/n/10.95 22.140 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1270
-\T1/cmr/m/n/10.95 21.142 
+\T1/cmr/m/n/10.95 22.141 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1271
-\T1/cmr/m/n/10.95 21.143 
+\T1/cmr/m/n/10.95 22.142 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1272
-\T1/cmr/m/n/10.95 21.144 
+\T1/cmr/m/n/10.95 22.143 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1273
-\T1/cmr/m/n/10.95 21.145 
- []
-
-
-Overfull \hbox (5.20364pt too wide) detected at line 1274
-\T1/cmr/m/n/10.95 21.146 
+\T1/cmr/m/n/10.95 22.144 
  []
 
 
@@ -876,78 +866,78 @@ Overfull \hbox (5.20364pt too wide) detected at line 1274
 [33]
 
 [34]
+Overfull \hbox (5.20364pt too wide) detected at line 1530
+\T1/cmr/m/n/10.95 26.100 
+ []
+
+
 Overfull \hbox (5.20364pt too wide) detected at line 1531
-\T1/cmr/m/n/10.95 25.100 
+\T1/cmr/m/n/10.95 26.101 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1532
-\T1/cmr/m/n/10.95 25.101 
+\T1/cmr/m/n/10.95 26.102 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1533
-\T1/cmr/m/n/10.95 25.102 
+\T1/cmr/m/n/10.95 26.103 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1534
-\T1/cmr/m/n/10.95 25.103 
+\T1/cmr/m/n/10.95 26.104 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1535
-\T1/cmr/m/n/10.95 25.104 
+\T1/cmr/m/n/10.95 26.105 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1536
-\T1/cmr/m/n/10.95 25.105 
+\T1/cmr/m/n/10.95 26.106 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1537
-\T1/cmr/m/n/10.95 25.106 
+\T1/cmr/m/n/10.95 26.107 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1538
-\T1/cmr/m/n/10.95 25.107 
+\T1/cmr/m/n/10.95 26.108 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1539
-\T1/cmr/m/n/10.95 25.108 
+\T1/cmr/m/n/10.95 26.109 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1540
-\T1/cmr/m/n/10.95 25.109 
+\T1/cmr/m/n/10.95 26.110 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1541
-\T1/cmr/m/n/10.95 25.110 
+\T1/cmr/m/n/10.95 26.111 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1542
-\T1/cmr/m/n/10.95 25.111 
+\T1/cmr/m/n/10.95 26.112 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1543
-\T1/cmr/m/n/10.95 25.112 
+\T1/cmr/m/n/10.95 26.113 
  []
 
 
 Overfull \hbox (5.20364pt too wide) detected at line 1544
-\T1/cmr/m/n/10.95 25.113 
- []
-
-
-Overfull \hbox (5.20364pt too wide) detected at line 1545
-\T1/cmr/m/n/10.95 25.114 
+\T1/cmr/m/n/10.95 26.114 
  []
 
 
@@ -1011,6 +1001,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [52]
+Overfull \vbox (8.3804pt too high) has occurred while \output is active []
+
+
 
 [53{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
@@ -1140,13 +1133,8 @@ Chapter 6.
 
 
 [107]
-Underfull \hbox (badness 10000) in paragraph at lines 5323--5323
+Underfull \hbox (badness 10000) in paragraph at lines 5324--5324
 []|\T1/cmr/m/n/10.95 (+20) Steam-cooked and rolled
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5325--5325
-[]|\T1/cmr/m/n/10.95 (+20) 2 3/4--3 1/4 cups Rice
  []
 
 
@@ -1163,13 +1151,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5325--5325
 
 [113]
 
-[114
-
-]
+[114]
 Chapter 7.
 
 
-[115]
+[115
+
+]
 
 [116]
 
@@ -1310,7 +1298,7 @@ Chapter 11.
 [176]
 
 [177]
-Overfull \hbox (1.52473pt too wide) in paragraph at lines 10384--10448
+Overfull \hbox (1.52473pt too wide) in paragraph at lines 10409--10473
  [] 
  []
 
@@ -1320,7 +1308,7 @@ Underfull \vbox (badness 7832) has occurred while \output is active []
 
 
 [178]
-Underfull \vbox (badness 1558) has occurred while \output is active []
+Underfull \vbox (badness 1824) has occurred while \output is active []
 
 
 
@@ -1371,27 +1359,31 @@ Underfull \vbox (badness 1558) has occurred while \output is active []
 [201]
 
 [202]
-Chapter 12.
 
+[203]
 
-[203
+[204
 
 ]
-
-[204]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Chapter 12.
 
 
 [205]
 
 [206]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[207]
+
+
+[207
+
+]
 
 [208]
 
-[209]
+[209
+
+]
 
 [210]
 
@@ -1413,20 +1405,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [219]
 
-[220
+[220]
 
-]
+[221]
+
+[222]
 Chapter 13.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[221]
+[223
 
-[222]
-
-[223]
+]
 
 [224]
 
@@ -1437,55 +1429,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [227]
 
 [228]
+
+[229]
+
+[230]
 Chapter 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[229
+[231
 
 ]
-
-[230]
-
-[231]
 
 [232]
 
 [233]
 
-[234
+[234]
+
+[235]
+
+[236
 
 ]
 Chapter 15.
 
 
-[235]
+[237]
 
-[236]
+[238]
 Chapter 16.
 
 
-[237
+[239
 
 ]
 
-[238]
-
-[239]
-
 [240]
+
+[241]
+
+[242]
 Chapter 17.
 
 
-[241
+[243
 
 ]
-
-[242]
-
-[243]
 
 [244]
 
@@ -1519,15 +1511,15 @@ Chapter 17.
 
 [259]
 
-[260
+[260]
+
+[261]
+
+[262
 
 ]
 Chapter 18.
 
-
-[261]
-
-[262]
 
 [263]
 
@@ -1556,16 +1548,19 @@ Chapter 18.
 [275]
 
 [276]
+
+[277]
+
+[278]
 Chapter 19.
 
 
-[277
+[279
 
 ]
+Underfull \vbox (badness 1694) has occurred while \output is active []
 
-[278]
 
-[279]
 
 [280]
 
@@ -1604,18 +1599,18 @@ Chapter 19.
 [297]
 
 [298]
-Chapter 20.
 
-
-[299
-
-]
+[299]
 
 [300]
 
 [301]
 
-[302]
+[302
+
+]
+Chapter 20.
+
 
 [303]
 
@@ -1628,20 +1623,20 @@ Chapter 20.
 [307]
 
 [308]
-Chapter 21.
 
-
-[309
-
-]
+[309]
 
 [310]
 
 [311]
 
 [312]
+Chapter 21.
 
-[313]
+
+[313
+
+]
 
 [314]
 
@@ -1680,8 +1675,12 @@ Chapter 21.
 [331]
 
 [332]
+Chapter 22.
 
-[333]
+
+[333
+
+]
 
 [334]
 
@@ -1744,12 +1743,8 @@ Chapter 21.
 [363]
 
 [364]
-Chapter 22.
 
-
-[365
-
-]
+[365]
 
 [366]
 
@@ -1759,7 +1754,11 @@ Chapter 22.
 
 [369]
 
-[370]
+[370
+
+]
+Chapter 23.
+
 
 [371]
 
@@ -1783,11 +1782,7 @@ Chapter 22.
 
 [381]
 
-[382
-
-]
-Chapter 23.
-
+[382]
 
 [383]
 
@@ -1799,13 +1794,13 @@ Chapter 23.
 
 [387]
 
-[388]
+[388
+
+]
 Chapter 24.
 
 
-[389
-
-]
+[389]
 
 [390]
 
@@ -1816,8 +1811,12 @@ Chapter 24.
 [393]
 
 [394]
+Chapter 25.
 
-[395]
+
+[395
+
+]
 
 [396]
 
@@ -1848,12 +1847,8 @@ Chapter 24.
 [409]
 
 [410]
-Chapter 25.
 
-
-[411
-
-]
+[411]
 
 [412]
 
@@ -1863,7 +1858,11 @@ Chapter 25.
 
 [415]
 
-[416]
+[416
+
+]
+Chapter 26.
+
 
 [417]
 
@@ -1911,11 +1910,7 @@ Chapter 25.
 
 [439]
 
-[440
-
-]
-Chapter 26.
-
+[440]
 
 [441]
 
@@ -1924,14 +1919,14 @@ Chapter 26.
 [443]
 
 [444]
-Chapter 27.
 
+[445]
 
-[445
+[446
 
 ]
+Chapter 27.
 
-[446]
 
 [447]
 
@@ -1940,12 +1935,28 @@ Chapter 27.
 [449]
 
 [450]
+Chapter 28.
 
-[451]
+
+[451
+
+]
 
 [452]
 
-[453] (./the-boston-cooking-school-cook-book.aux)
+[453]
+
+[454]
+
+[455]
+
+[456]
+
+[457]
+
+[458]
+
+[459] (./the-boston-cooking-school-cook-book.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1954,16 +1965,16 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  5622 strings out of 473190
  88177 string characters out of 5715801
- 556786 words of memory out of 5000000
+ 555789 words of memory out of 5000000
  28578 multiletter control sequences out of 15000+600000
  583907 words of font info for 200 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,70p,1134b,337s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,70p,1134b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on the-boston-cooking-school-cook-book.pdf (453 pages, 1151906 bytes).
+Output written on the-boston-cooking-school-cook-book.pdf (459 pages, 1152264 bytes).
 PDF statistics:
- 1521 PDF objects out of 1728 (max. 8388607)
- 1034 compressed objects within 11 object streams
+ 1540 PDF objects out of 1728 (max. 8388607)
+ 1047 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
  36865 words of extra memory for PDF output out of 42996 (max. 10000000)
 
