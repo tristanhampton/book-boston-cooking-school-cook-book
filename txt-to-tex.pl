@@ -54,6 +54,36 @@ push @output, "\\usepackage[table]{xcolor}";
 push @output, "\\definecolor{tablerowgray}{gray}{0.75}";
 push @output, "\\setlength{\\extrarowheight}{3pt}";
 push @output, "";
+push @output, "% Custom list formatting - reduce left padding";
+push @output, "\\setlist[itemize]{leftmargin=1em}"; # Reduced from default (~2.5em)
+push @output, "";
+push @output, "% Custom chapter formatting";
+push @output, "\\titleformat{\\chapter}";
+push @output, "  {\\normalfont\\huge\\bfseries\\filcenter}"; # Font: huge, bold, centered
+push @output, "  {}"; # No label (no \"Chapter\" text)
+push @output, "  {0pt}"; # No separation between label and title
+push @output, "  {}"; # No transformation (keep original case)
+push @output, "\\titlespacing*{\\chapter}";
+push @output, "  {0pt}"; # Left margin
+push @output, "  {20pt}"; # Space before (reduced from default ~50pt)
+push @output, "  {40pt}"; # Space after
+push @output, "";
+push @output, "% Custom section formatting";
+push @output, "\\setcounter{secnumdepth}{0}"; # Remove section numbering
+push @output, "\\titleformat{\\section}";
+push @output, "  {\\normalfont\\Large\\bfseries}"; # Font: Large, bold
+push @output, "  {}"; # No label (no numbering)
+push @output, "  {0pt}"; # No separation between label and title
+push @output, "  {}"; # No transformation (keep original case)
+push @output, "  [\\vspace{2pt}\\titlerule]"; # Add underline after title with 2pt space
+push @output, "";
+push @output, "% Custom subsection formatting";
+push @output, "\\titleformat{\\subsection}";
+push @output, "  {\\normalfont\\large\\bfseries}"; # Font: large, bold (smaller than section)
+push @output, "  {}"; # No label (no numbering)
+push @output, "  {0pt}"; # No separation between label and title
+push @output, "  {\\underline}"; # Underline the text (not full-width)
+push @output, "";
 push @output, "\\title{The Boston Cooking-School Cook Book}";
 push @output, "\\author{Fannie Merritt Farmer}";
 push @output, "\\date{1910}";
@@ -64,6 +94,7 @@ push @output, "";
 # State tracking
 my $start_found = 0;
 my $in_content = 0;
+my $after_chapter = 0;  # Track if we just output a chapter
 
 for (my $i = 0; $i < @lines; $i++) {
     my $line = $lines[$i];
@@ -142,9 +173,84 @@ for (my $i = 0; $i < @lines; $i++) {
             push @output, "\\clearpage";
         }
 
+        # Check if this is the "Table Of Measures And Weights" - handle specially
+        if ($section_title =~ /Table Of Measures And Weights/i) {
+            # This should be a table header, not a section
+            # Skip the section output and let the table handler below process it
+            $h3_used_count{$normalized_line}++;
+            $i++;  # Skip past the heading line
+
+            # Skip blank lines after the heading
+            while ($i < @lines && $lines[$i] =~ /^\s*$/) {
+                $i++;
+            }
+
+            # Start the table with the title as header (2 columns)
+            push @output, "";
+            push @output, "\\arrayrulecolor{tablerowgray}";
+            push @output, "\\begin{tabular}{lr}";
+            push @output, "\\hline";
+            push @output, "\\multicolumn{2}{c}{\\textbf{Table Of Measures And Weights}} \\\\";
+            push @output, "\\hline";
+
+            # Process table rows until we hit blank lines or different section
+            my $blank_count = 0;
+            while ($i < @lines) {
+                my $tableline = $lines[$i];
+                chomp($tableline);
+                $tableline =~ s/\r$//;
+
+                # Count consecutive blank lines - stop after 2
+                if ($tableline =~ /^\s*$/) {
+                    $blank_count++;
+                    if ($blank_count >= 2) {
+                        last;
+                    }
+                    $i++;
+                    next;
+                } else {
+                    $blank_count = 0;
+                }
+
+                # Stop if we hit another section heading
+                last if $tableline =~ /^\s+[A-Z\s]+$/;
+
+                # Process table row: " 2  cups butter (packed solidly)                          = 1 pound"
+                # Parse: left side (quantity + description) and right side (measurement)
+                if ($tableline =~ /^\s+(.+?)\s+=\s+(.+)$/) {
+                    my $left_side = $1;
+                    my $right_side = $2;
+
+                    # Combine quantity and description into one column
+                    my $escaped_left = escape_latex($left_side);
+                    my $escaped_right = escape_latex($right_side);
+
+                    # Remove extra whitespace
+                    $escaped_left =~ s/\s+/ /g;
+                    $escaped_left =~ s/^\s+|\s+$//g;
+
+                    push @output, "$escaped_left & $escaped_right \\\\";
+                    push @output, "\\hline";
+                } else {
+                    # Not a table row, might be end of table
+                    last;
+                }
+
+                $i++;
+            }
+
+            push @output, "\\end{tabular}";
+            push @output, "\\arrayrulecolor{black}";
+            push @output, "";
+
+            $i--;  # Back up one line so the main loop processes the next line correctly
+            next;
+        }
+
         push @output, "";
-        push @output, "\\section{$section_title}";
+        push @output, "\\section*{$section_title}";
         push @output, "";
+        $after_chapter = 0;  # Reset flag - section breaks the "after chapter" sequence
 
         $h3_used_count{$normalized_line}++;
 
@@ -235,7 +341,6 @@ for (my $i = 0; $i < @lines; $i++) {
             # Generate LaTeX table if we have data
             if (@table_rows > 0) {
                 push @output, "";
-                push @output, "\\begin{center}";
 
                 # Determine table column count - fish table needs 7 columns for shellfish
                 # Use p{width} for first column to allow text wrapping
@@ -319,16 +424,16 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 push @output, "\\hline";
                 push @output, "\\end{tabular}";
-                push @output, "\\end{center}";
                 push @output, "";
             }
 
             # Skip the lines we processed
             $i = $j - 1;
         }
-        # Check if this is a time table section
+        # Check if this is a time table section - create 4 separate tables, one per page
         elsif ($section_title =~ /Time Tables For Cooking/i) {
-            # This section contains multiple subsection tables: Boiling, Broiling, Baking, Frying
+            # This section contains multiple subsections: Boiling, Broiling, Baking, Frying
+            # We'll create separate tables for each subsection with page breaks between them
             my $j = $i + 1;
 
             # Skip blank lines
@@ -336,52 +441,85 @@ for (my $i = 0; $i < @lines; $i++) {
                 $j++;
             }
 
-            # Process each subsection table
+            my $first_table = 1;
+
+            # Process each subsection
             while ($j < @lines) {
                 my $line = $lines[$j];
                 chomp($line);
                 $line =~ s/\r$//;
 
-                # Stop if we hit multiple blank lines (end of section)
+                # Handle blank lines - check if we're at end of section
                 if ($line =~ /^\s*$/) {
-                    # Check if we have more blank lines (section end)
                     my $blank_count = 0;
                     my $k = $j;
                     while ($k < @lines && $lines[$k] =~ /^\s*$/) {
                         $blank_count++;
                         $k++;
                     }
-                    # If we have 2+ blank lines, we're done with this section
-                    last if $blank_count >= 2;
+
+                    # Check what comes after the blank lines
+                    if ($k < @lines) {
+                        my $next = $lines[$k];
+                        $next =~ s/\r$//;
+                        # If it's another subsection header, continue (don't exit)
+                        if ($next =~ /^\s+(Boiling|Broiling|Baking|Frying)\s*$/i) {
+                            $j++;
+                            next;
+                        }
+                        # If it's NOTE or new content, we're done with this section
+                        last if $next =~ /^NOTE/i;
+                        last if $next =~ /^\s+CHAPTER/i;
+                    } else {
+                        # End of file
+                        last;
+                    }
+                    $j++;
+                    next;
                 }
 
                 # Check if this is a subsection header (Boiling, Broiling, Baking, Frying)
                 if ($line =~ /^\s+(Boiling|Broiling|Baking|Frying)\s*$/i) {
                     my $subsection = $1;
+
+                    # Add page break before each table except the first
+                    if (!$first_table) {
+                        push @output, "";
+                        push @output, "\\clearpage";
+                        push @output, "";
+                    }
+                    $first_table = 0;
+
+                    # Start a new table for this subsection
                     push @output, "";
-                    push @output, "\\subsection*{$subsection}";
-                    push @output, "";
+                    push @output, "\\arrayrulecolor{tablerowgray}";
+                    push @output, "\\begin{tabular}{lrr}";  # ARTICLES, Hours, Minutes (no vertical lines)
+                    push @output, "\\hline";
+                    push @output, "\\multicolumn{3}{c}{\\textbf{Time Tables For Cooking — $subsection}} \\\\";
+                    push @output, "\\hline";
+                    push @output, "ARTICLES & Hours & Minutes \\\\";
+                    push @output, "\\hline";
+
                     $j++;
 
-                    # Skip blank lines and collect table
+                    # Skip blank lines
                     while ($j < @lines && $lines[$j] =~ /^\s*$/) {
                         $j++;
                     }
 
-                    # Skip header lines (ARTICLES, TIME, Hours, Minutes, or lines with only these words)
+                    # Skip header lines (ARTICLES, TIME, Hours, Minutes)
                     while ($j < @lines) {
                         my $hdr = $lines[$j];
                         chomp($hdr);
                         $hdr =~ s/\r$//;
                         $hdr =~ s/^\s+//;
                         $hdr =~ s/\s+$//;
-                        # Skip if line contains only header keywords
                         last unless $hdr =~ /^(ARTICLES?|TIME|Hours?|Minutes?|[:\s])+$/i;
                         $j++;
                     }
 
-                    # Collect data rows until we hit blank lines or next subsection
-                    my @table_rows;
+                    # Collect data rows for this subsection
+                    my @table_data;
                     while ($j < @lines) {
                         my $row = $lines[$j];
                         chomp($row);
@@ -389,7 +527,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
                         # Stop at blank line followed by another subsection or end
                         if ($row =~ /^\s*$/) {
-                            # Check if next non-blank line is a subsection or note
                             my $k = $j + 1;
                             while ($k < @lines && $lines[$k] =~ /^\s*$/) {
                                 $k++;
@@ -397,11 +534,11 @@ for (my $i = 0; $i < @lines; $i++) {
                             if ($k < @lines) {
                                 my $next = $lines[$k];
                                 $next =~ s/\r$//;
-                                # If next line is subsection header or NOTE, we're done with this table
+                                # If next line is subsection header or NOTE, we're done with this subsection
                                 last if $next =~ /^\s+(Boiling|Broiling|Baking|Frying)\s*$/i;
                                 last if $next =~ /^NOTE/i;
                             } else {
-                                last;  # End of section
+                                last;
                             }
                             $j++;
                             next;
@@ -415,63 +552,99 @@ for (my $i = 0; $i < @lines; $i++) {
 
                         # Data rows start with spaces followed by text
                         if ($row =~ /^\s{2,}\S/) {
-                            push @table_rows, $row;
-                        }
-                        $j++;
-                    }
-
-                    # Generate LaTeX table for this subsection
-                    if (@table_rows > 0) {
-                        push @output, "\\begin{center}";
-                        push @output, "\\begin{tabular}{p{3.5in}cc}";  # Article (wrapped), Hours, Minutes
-                        push @output, "\\hline";
-                        push @output, "Article & Hours & Minutes \\\\";
-                        push @output, "\\hline";
-
-                        my $row_num = 0;
-                        foreach my $row (@table_rows) {
                             $row =~ s/^\s+//;  # Remove leading spaces
 
                             # Try to parse: name followed by time values
                             # Format could be: "name    time" or "name    hours    minutes"
-                            if ($row =~ /^(.+?)\s{2,}(\d+\S*)\s+to\s+(\d+\S*)$/) {
-                                # Format: "name    X to Y" (single column time range)
-                                my ($name, $time1, $time2) = ($1, $2, $3);
+                            my $formatted_row = "";
+                            if ($row =~ /^(.+?)\s{2,}(\d+)\s+to\s+(\d+)\s+(\d+)\s+to\s+(\d+)$/) {
+                                # Format: "name    H1 to H2    M1 to M2"
+                                my ($name, $h1, $h2, $m1, $m2) = ($1, $2, $3, $4, $5);
                                 $name =~ s/\s+$//;
-                                push @output, escape_latex($name) . " &  & $time1 to $time2 \\\\";
-                            } elsif ($row =~ /^(.+?)\s{2,}(\d+\S*\s+to\s+\d+\S*)\s*$/) {
-                                # Format: "name    X to Y" (already formatted time range)
-                                my ($name, $time) = ($1, $2);
-                                $name =~ s/\s+$//;
-                                push @output, escape_latex($name) . " &  & $time \\\\";
-                            } elsif ($row =~ /^(.+?)\s{2,}(\d+\S*)\s*$/) {
-                                # Format: "name    X" (single time value)
-                                my ($name, $time) = ($1, $2);
-                                $name =~ s/\s+$//;
-                                push @output, escape_latex($name) . " &  & $time \\\\";
-                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s+(\d+)$/) {
-                                # Format: "name    hours    minutes" (two separate columns)
+                                $formatted_row = escape_latex($name) . " & $h1 to $h2 & $m1 to $m2 \\\\";
+                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s+(\d+\s+to\s+\d+)$/) {
+                                # Format: "name    hours    M1 to M2"
                                 my ($name, $hours, $mins) = ($1, $2, $3);
                                 $name =~ s/\s+$//;
-                                push @output, escape_latex($name) . " & $hours & $mins \\\\";
+                                $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
+                            } elsif ($row =~ /^(.+?)\s{2,}(\d+\s+to\s+\d+)\s+(\d+\s+to\s+\d+)$/) {
+                                # Format: "name    H1 to H2    M1 to M2"
+                                my ($name, $hours, $mins) = ($1, $2, $3);
+                                $name =~ s/\s+$//;
+                                $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
+                            } elsif ($row =~ /^(.+?)\s{2,}(\d+\s+to\s+\d+)\s*$/) {
+                                # Format: "name    X to Y" (minutes only)
+                                my ($name, $time) = ($1, $2);
+                                $name =~ s/\s+$//;
+                                $formatted_row = escape_latex($name) . " &  & $time \\\\";
+                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s+(\d+)$/) {
+                                # Format: "name    hours    minutes" (two separate values)
+                                my ($name, $hours, $mins) = ($1, $2, $3);
+                                $name =~ s/\s+$//;
+                                $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
+                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s*$/) {
+                                # Format: "name    X" (single time value - assume minutes)
+                                my ($name, $time) = ($1, $2);
+                                $name =~ s/\s+$//;
+                                $formatted_row = escape_latex($name) . " &  & $time \\\\";
                             } else {
                                 # Fallback: just output the row as-is in first column
-                                push @output, escape_latex($row) . " &  &  \\\\";
+                                $formatted_row = escape_latex($row) . " &  &  \\\\";
                             }
 
-                            # Add light grey line between rows (but not after last row)
-                            $row_num++;
-                            if ($row_num < scalar(@table_rows)) {
-                                push @output, "\\arrayrulecolor{tablerowgray}\\hline";
-                            }
+                            push @table_data, $formatted_row;
+                        }
+                        $j++;
+                    }
+
+                    # Check if this is the Baking table - if so, split into two separate tables
+                    if ($subsection =~ /Baking/i && @table_data > 20) {
+                        # Split the data into two halves
+                        my $mid = int((@table_data + 1) / 2);
+                        my @first_half = @table_data[0..$mid-1];
+                        my @second_half = @table_data[$mid..$#table_data];
+
+                        # First table - output first half
+                        foreach my $row (@first_half) {
+                            push @output, $row;
+                            push @output, "\\hline";
                         }
                         push @output, "\\arrayrulecolor{black}";
-
-                        push @output, "\\hline";
                         push @output, "\\end{tabular}";
-                        push @output, "\\end{center}";
+                        push @output, "";
+                        push @output, "\\vspace{1em}";
+                        push @output, "";
+
+                        # Second table - start new table with same headers
+                        push @output, "\\arrayrulecolor{tablerowgray}";
+                        push @output, "\\begin{tabular}{lrr}";
+                        push @output, "\\hline";
+                        push @output, "ARTICLES & Hours & Minutes \\\\";
+                        push @output, "\\hline";
+                        foreach my $row (@second_half) {
+                            push @output, $row;
+                            push @output, "\\hline";
+                        }
+                        push @output, "\\arrayrulecolor{black}";
+                        push @output, "\\end{tabular}";
+                        push @output, "";
+                    } else {
+                        # Regular single-column table - output all rows
+                        foreach my $row (@table_data) {
+                            push @output, $row;
+                            push @output, "\\hline";
+                        }
+
+                        # Close this subsection's table
+                        push @output, "\\arrayrulecolor{black}";
+                        push @output, "\\end{tabular}";
                         push @output, "";
                     }
+
+                    # Add bottom margin after the table
+                    push @output, "\\vspace{10pt}";
+                    push @output, "";
+                    push @output, "\\noindent";
                 } else {
                     # Not a subsection header, skip this line
                     $j++;
@@ -556,7 +729,6 @@ for (my $i = 0; $i < @lines; $i++) {
             # Generate LaTeX table
             if (@table_rows > 0) {
                 push @output, "";
-                push @output, "\\begin{center}";
                 push @output, "\\begin{tabular}{p{2in}p{0.8in}p{1.2in}p{1in}}";
                 push @output, "\\hline";
                 push @output, "Kind & Quantity & Water & Time \\\\";
@@ -618,7 +790,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 push @output, "\\hline";
                 push @output, "\\end{tabular}";
-                push @output, "\\end{center}";
                 push @output, "";
             }
 
@@ -633,7 +804,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
             # Start the table
             push @output, "";
-            push @output, "\\begin{center}";
             push @output, "\\begin{tabular}{|p{2.5in}|p{2.5in}|}";
             push @output, "\\hline";
 
@@ -772,7 +942,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
             push @output, "\\arrayrulecolor{black}";
             push @output, "\\end{tabular}";
-            push @output, "\\end{center}";
             push @output, "";
 
             # Skip the lines we processed
@@ -789,7 +958,7 @@ for (my $i = 0; $i < @lines; $i++) {
         my $escaped_heading = escape_latex($heading);
 
         push @output, "";
-        push @output, "\\subsection{$escaped_heading}";
+        push @output, "\\subsection*{$escaped_heading}";
         push @output, "";
 
         $h4_used_count{$normalized_line}++;
@@ -832,19 +1001,58 @@ for (my $i = 0; $i < @lines; $i++) {
         }
 
         if (@comp_lines >= 2) {
-            # Generate formatted composition block
-            push @output, "";
-            push @output, "\\begin{center}";
-            push @output, "\\textsc{Composition}";
+            # Generate formatted composition block as a table
             push @output, "";
 
-            foreach my $comp (@comp_lines) {
-                my $escaped = escape_latex($comp);
-                push @output, $escaped . "\\\\";
+            # Center the table if it comes right after a chapter
+            if ($after_chapter) {
+                push @output, "\\begin{center}";
             }
 
-            push @output, "\\end{center}";
+            push @output, "\\begin{tabular}{|l|r|}";
+            push @output, "\\hline";
+            push @output, "\\multicolumn{2}{|l|}{\\textbf{Composition}} \\\\";
+            push @output, "\\hline";
+
+            foreach my $comp (@comp_lines) {
+                # Check if this is an attribution line (italic text like "_Boston Chemist._")
+                if ($comp =~ /^_(.+)_$/) {
+                    # Attribution line - right-aligned, italic, spanning both columns
+                    my $attribution = $1;
+                    my $escaped = escape_latex($attribution);
+                    push @output, "\\multicolumn{2}{|r|}{\\textit{$escaped}} \\\\";
+                    push @output, "\\hline";
+                } elsif ($comp =~ /^(.+?),\s+(.+?)%?\s*$/) {
+                    # Data line with item and percentage (e.g., "Protein, 14.9%")
+                    my $item = $1;
+                    my $value = $2;
+                    my $escaped_item = escape_latex($item);
+                    my $escaped_value = escape_latex($value);
+                    # Add % if not already there
+                    $escaped_value .= "\\%" unless $escaped_value =~ /%/;
+                    push @output, "$escaped_item & $escaped_value \\\\";
+                    push @output, "\\hline";
+                } else {
+                    # Fallback: output as-is in a single spanning cell
+                    my $escaped = escape_latex($comp);
+                    push @output, "\\multicolumn{2}{|l|}{$escaped} \\\\";
+                    push @output, "\\hline";
+                }
+            }
+
+            push @output, "\\end{tabular}";
+
+            # Close center if we opened it
+            if ($after_chapter) {
+                push @output, "\\end{center}";
+                $after_chapter = 0;  # Reset flag
+            }
+
+            # Add bottom margin and prevent indentation of next paragraph
             push @output, "";
+            push @output, "\\vspace{10pt}";
+            push @output, "";
+            push @output, "\\noindent";
 
             # Skip the COMPOSITION line and all the data lines we've processed
             $i = $j - 1;
@@ -936,6 +1144,7 @@ for (my $i = 0; $i < @lines; $i++) {
             push @output, "";
             push @output, "\\chapter{$title}";
             push @output, "";
+            $after_chapter = 1;  # Flag that we just output a chapter
             $i++;  # Skip the next line
             next;
         }
@@ -990,6 +1199,7 @@ for (my $i = 0; $i < @lines; $i++) {
         push @output, "";
         push @output, "\\chapter*{$heading}";
         push @output, "";
+        $after_chapter = 1;  # Flag that we just output a chapter
         next;
     }
 
@@ -999,7 +1209,6 @@ for (my $i = 0; $i < @lines; $i++) {
         if ($i + 1 < @lines && $lines[$i + 1] =~ /^\s+I\.\s+ORGANIC\s+/) {
             # This is the food classification table - create it
             push @output, "";
-            push @output, "\\begin{center}";
             push @output, "\\begin{tabular}{clp{3.5in}}";
 
             # Row 1: I. ORGANIC
@@ -1012,7 +1221,6 @@ for (my $i = 0; $i < @lines; $i++) {
             push @output, " & & 2. Water \\\\";
 
             push @output, "\\end{tabular}";
-            push @output, "\\end{center}";
             push @output, "";
 
             # Skip the next 6 lines (the rest of the table structure)
@@ -1046,7 +1254,6 @@ for (my $i = 0; $i < @lines; $i++) {
         if (@table_rows > 0) {
             # Generate LaTeX table
             push @output, "";
-            push @output, "\\begin{center}";
             push @output, "\\begin{tabular}{rll}";
 
             foreach my $row (@table_rows) {
@@ -1055,7 +1262,6 @@ for (my $i = 0; $i < @lines; $i++) {
             }
 
             push @output, "\\end{tabular}";
-            push @output, "\\end{center}";
             push @output, "";
 
             # Skip the lines we've processed
@@ -1083,7 +1289,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
         # Start the table
         push @output, "";
-        push @output, "\\begin{center}";
         push @output, "\\arrayrulecolor{tablerowgray}";
         push @output, "\\begin{tabular}{|p{1in}|p{3.5in}|}";
         push @output, "\\hline";
@@ -1135,7 +1340,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
         push @output, "\\arrayrulecolor{black}";
         push @output, "\\end{tabular}";
-        push @output, "\\end{center}";
         push @output, "";
 
         # Skip the lines we processed
@@ -1146,7 +1350,7 @@ for (my $i = 0; $i < @lines; $i++) {
     # Check for recipe ingredient lists (indented lines with measurements)
     # Match patterns like: 1 cup, 1/2 cup, 1 1/2 cup, 2 3/4 to 3 1/4 cups, 4 eggs, 3 "hard-boiled" eggs, 6 lbs, 3 large cucumbers (after escape_latex converts Unicode fractions)
     # Require at least 7 spaces of indentation to distinguish from regular text
-    if ($line =~ /^\s{7,}(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)(?:\s+(?:to|-|--)\s+\d+(?:\s+\d+\/\d+)?|\d+\/\d+)?\s+(?:.*?\s+)?(cup|tablespoon|teaspoon|pound|lb|quart|pint|slice|sprig|stalk|can|square|ounce|egg|cucumber|crab|clove|head|artichoke|potato|potatoe|turnip|leek|breast|terrapin|oyster|knuckle|veal|beet|pepper|onion|tomatoe|chicken|fish|shrimp|lobster|salmon|lamb|pork|beef|mutton|duck|turkey|sardine|anchovy|scallop|sweetbread|carrot|celery|mushroom|squash|radish|parsnip|bean|pea|apple|orange|lemon|lime|banana|peach|pear|plum|cherry|grape|roll|biscuit|cracker|cookie|truffle|quail|loaf|box|gelatine|clam|pineapple)s?\.?(?:\s+|$)/i) {
+    if ($line =~ /^\s{7,}(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)(?:\s+(?:to|-|--)\s+\d+(?:\s+\d+\/\d+)?|\d+\/\d+)?\s+(?:.*?\s+)?(cup|tablespoon|teaspoon|pound|lb|quart|pint|slice|sprig|stalk|can|square|ounce|egg|cucumber|crab|clove|head|artichoke|potato|potatoe|turnip|leek|breast|terrapin|oyster|knuckle|veal|beet|pepper|onion|tomatoe|chicken|fish|shrimp|lobster|salmon|lamb|pork|beef|mutton|duck|turkey|sardine|anchovy|scallop|sweetbread|carrot|celery|mushroom|squash|radish|parsnip|bean|pea|apple|orange|lemon|lime|banana|peach|pear|plum|cherry|chocolate|grape|roll|biscuit|cracker|cookie|truffle|quail|loaf|box|gelatine|clam|pineapple)s?\.?(?:\s+|$)/i) {
         # Start of ingredient list - look ahead to collect all ingredients
         my @ingredients;
         my $j = $i;
@@ -1236,7 +1440,6 @@ for (my $i = 0; $i < @lines; $i++) {
         if (@ingredients >= 2) {  # At least 2 ingredients to be considered a list
             # Generate formatted ingredient list
             push @output, "";
-            push @output, "\\begin{quote}";
             push @output, "\\begin{itemize}";
             push @output, "\\setlength{\\itemsep}{0pt}";
 
@@ -1245,7 +1448,6 @@ for (my $i = 0; $i < @lines; $i++) {
             }
 
             push @output, "\\end{itemize}";
-            push @output, "\\end{quote}";
             push @output, "";
 
             # Skip the lines we've processed
