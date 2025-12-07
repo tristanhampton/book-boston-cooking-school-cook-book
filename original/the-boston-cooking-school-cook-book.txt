@@ -484,7 +484,7 @@ kingdoms to support the highest order of being, man. All food must
 undergo chemical change after being taken into the body, before it can
 be utilized by the body; this is the office of the digestive system.
 
-Food is classified as follows:—
+Food is classified as follows:
 
                         1. Protein (nitrogenous or albuminous)
   I. ORGANIC            2. Carbohydrates (sugar and starch)
@@ -553,12 +553,12 @@ not be forgotten that digestive processes go on so rapidly that the
 stomach is soon emptied. Thanks to the institutor of the school
 luncheon-counter!
 
-The daily average ration of an adult requires
+The daily average ration of an adult requires:
 
-                             4½ oz. protein
-                             2 oz. fat
-                             18 oz. starch
-                             5 pints water
+- 4½ oz. protein
+- 2 oz. fat
+- 18 oz. starch
+- 5 pints water
 
 About one-third of the water is taken in our food, the remainder as a
 beverage. To keep in health and do the best mental and physical work,
@@ -931,18 +931,18 @@ decay. Fruits should be wiped or rinsed before serving.
 
 The principal vegetable acids are:
 
-I. Acetic (HC_{2}H_{3}O_{2}), found in wine and vinegar.
+=I.= Acetic (HC_{2}H_{3}O_{2}), found in wine and vinegar.
 
-II. Tartaric (H_{2}C_{4}H_{4}O_{6}), found in grapes, pineapples, and
+=II.= Tartaric (H_{2}C_{4}H_{4}O_{6}), found in grapes, pineapples, and
 tamarinds.
 
-III. Malic, much like tartaric, found in apples, pears, peaches,
+=III.= Malic, much like tartaric, found in apples, pears, peaches,
 apricots, gooseberries, and currants.
 
-IV. Citric (H_{3}C_{6}H_{5}O_{7}), found in lemons, oranges, limes, and
+=IV.= Citric (H_{3}C_{6}H_{5}O_{7}), found in lemons, oranges, limes, and
 citron.
 
-V. Oxalic (H_{2}C_{2}O_{4}), found in rhubarb and sorrel.
+=V.= Oxalic (H_{2}C_{2}O_{4}), found in rhubarb and sorrel.
 
 To these may be added tannic acid, obtained from gall nuts. Some fruits
 contain two or more acids. Malic and citric are found in strawberries,
@@ -1491,46 +1491,29 @@ prevented from escaping.
 
                            Ways of Preserving
 
-1. =By Freezing.= Foods which spoil readily are frozen for
-transportation, and must be kept packed in ice until used. Examples:
-Fish and poultry.
+- By Freezing: Foods which spoil readily are frozen for transportation, and must be kept packed in ice until used. Examples: Fish and poultry.
 
-2. =By Refrigeration.= Foods so preserved are kept in cold storage. The
-cooling is accomplished by means of ice, or by a machine where
-compressed gas is cooled and then permitted to expand. Examples: meat,
-milk, butter, eggs, etc.
+- By Refrigeration: Foods so preserved are kept in cold storage. The cooling is accomplished by means of ice, or by a machine where compressed gas is cooled and then permitted to expand. Examples: meat, milk, butter, eggs, etc.
 
-3. =By Canning.= Which is preserving in air-tight glass jars, or tin
-cans hermetically sealed. When fruit is canned, sugar is usually added.
+- By Canning: Which is preserving in air-tight glass jars, or tin cans hermetically sealed. When fruit is canned, sugar is usually added.
 
-4. =By Sugar.= Examples: fruit juices and condensed milk.
+- By Sugar: Examples: fruit juices and condensed milk.
 
-5. =By Exclusion of Air.= Foods are preserved by exclusion of air in
-other ways than canning. Examples: grapes in bran, eggs in lime water,
-etc.
+- By Exclusion of Air: Foods are preserved by exclusion of air in other ways than canning. Examples: grapes in bran, eggs in lime water, etc.
 
-6. =By Drying.= Drying consists in evaporation of nearly all moisture,
-and is generally combined with salting, except in vegetables and fruits.
+- By Drying: Drying consists in evaporation of nearly all moisture, and is generally combined with salting, except in vegetables and fruits.
 
-7. =By Evaporation.= There are examples where considerable moisture
-remains, though much is driven off. Example: beef extract.
+- By Evaporation: There are examples where considerable moistureremains, though much is driven off. Example: beef extract.
 
-8. =By Salting.= There are two kinds of salting,—dry, and corning or
-salting in brine. Examples: salt codfish, beef, pork, tripe, etc.
+- By Salting: There are two kinds of salting,—dry, and corning or salting in brine. Examples: salt codfish, beef, pork, tripe, etc.
 
-9. =By Smoking.= Some foods, after being salted, are hung in a closed
-room for several hours, where hickory wood is allowed to smother.
-Examples: ham, beef, and fish.
+- By Smoking: Some foods, after being salted, are hung in a closed room for several hours, where hickory wood is allowed to smother. Examples: ham, beef, and fish.
 
-10. =By Pickling.= Vinegar, to which salt is added, and sometimes sugar
-and spices, is scalded; and cucumbers, onions, and various kinds of
-fruit are allowed to remain in it.
+- By Pickling: Vinegar, to which salt is added, and sometimes sugar and spices, is scalded; and cucumbers, onions, and various kinds of fruit are allowed to remain in it.
 
-11. =By Oil.= Examples: sardines, anchovies, etc.
+- By Oil: Examples: sardines, anchovies, etc.
 
-12. =By Antiseptics.= The least wholesome way is by the use of
-antiseptics. Borax and salicylic acid, when employed, should be used
-sparingly.
+- By Antiseptics: The least wholesome way is by the use of antiseptics. Borax and salicylic acid, when employed, should be used sparingly.
 
 
                      TABLE OF MEASURES AND WEIGHTS
@@ -2274,8 +2257,14 @@ serving add ale, Apollinaris, and slices of orange.
 
                              Fruit Punch IV
 
-9 oranges 6 lemons 1 cup grated pineapple 1 cup raspberry syrup 1½ cups
-tea infusion 1¼ cups sugar 1 cup hot water 1 quart Apollinaris
+                        9 oranges 
+                        6 lemons 
+                        1 cup grated pineapple 
+                        1 cup raspberry syrup 
+                        1½ cups tea infusion 
+                        1¼ cups sugar 
+                        1 cup hot water 
+                        1 quart Apollinaris
 
 Mix juice of oranges and lemons with pineapple, raspberry syrup, and
 tea; then add a syrup made by boiling sugar and water fifteen minutes.
@@ -2742,15 +2731,14 @@ white as when lard is used.
 
                           Milk and Water Bread
 
- 1 cup scalded milk
- 1 cup boiling water
- 1 tablespoon lard
- 1 tablespoon butter
- 1½ teaspoon salt
- 1 yeast cake dissolved in
- ¼ cup lukewarm water
- 6 cups sifted flour, or one cup white flour and enough entire wheat
-    flour to knead
+                      1 cup scalded milk
+                      1 cup boiling water
+                      1 tablespoon lard
+                      1 tablespoon butter
+                      1½ teaspoon salt
+                      1 yeast cake dissolved in
+                      ¼ cup lukewarm water
+                      6 cups sifted flour, or one cup white flour and enough entire wheat flour to knead
 
 Prepare and bake as Water Bread. When entire wheat flour is used add
 three tablespoons molasses. Bread may be mixed, raised, and baked in
@@ -3589,11 +3577,9 @@ Batter is a mixture of flour and some liquid (usually combined with
 other ingredients, as sugar, salt, eggs, etc.), of consistency to pour
 easily, or to drop from a spoon.
 
-Batters are termed thin or thick, according to their consistency.
-
-Sponge is a batter to which yeast is added.
-
-Dough differs from batter inasmuch as it is stiff enough to be handled.
+- Batters are termed thin or thick, according to their consistency.
+- Sponge is a batter to which yeast is added.
+- Dough differs from batter inasmuch as it is stiff enough to be handled.
 
 
                               Cream Scones
@@ -4058,7 +4044,7 @@ individual tins.
                    1 teaspoon salt
                    Milk and water in equal quantities
 
-                             _Southern Pupil_
+                             
 
 Mix and sift flour and salt; work in lard with tips of fingers, and
 moisten to a stiff dough. Toss on slightly floured board, and beat with
@@ -4538,8 +4524,6 @@ to wheat, comes rice.
       Buckwheat flour          6.1 1.0   77.2            1.4  14.3
       Macaroni                11.7 1.6   72.9            3.0  10.8
 
-                    _Department of Agriculture, Washington, D. C._
-
 _Macaroni_, _spaghetti_, and _vermicelli_ are made from wheaten flour,
 rich in gluten, moistened to a stiff dough with water, and forced
 through small apertures in an iron plate by means of a screw press.
@@ -4662,7 +4646,6 @@ less water in steaming.
                        1 cup rice
                        2 quarts boiling water
                        1 tablespoon salt
-                                   _French Chef_
 
 Pick over rice; add slowly to boiling, salted water, so as not to check
 boiling of water. Boil thirty minutes, or until soft, which may be

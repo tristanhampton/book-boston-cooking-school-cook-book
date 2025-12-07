@@ -1,28 +1,28 @@
 \contentsline {chapter}{\numberline {1}Food}{5}{}%
-\contentsline {chapter}{\numberline {2}Cookery}{13}{}%
-\contentsline {chapter}{\numberline {3}Beverages}{27}{}%
-\contentsline {chapter}{\numberline {4}Bread And Bread Making}{39}{}%
+\contentsline {chapter}{\numberline {2}Cookery}{15}{}%
+\contentsline {chapter}{\numberline {3}Beverages}{29}{}%
+\contentsline {chapter}{\numberline {4}Bread And Bread Making}{41}{}%
 \contentsline {chapter}{\numberline {5}Biscuits, Breakfast Cakes, And Shortcakes}{61}{}%
-\contentsline {chapter}{\numberline {6}Cereals}{81}{}%
-\contentsline {chapter}{\numberline {7}Eggs}{89}{}%
+\contentsline {chapter}{\numberline {6}Cereals}{79}{}%
+\contentsline {chapter}{\numberline {7}Eggs}{87}{}%
 \contentsline {chapter}{\numberline {8}Soups}{103}{}%
-\contentsline {chapter}{\numberline {9}Soups Without Stock}{131}{}%
-\contentsline {chapter}{\numberline {10}Soup Garnishings And Force-Meats}{145}{}%
-\contentsline {chapter}{\numberline {11}Fish}{151}{}%
-\contentsline {chapter}{\numberline {12}Beef}{183}{}%
-\contentsline {chapter}{\numberline {13}Lamb And Mutton}{203}{}%
-\contentsline {chapter}{\numberline {14}Veal}{211}{}%
-\contentsline {chapter}{\numberline {15}Sweetbreads}{217}{}%
+\contentsline {chapter}{\numberline {9}Soups Without Stock}{127}{}%
+\contentsline {chapter}{\numberline {10}Soup Garnishings And Force-Meats}{137}{}%
+\contentsline {chapter}{\numberline {11}Fish}{145}{}%
+\contentsline {chapter}{\numberline {12}Beef}{179}{}%
+\contentsline {chapter}{\numberline {13}Lamb And Mutton}{199}{}%
+\contentsline {chapter}{\numberline {14}Veal}{209}{}%
+\contentsline {chapter}{\numberline {15}Sweetbreads}{215}{}%
 \contentsline {chapter}{\numberline {16}Pork}{219}{}%
 \contentsline {chapter}{\numberline {17}Poultry And Game}{223}{}%
-\contentsline {chapter}{\numberline {18}Fish And Meat Sauces}{243}{}%
-\contentsline {chapter}{\numberline {19}Vegetables}{261}{}%
-\contentsline {chapter}{\numberline {20}Potatoes}{285}{}%
-\contentsline {chapter}{\numberline {21}Salads And Salad Dressings}{295}{}%
-\contentsline {chapter}{\numberline {22}Entrées}{315}{}%
-\contentsline {chapter}{\numberline {23}Hot Puddings}{355}{}%
-\contentsline {chapter}{\numberline {24}Pudding Sauces}{373}{}%
-\contentsline {chapter}{\numberline {25}Cold Desserts}{379}{}%
-\contentsline {chapter}{\numberline {26}Ices, Ice Creams, And Other Frozen Desserts}{403}{}%
-\contentsline {chapter}{\numberline {27}Pastry}{435}{}%
-\contentsline {chapter}{\numberline {28}Pies}{439}{}%
+\contentsline {chapter}{\numberline {18}Fish And Meat Sauces}{245}{}%
+\contentsline {chapter}{\numberline {19}Vegetables}{263}{}%
+\contentsline {chapter}{\numberline {20}Potatoes}{291}{}%
+\contentsline {chapter}{\numberline {21}Salads And Salad Dressings}{303}{}%
+\contentsline {chapter}{\numberline {22}Entrées}{325}{}%
+\contentsline {chapter}{\numberline {23}Hot Puddings}{365}{}%
+\contentsline {chapter}{\numberline {24}Pudding Sauces}{383}{}%
+\contentsline {chapter}{\numberline {25}Cold Desserts}{391}{}%
+\contentsline {chapter}{\numberline {26}Ices, Ice Creams, And Other Frozen Desserts}{413}{}%
+\contentsline {chapter}{\numberline {27}Pastry}{443}{}%
+\contentsline {chapter}{\numberline {28}Pies}{449}{}%

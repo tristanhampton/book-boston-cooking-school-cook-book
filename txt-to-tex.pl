@@ -51,18 +51,25 @@ push @output, "\\usepackage{titlesec}";
 push @output, "\\usepackage{enumitem}";
 push @output, "\\usepackage{array}";
 push @output, "\\usepackage[table]{xcolor}";
+push @output, "\\usepackage{multicol}";
+push @output, "\\usepackage{needspace}";
+push @output, "\\usepackage{graphicx}";
 push @output, "\\definecolor{tablerowgray}{gray}{0.75}";
 push @output, "\\setlength{\\extrarowheight}{3pt}";
 push @output, "";
 push @output, "% Custom list formatting - reduce left padding";
 push @output, "\\setlist[itemize]{leftmargin=1em}"; # Reduced from default (~2.5em)
 push @output, "";
+push @output, "% Prevent vertical justification (stretching)";
+push @output, "\\raggedbottom";
+push @output, "";
 push @output, "% Custom chapter formatting";
-push @output, "\\titleformat{\\chapter}";
-push @output, "  {\\normalfont\\huge\\bfseries\\filcenter}"; # Font: huge, bold, centered
-push @output, "  {}"; # No label (no \"Chapter\" text)
-push @output, "  {0pt}"; # No separation between label and title
-push @output, "  {}"; # No transformation (keep original case)
+push @output, "\\titleformat{\\chapter}[display]";
+push @output, "  {\\normalfont\\huge\\bfseries\\centering}";
+push @output, "  {}";
+push @output, "  {0pt}";
+push @output, "  {\\vspace*{-60pt}}";
+push @output, "  [{\\vspace{2ex}\\centering\\includegraphics[width=5in]{divider-chapter.png}\\vspace{-2ex}}]";
 push @output, "\\titlespacing*{\\chapter}";
 push @output, "  {0pt}"; # Left margin
 push @output, "  {20pt}"; # Space before (reduced from default ~50pt)
@@ -248,6 +255,7 @@ for (my $i = 0; $i < @lines; $i++) {
         }
 
         push @output, "";
+        push @output, "\\needspace{15\\baselineskip}"; # Prevent recipe from splitting across pages
         push @output, "\\section*{$section_title}";
         push @output, "";
         $after_chapter = 0;  # Reset flag - section breaks the "after chapter" sequence
@@ -948,6 +956,11 @@ for (my $i = 0; $i < @lines; $i++) {
             $i = $j - 1;
         }
 
+        # Skip any blank lines immediately following the section
+        while ($i + 1 < @lines && $lines[$i + 1] =~ /^\s*$/) {
+            $i++;
+        }
+
         next;
     }
 
@@ -958,10 +971,17 @@ for (my $i = 0; $i < @lines; $i++) {
         my $escaped_heading = escape_latex($heading);
 
         push @output, "";
+        push @output, "\\needspace{15\\baselineskip}"; # Prevent recipe from splitting across pages
         push @output, "\\subsection*{$escaped_heading}";
         push @output, "";
 
         $h4_used_count{$normalized_line}++;
+
+        # Skip any blank lines immediately following the subsection
+        while ($i + 1 < @lines && $lines[$i + 1] =~ /^\s*$/) {
+            $i++;
+        }
+
         next;
     }
 
@@ -1204,7 +1224,7 @@ for (my $i = 0; $i < @lines; $i++) {
     }
 
     # Check for the line before the food classification table
-    if ($line =~ /^\s+1\.\s+Proteid\s+\(nitrogenous or albuminous\)/) {
+    if ($line =~ /^\s+1\.\s+Protein\s+\(nitrogenous or albuminous\)/) {
         # Check if next line is "I. ORGANIC"
         if ($i + 1 < @lines && $lines[$i + 1] =~ /^\s+I\.\s+ORGANIC\s+/) {
             # This is the food classification table - create it
@@ -1212,7 +1232,7 @@ for (my $i = 0; $i < @lines; $i++) {
             push @output, "\\begin{tabular}{clp{3.5in}}";
 
             # Row 1: I. ORGANIC
-            push @output, "I. & ORGANIC & 1. Proteid (nitrogenous or albuminous) \\\\";
+            push @output, "I. & ORGANIC & 1. Protein (nitrogenous or albuminous) \\\\";
             push @output, " & & 2. Carbohydrates (sugar and starch) \\\\";
             push @output, " & & 3. Fats and oils \\\\[0.5em]";
 
@@ -1440,6 +1460,14 @@ for (my $i = 0; $i < @lines; $i++) {
         if (@ingredients >= 2) {  # At least 2 ingredients to be considered a list
             # Generate formatted ingredient list
             push @output, "";
+
+            # Use two columns if more than 5 items
+            if (@ingredients > 5) {
+                push @output, "\\begin{minipage}{0.7\\textwidth}";
+                push @output, "{\\setlength{\\multicolsep}{0pt}\\setlength{\\columnsep}{2em}\\raggedcolumns%";
+                push @output, "\\begin{multicols}{2}";
+            }
+
             push @output, "\\begin{itemize}";
             push @output, "\\setlength{\\itemsep}{0pt}";
 
@@ -1448,12 +1476,73 @@ for (my $i = 0; $i < @lines; $i++) {
             }
 
             push @output, "\\end{itemize}";
-            push @output, "";
 
-            # Skip the lines we've processed
-            $i = $j - 1;
+            if (@ingredients > 5) {
+                push @output, "\\end{multicols}}";
+                push @output, "\\end{minipage}";
+                push @output, "";
+                push @output, "\\vspace{1em}";
+            }
+
+            # Get the next non-blank line and output it with noindent
+            while ($j < @lines && $lines[$j] =~ /^\s*$/) {
+                $j++;
+            }
+
+            if ($j < @lines) {
+                my $nextline = $lines[$j];
+                chomp($nextline);
+                $nextline =~ s/\r$//;
+                $nextline = escape_latex($nextline);
+                push @output, "\\noindent%";
+                push @output, $nextline;
+                $i = $j;
+            } else {
+                push @output, "\\noindent%";
+                $i = $j - 1;
+            }
+
             next;
         }
+    }
+
+    # Check for bulleted list (lines starting with "- ")
+    if ($line =~ /^- (.+)$/) {
+        my @bullet_items;
+        my $first_item = $1;
+        push @bullet_items, $first_item;
+
+        # Look ahead for more bullet items
+        my $j = $i + 1;
+        while ($j < @lines) {
+            my $nextline = $lines[$j];
+            chomp($nextline);
+            $nextline =~ s/\r$//;
+
+            if ($nextline =~ /^- (.+)$/) {
+                push @bullet_items, $1;
+                $j++;
+            } else {
+                last;
+            }
+        }
+
+        # Create bulleted list
+        push @output, "";
+        push @output, "\\begin{itemize}";
+        push @output, "\\setlength{\\itemsep}{0pt}";
+
+        foreach my $item (@bullet_items) {
+            my $escaped_item = escape_latex($item);
+            push @output, "\\item $escaped_item";
+        }
+
+        push @output, "\\end{itemize}";
+        push @output, "";
+
+        # Skip the lines we've processed
+        $i = $j - 1;
+        next;
     }
 
     # Add the line

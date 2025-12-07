@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 DEC 2025 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  7 DEC 2025 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -132,27 +132,111 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks26
 \minrowclearance=\skip57
 \rownum=\count279
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count280
+\mult@box=\box57
+\multicol@leftmargin=\dimen159
+\c@unbalance=\count281
+\c@collectmore=\count282
+\doublecol@number=\count283
+\multicoltolerance=\count284
+\multicolpretolerance=\count285
+\full@width=\dimen160
+\page@free=\dimen161
+\premulticols=\dimen162
+\postmulticols=\dimen163
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box58
+\last@line=\box59
+\mc@boxedresult=\box60
+\maxbalancingoverflow=\dimen164
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\c@minrows=\count286
+\c@columnbadness=\count287
+\c@finalcolumnbadness=\count288
+\last@try=\dimen165
+\multicolovershoot=\dimen166
+\multicolundershoot=\dimen167
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count289
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box103
 ) (./the-boston-cooking-school-cook-book.aux)
 \openout1 = `the-boston-cooking-school-cook-book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -188,20 +272,20 @@ LaTeX Font Info:    ... okay on input line 47.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 47.
-Package microtype Info: Applying patch `item' on input line 47.
-Package microtype Info: Applying patch `toc' on input line 47.
-Package microtype Info: Applying patch `eqnum' on input line 47.
-Package microtype Info: Applying patch `footnote' on input line 47.
-Package microtype Info: Applying patch `verbatim' on input line 47.
-LaTeX Info: Redefining \microtypesetup on input line 47.
+LaTeX Info: Redefining \microtypecontext on input line 54.
+Package microtype Info: Applying patch `item' on input line 54.
+Package microtype Info: Applying patch `toc' on input line 54.
+Package microtype Info: Applying patch `eqnum' on input line 54.
+Package microtype Info: Applying patch `footnote' on input line 54.
+Package microtype Info: Applying patch `verbatim' on input line 54.
+LaTeX Info: Redefining \microtypesetup on input line 54.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 47.
+LaTeX Info: Redefining \showhyphens on input line 54.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -209,50 +293,69 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen159
-\scratchbox=\box58
-\nofMPsegments=\count282
-\nofMParguments=\count283
+\scratchcounter=\count291
+\scratchdimen=\dimen170
+\scratchbox=\box104
+\nofMPsegments=\count292
+\nofMParguments=\count293
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen160
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen171
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
 \everyMPtoPDFconversion=\toks28
-)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+<divider-chapter.png, id=1, 210.29099pt x 20.32813pt>
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 57.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
 
 [1
 
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./divider-chapter.png>]
 
 [2
 
-] (./the-boston-cooking-school-cook-book.toc)
+]
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 86.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+ (./the-boston-cooking-school-cook-book.toc
+
+[3])
 \tf@toc=\write3
 \openout3 = `the-boston-cooking-school-cook-book.toc'.
 
 
 
-[3]
+[4]
+Chapter 1.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 94.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 114.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 114.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 114.
 
-[4
+
+[5
 
 ]
-Chapter 1.
 
-
-[5]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 215.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 215.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 215.
-
-
-[6]
+[6{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [7]
 
@@ -265,70 +368,66 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [11]
 
 [12]
-Chapter 2.
 
+[13]
 
-[13
+[14
 
 ]
+Chapter 2.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 724.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[14]
 
 [15]
 
 [16]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1083.
-
-Underfull \vbox (badness 2644) has occurred while \output is active []
-
-
 
 [17]
 
 [18]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1098.
 
 
 [20]
+
+[21]
+
+[22]
 Overfull \vbox (4.71027pt too high) has occurred while \output is active []
 
 
 
-[21]
+[23]
 
-[22
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[23
+[24
 
 ]
-
-[24]
 
 [25
 
 ]
 
-[26
+[26]
+
+[27
+
+]
+
+[28
 
 ]
 Chapter 3.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 1643.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-
-[27]
-
-[28{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [29]
 
@@ -349,16 +448,20 @@ Chapter 3.
 [37]
 
 [38]
-Chapter 4.
 
-
-[39
-
-]
+[39]
 
 [40]
+Chapter 4.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 2561.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[41]
+
+[41
+
+]
 
 [42]
 
@@ -396,13 +499,17 @@ Chapter 4.
 
 [59]
 
-[60
+[60]
+Chapter 5.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 4175.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
+
+[61
 
 ]
-Chapter 5.
-
-
-[61]
 
 [62]
 
@@ -436,22 +543,26 @@ Chapter 5.
 
 [77]
 
-[78]
-
-[79]
-
-[80]
-Chapter 6.
-
-
-[81
+[78
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5270--5270
+Chapter 6.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 5756.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 5851--5851
 []|\T1/cmr/m/n/10.95 (+20) Steam-cooked and rolled
  []
 
 
+
+[80]
+
+[81]
 
 [82]
 
@@ -460,21 +571,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 5270--5270
 [84]
 
 [85]
+Underfull \hbox (badness 5022) in paragraph at lines 6255--6256
+[]\T1/cmr/m/n/10.95 (+20) 1/2 cup grated Parme-san
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6256--6257
+[]\T1/cmr/m/n/10.95 (+20) 1/4 cup chopped cooked
+ []
+
+
 
 [86]
-
-[87]
-
-[88]
 Chapter 7.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 6312.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-Underfull \vbox (badness 4242) has occurred while \output is active []
 
-
-
-[89
+[87
 
 ]
+
+[88]
+
+[89]
 
 [90]
 
@@ -485,6 +607,11 @@ Underfull \vbox (badness 4242) has occurred while \output is active []
 [93]
 
 [94]
+Underfull \hbox (badness 7238) in paragraph at lines 6905--6906
+[]\T1/cmr/m/n/10.95 (+20) 3/4 cup but-tered cracker
+ []
+
+
 
 [95]
 
@@ -500,13 +627,17 @@ Underfull \vbox (badness 4242) has occurred while \output is active []
 
 [101]
 
-[102]
-Chapter 8.
-
-
-[103
+[102
 
 ]
+Chapter 8.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 7395.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
+
+[103]
 
 [104]
 
@@ -515,6 +646,16 @@ Chapter 8.
 [106]
 
 [107]
+Underfull \hbox (badness 10000) in paragraph at lines 7792--7793
+[]\T1/cmr/m/n/10.95 (+20) 2 ta-ble-spoons grated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7846--7847
+[]\T1/cmr/m/n/10.95 (+20) 1 tea-spoon Worces-ter-shire
+ []
+
+
 
 [108]
 
@@ -537,6 +678,11 @@ Chapter 8.
 [117]
 
 [118]
+Underfull \hbox (badness 10000) in paragraph at lines 8841--8842
+[]\T1/cmr/m/n/10.95 (+20) 1/2 tea-spoon pep-per-corns,
+ []
+
+
 
 [119]
 
@@ -553,18 +699,22 @@ Chapter 8.
 [125]
 
 [126]
+Chapter 9.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 9463.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[127]
+
+[127
+
+]
 
 [128]
 
 [129]
 
-[130
-
-]
-Chapter 9.
-
+[130]
 
 [131]
 
@@ -577,8 +727,16 @@ Chapter 9.
 [135]
 
 [136]
+Chapter 10.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 10405.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[137]
+
+[137
+
+]
 
 [138]
 
@@ -595,7 +753,11 @@ Chapter 9.
 [144
 
 ]
-Chapter 10.
+Chapter 11.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 10860.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
 
 [145]
@@ -607,33 +769,23 @@ Chapter 10.
 [148]
 
 [149]
+Overfull \hbox (1.52473pt too wide) in paragraph at lines 11289--11353
+[] 
+ []
+
+
 
 [150]
-Chapter 11.
 
-
-[151
-
-]
+[151]
 
 [152]
 
 [153]
 
 [154]
-Underfull \vbox (badness 1087) has occurred while \output is active []
-
-
 
 [155]
-Overfull \hbox (1.52473pt too wide) in paragraph at lines 10105--10169
-[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [156]
 
@@ -650,22 +802,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [162]
 
 [163]
+Underfull \hbox (badness 7504) in paragraph at lines 12208--12209
+[]\T1/cmr/m/n/10.95 (+20) 1/2 cup but-tered cracker
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 12244--12245
+[]\T1/cmr/m/n/10.95 (+20) 2/3 cup but-tered cracker
+ []
+
+
 
 [164]
 
 [165]
 
 [166]
+Underfull \hbox (badness 10000) in paragraph at lines 12455--12456
+[]\T1/cmr/m/n/10.95 (+20) 1 tea-spoon cel-ery, finely
+ []
+
+
 
 [167]
 
 [168]
 
 [169]
+Underfull \hbox (badness 10000) in paragraph at lines 12638--12639
+[]\T1/cmr/m/n/10.95 (+20) 1 tea-spoon Worces-ter-shire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12671--12672
+[]\T1/cmr/m/n/10.95 (+20) 1 tea-spoon Worces-ter-shire
+ []
+
+
 
 [170]
 
 [171]
+Underfull \hbox (badness 10000) in paragraph at lines 12850--12851
+[]\T1/cmr/m/n/10.95 (+20) 2 green pep-pers, finely
+ []
+
+
 
 [172]
 
@@ -680,35 +862,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [177]
 
 [178]
+Chapter 12.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 13269.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[179]
+
+[179
+
+]
 
 [180]
 
-[181]
-
-[182
+[181
 
 ]
-Chapter 12.
 
+[182]
 
-[183]
+[183
+
+]
 
 [184]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[185
-
-]
+[185]
 
 [186]
 
-[187
-
-]
+[187]
 
 [188]
 
@@ -731,21 +914,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [197]
 
 [198]
+Chapter 13.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 14535.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[199]
+
+[199
+
+]
 
 [200]
 
 [201]
 
-[202
-
-]
-Chapter 13.
-
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
-
+[202]
 
 [203]
 
@@ -758,57 +942,70 @@ Underfull \vbox (badness 1655) has occurred while \output is active []
 [207]
 
 [208]
-
-[209]
-
-[210]
 Chapter 14.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 15111.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
 
-[211
+[209
 
 ]
+
+[210]
+
+[211]
 
 [212]
 
 [213]
 
-[214]
-
-[215]
-
-[216
+[214
 
 ]
 Chapter 15.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 15424.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
+
+[215]
+
+[216]
 
 [217]
 
-[218]
-Chapter 16.
-
-
-[219
+[218
 
 ]
+Chapter 16.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 15568.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
+
+[219]
 
 [220]
 
 [221]
 
-[222
+[222]
+Chapter 17.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 15786.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
+
+[223
 
 ]
-Chapter 17.
-
-
-[223]
 
 [224]
-Underfull \vbox (badness 5563) has occurred while \output is active []
-
-
 
 [225]
 
@@ -841,18 +1038,27 @@ Underfull \vbox (badness 5563) has occurred while \output is active []
 [239]
 
 [240]
+Underfull \hbox (badness 7238) in paragraph at lines 17033--17034
+[]\T1/cmr/m/n/10.95 (+20) 2/3 cup but-tered cracker
+ []
+
+
 
 [241]
 
 [242]
-Chapter 18.
 
+[243]
 
-[243
+[244
 
 ]
+Chapter 18.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 17223.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[244]
 
 [245]
 
@@ -885,14 +1091,18 @@ Chapter 18.
 [259]
 
 [260]
-Chapter 19.
 
+[261]
 
-[261
+[262
 
 ]
+Chapter 19.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 18583.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[262]
 
 [263]
 
@@ -936,11 +1146,7 @@ Chapter 19.
 
 [283]
 
-[284
-
-]
-Chapter 20.
-
+[284]
 
 [285]
 
@@ -949,10 +1155,28 @@ Chapter 20.
 [287]
 
 [288]
+Underfull \hbox (badness 10000) in paragraph at lines 20202--20203
+[]\T1/cmr/m/n/10.95 (+20) 1 cup cooked veg-eta-bles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20202--20203
+\T1/cmr/m/n/10.95 (+20) rubbed through a sieve,--
+ []
+
+
 
 [289]
 
-[290]
+[290
+
+]
+Chapter 20.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 20251.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
 
 [291]
 
@@ -961,12 +1185,8 @@ Chapter 20.
 [293]
 
 [294]
-Chapter 21.
 
-
-[295
-
-]
+[295]
 
 [296]
 
@@ -981,8 +1201,16 @@ Chapter 21.
 [301]
 
 [302]
+Chapter 21.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 20996.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[303]
+
+[303
+
+]
 
 [304]
 
@@ -1005,12 +1233,8 @@ Chapter 21.
 [313]
 
 [314]
-Chapter 22.
 
-
-[315
-
-]
+[315]
 
 [316]
 
@@ -1029,8 +1253,16 @@ Chapter 22.
 [323]
 
 [324]
+Chapter 22.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 22563.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[325]
+
+[325
+
+]
 
 [326]
 
@@ -1069,6 +1301,11 @@ Chapter 22.
 [343]
 
 [344]
+Underfull \hbox (badness 7238) in paragraph at lines 24256--24257
+[]\T1/cmr/m/n/10.95 (+20) 2/3 cup but-tered cracker
+ []
+
+
 
 [345]
 
@@ -1088,13 +1325,24 @@ Chapter 22.
 
 [353]
 
-[354
-
-]
-Chapter 23.
-
+[354]
 
 [355]
+Underfull \hbox (badness 10000) in paragraph at lines 24995--24996
+[]\T1/cmr/m/n/10.95 (+20) 1 ta-ble-spoon grated
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 25023--25024
+[]\T1/cmr/m/n/10.95 (+20) 1/2 cup grated Amer-i-can
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 25024--25025
+[]\T1/cmr/m/n/10.95 (+20) 1/3 cup grated Parme-san
+ []
+
+
 
 [356]
 
@@ -1105,6 +1353,16 @@ Chapter 23.
 [359]
 
 [360]
+Underfull \hbox (badness 7012) in paragraph at lines 25346--25347
+[]\T1/cmr/m/n/10.95 (+20) 3/4 ta-ble-spoon gran-u-lated
+ []
+
+
+Underfull \hbox (badness 7415) in paragraph at lines 25403--25404
+[]\T1/cmr/m/n/10.95 (+20) 1/2 ta-ble-spoon gran-u-lated
+ []
+
+
 
 [361]
 
@@ -1112,7 +1370,15 @@ Chapter 23.
 
 [363]
 
-[364]
+[364
+
+]
+Chapter 23.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 25522.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
 
 [365]
 
@@ -1129,12 +1395,8 @@ Chapter 23.
 [371]
 
 [372]
-Chapter 24.
 
-
-[373
-
-]
+[373]
 
 [374]
 
@@ -1145,18 +1407,22 @@ Chapter 24.
 [377]
 
 [378]
-Chapter 25.
 
-
-[379
-
-]
+[379]
 
 [380]
 
 [381]
 
-[382]
+[382
+
+]
+Chapter 24.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 26944.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
 
 [383]
 
@@ -1172,7 +1438,15 @@ Chapter 25.
 
 [389]
 
-[390]
+[390
+
+]
+Chapter 25.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 27372.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
 
 [391]
 
@@ -1196,13 +1470,14 @@ Chapter 25.
 
 [401]
 
-[402
-
-]
-Chapter 26.
-
+[402]
 
 [403]
+Underfull \hbox (badness 10000) in paragraph at lines 28401--28402
+[]\T1/cmr/m/n/10.95 (+20) 1 ta-ble-spoon gran-u-lated
+ []
+
+
 
 [404]
 
@@ -1217,12 +1492,25 @@ Chapter 26.
 [409]
 
 [410]
+Underfull \hbox (badness 7012) in paragraph at lines 29023--29024
+[]\T1/cmr/m/n/10.95 (+20) 3/4 ta-ble-spoon gran-u-lated
+ []
+
+
 
 [411]
 
 [412]
+Chapter 26.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 29144.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[413]
+
+[413
+
+]
 
 [414]
 
@@ -1264,33 +1552,38 @@ Chapter 26.
 
 [433]
 
-[434
-
-]
-Chapter 27.
-
+[434]
 
 [435]
 
 [436]
 
 [437]
+Underfull \hbox (badness 7012) in paragraph at lines 31143--31144
+[]\T1/cmr/m/n/10.95 (+20) 3/4 ta-ble-spoon gran-u-lated
+ []
+
+
 
 [438]
-Chapter 28.
 
-
-[439
-
-]
+[439]
 
 [440]
 
 [441]
 
 [442]
+Chapter 27.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 31515.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
 
-[443]
+
+[443
+
+]
 
 [444]
 
@@ -1298,25 +1591,56 @@ Chapter 28.
 
 [446]
 
-[447] (./the-boston-cooking-school-cook-book.aux)
+[447]
+
+[448
+
+]
+Chapter 28.
+File: divider-chapter.png Graphic file (type png)
+<use divider-chapter.png>
+Package pdftex.def Info: divider-chapter.png  used on input line 31808.
+(pdftex.def)             Requested size: 361.34999pt x 34.93172pt.
+
+
+[449]
+
+[450]
+
+[451]
+
+[452]
+
+[453]
+
+[454]
+
+[455]
+Underfull \hbox (badness 5345) in paragraph at lines 32387--32388
+[]\T1/cmr/m/n/10.95 (+20) 1 1/4 cups steamed and
+ []
+
+
+
+[456] (./the-boston-cooking-school-cook-book.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5605 strings out of 473190
- 87909 string characters out of 5715801
- 556813 words of memory out of 5000000
- 28570 multiletter control sequences out of 15000+600000
- 582268 words of font info for 196 fonts, out of 8000000 for 9000
+ 6113 strings out of 473190
+ 96784 string characters out of 5715801
+ 564489 words of memory out of 5000000
+ 29058 multiletter control sequences out of 15000+600000
+ 581993 words of font info for 193 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,70p,1134b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,70p,1134b,329s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on the-boston-cooking-school-cook-book.pdf (447 pages, 1095216 bytes).
+Output written on the-boston-cooking-school-cook-book.pdf (456 pages, 1183748 bytes).
 PDF statistics:
- 1492 PDF objects out of 1728 (max. 8388607)
- 1015 compressed objects within 11 object streams
+ 1523 PDF objects out of 1728 (max. 8388607)
+ 1035 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
- 32769 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 32774 words of extra memory for PDF output out of 35830 (max. 10000000)
 
