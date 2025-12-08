@@ -45,9 +45,11 @@ my @output;
 push @output, "\\documentclass[11pt,letterpaper]{book}";
 push @output, "\\usepackage[utf8]{inputenc}";
 push @output, "\\usepackage[T1]{fontenc}";
+push @output, "\\usepackage{tgpagella}"; # TeX Gyre Pagella (Palatino-like)
 push @output, "\\usepackage[margin=1in]{geometry}";
 push @output, "\\usepackage{microtype}";
 push @output, "\\usepackage{titlesec}";
+push @output, "\\usepackage{titletoc}"; # For customizing table of contents
 push @output, "\\usepackage{enumitem}";
 push @output, "\\usepackage{array}";
 push @output, "\\usepackage{tabularx}";
@@ -96,6 +98,14 @@ push @output, "  {0pt}"; # Left margin
 push @output, "  {1.5em}"; # Space before (breathing room between recipes)
 push @output, "  {0.3em}"; # Space after (tight between title and ingredients)
 push @output, "";
+push @output, "% Customize table of contents - remove chapter numbers, add leader dots";
+push @output, "\\titlecontents{chapter}";
+push @output, "  [0pt]"; # Left indent
+push @output, "  {\\bfseries}"; # Font formatting
+push @output, "  {}"; # No chapter number
+push @output, "  {}"; # No separator between number and title (not needed)
+push @output, "  {\\titlerule*[0.5pc]{.}\\contentspage}"; # Leader dots and page number
+push @output, "";
 push @output, "% Customize chapter headers to show only chapter name (not \"Chapter X.\")";
 push @output, "\\renewcommand{\\chaptermark}[1]{\\markboth{#1}{}}";
 push @output, "";
@@ -128,6 +138,7 @@ push @output, "";
 my $start_found = 0;
 my $in_content = 0;
 my $after_chapter = 0;  # Track if we just output a chapter
+my $in_menu_chapter = 0;  # Track if we're in the "Suitable Combinations" chapter
 
 for (my $i = 0; $i < @lines; $i++) {
     my $line = $lines[$i];
@@ -149,7 +160,7 @@ for (my $i = 0; $i < @lines; $i++) {
     # Skip Project Gutenberg boilerplate at the beginning
     if (!$in_content) {
         # Look for the start of actual content (PREFACE or first CHAPTER)
-        if ($line =~ /^\s+PREFACE\s*$/ || $line =~ /^\s+CHAPTER [IVXLCDM]+\s*$/) {
+        if ($line =~ /^\s+PREFACE/i || $line =~ /^\s+CHAPTER [IVXLCDM]+\s*$/) {
             $in_content = 1;
         } else {
             next;
@@ -1197,7 +1208,7 @@ for (my $i = 0; $i < @lines; $i++) {
         chomp($next_line);
         $next_line =~ s/^\s+|\s+$//g;
 
-        if ($next_line =~ /^[A-ZÀ-ÿ\s\-',]+$/i && length($next_line) < 60) {
+        if ($next_line =~ /^[A-ZÀ-ÿ\s\-',:]+$/i && length($next_line) < 60) {
             my $title = escape_latex($next_line);
             $title = lc($title);
             $title =~ s/\b(\w)/\U$1/g;  # Title case
@@ -1206,6 +1217,167 @@ for (my $i = 0; $i < @lines; $i++) {
             push @output, "\\chapter{$title}";
             push @output, "";
             $after_chapter = 1;  # Flag that we just output a chapter
+
+            # Check if this is the "Suitable Combinations For Serving" chapter
+            if ($next_line =~ /SUITABLE COMBINATIONS FOR SERVING/i) {
+                $in_menu_chapter = 1;
+
+                # Process the rest of the chapter as menus
+                $i += 2;  # Skip the chapter title line and next blank line
+                my @current_menu = ();
+
+                while ($i < @lines) {
+                    my $menu_line = $lines[$i];
+                    chomp($menu_line);
+                    $menu_line =~ s/\r$//;
+
+                    # Check for ☸ separator
+                    if ($menu_line =~ /^\s*☸+\s*$/) {
+                        # Output the collected menu as a table
+                        if (@current_menu > 0) {
+                            # First, split each item by multiple spaces to detect columns
+                            my @rows;
+                            my $max_cols = 1;
+
+                            foreach my $item (@current_menu) {
+                                # Split on 2 or more spaces
+                                my @cols = split(/\s{2,}/, $item);
+                                push @rows, \@cols;
+                                $max_cols = @cols if @cols > $max_cols;
+                            }
+
+                            # Create table with appropriate number of columns
+                            push @output, "";
+                            push @output, "\\vspace{1em}";
+                            push @output, "\\begin{center}";
+                            push @output, "{\\renewcommand{\\arraystretch}{1.5}";  # Increase row height
+                            my $col_spec = "|" . (">{\\hspace{0.5em}}c<{\\hspace{0.5em}}|" x $max_cols);
+                            push @output, "\\begin{tabular}{$col_spec}";
+                            push @output, "\\hline";
+
+                            foreach my $row (@rows) {
+                                my @escaped_cols;
+                                foreach my $col (@$row) {
+                                    my $escaped_col = escape_latex($col);
+                                    $escaped_col =~ s/^\s+|\s+$//g;  # Trim whitespace
+                                    push @escaped_cols, $escaped_col;
+                                }
+
+                                # If only one column, use multicolumn to span all columns
+                                if (@escaped_cols == 1) {
+                                    push @output, "\\multicolumn{$max_cols}{|c|}{$escaped_cols[0]} \\\\ \\hline";
+                                } else {
+                                    # Pad with empty cells if needed
+                                    while (@escaped_cols < $max_cols) {
+                                        push @escaped_cols, "";
+                                    }
+                                    push @output, join(" & ", @escaped_cols) . " \\\\ \\hline";
+                                }
+                            }
+
+                            push @output, "\\end{tabular}}";  # Close arraystretch group
+                            push @output, "\\end{center}";
+                            push @output, "\\vspace{0.5em}";
+                            push @output, "";
+
+                            @current_menu = ();
+                        }
+                        $i++;
+                        next;
+                    }
+
+                    # Check for section headers like "Breakfast Menus"
+                    if ($menu_line =~ /^\s+([A-Z][a-z]+\s+Menus?)\s*$/i) {
+                        my $section = $1;
+                        my $escaped_section = escape_latex($section);
+                        $escaped_section =~ s/\b(\w)/\U$1/g;  # Title case
+                        push @output, "";
+                        push @output, "\\section*{\\centering $escaped_section}";
+                        push @output, "";
+                        $i++;
+                        next;
+                    }
+
+                    # Check for blank lines - skip them
+                    if ($menu_line =~ /^\s*$/) {
+                        # Just skip blank lines
+                    }
+                    # Check for illustrations
+                    elsif ($menu_line =~ /^\[Illustration/) {
+                        # Skip until closing bracket
+                        while ($i < @lines) {
+                            $i++;
+                            last if $i >= @lines;
+                            $menu_line = $lines[$i];
+                            chomp($menu_line);
+                            last if $menu_line =~ /^\]$/;
+                        }
+                    }
+                    # Check if this is the end of the book content (INDEX, etc.)
+                    elsif ($menu_line =~ /^\s*(INDEX|GLOSSARY|THE END)\s*$/i) {
+                        last;
+                    }
+                    # Otherwise, treat any line with content as a menu item
+                    elsif ($menu_line =~ /\S/) {  # Has non-whitespace content
+                        my $item = $menu_line;
+                        $item =~ s/^\s+|\s+$//g;  # Trim leading/trailing whitespace
+                        push @current_menu, $item if $item;  # Only add if not empty after trimming
+                    }
+
+                    $i++;
+                }
+
+                # Output any remaining menu
+                if (@current_menu > 0) {
+                    # First, split each item by multiple spaces to detect columns
+                    my @rows;
+                    my $max_cols = 1;
+
+                    foreach my $item (@current_menu) {
+                        # Split on 2 or more spaces
+                        my @cols = split(/\s{2,}/, $item);
+                        push @rows, \@cols;
+                        $max_cols = @cols if @cols > $max_cols;
+                    }
+
+                    # Create table with appropriate number of columns
+                    push @output, "";
+                    push @output, "\\vspace{1em}";
+                    push @output, "\\begin{center}";
+                    push @output, "{\\renewcommand{\\arraystretch}{1.5}";  # Increase row height
+                    my $col_spec = "|" . (">{\\hspace{0.5em}}c<{\\hspace{0.5em}}|" x $max_cols);
+                    push @output, "\\begin{tabular}{$col_spec}";
+                    push @output, "\\hline";
+
+                    foreach my $row (@rows) {
+                        my @escaped_cols;
+                        foreach my $col (@$row) {
+                            my $escaped_col = escape_latex($col);
+                            $escaped_col =~ s/^\s+|\s+$//g;  # Trim whitespace
+                            push @escaped_cols, $escaped_col;
+                        }
+
+                        # If only one column, use multicolumn to span all columns
+                        if (@escaped_cols == 1) {
+                            push @output, "\\multicolumn{$max_cols}{|c|}{$escaped_cols[0]} \\\\ \\hline";
+                        } else {
+                            # Pad with empty cells if needed
+                            while (@escaped_cols < $max_cols) {
+                                push @escaped_cols, "";
+                            }
+                            push @output, join(" & ", @escaped_cols) . " \\\\ \\hline";
+                        }
+                    }
+
+                    push @output, "\\end{tabular}}";  # Close arraystretch group
+                    push @output, "\\end{center}";
+                    push @output, "";
+                }
+
+                # We've processed the entire chapter, so we can break out of the main loop
+                last;
+            }
+
             $i++;  # Skip the next line
             next;
         }
@@ -1252,10 +1424,11 @@ for (my $i = 0; $i < @lines; $i++) {
     }
 
     # Check for other major headings (PREFACE, GLOSSARY, INDEX)
-    if ($line =~ /^\s+(PREFACE|GLOSSARY|INDEX)\s*$/) {
+    if ($line =~ /^\s+(PREFACE.*|GLOSSARY|INDEX)\s*$/i) {
         my $heading = $1;
+        $heading =~ s/^\s+|\s+$//g;  # Trim whitespace
         $heading = lc($heading);
-        $heading =~ s/\b(\w)/\U$1/g;
+        $heading =~ s/\b(\w)/\U$1/g;  # Title case
 
         push @output, "";
         push @output, "\\chapter*{$heading}";
@@ -1410,8 +1583,9 @@ for (my $i = 0; $i < @lines; $i++) {
 
     # Check for recipe ingredient lists (indented lines with measurements)
     # Match patterns like: 1 cup, 1/2 cup, 1 1/2 cup, 2 3/4 to 3 1/4 cups, 4 eggs, 3 "hard-boiled" eggs, 6 lbs, 3 large cucumbers (after escape_latex converts Unicode fractions)
+    # Also match standalone ingredients like Salt, Pepper, Butter
     # Require at least 7 spaces of indentation to distinguish from regular text
-    if ($line =~ /^\s{7,}(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)(?:\s+(?:to|-|--)\s+\d+(?:\s+\d+\/\d+)?|\d+\/\d+)?\s+(?:.*?\s+)?(cup|tablespoon|teaspoon|pound|lb|quart|pint|slice|sprig|stalk|can|square|ounce|egg|cucumber|crab|clove|head|artichoke|potato|potatoe|turnip|leek|breast|terrapin|oyster|knuckle|veal|beet|pepper|onion|tomatoe|chicken|fish|shrimp|lobster|salmon|lamb|pork|beef|mutton|duck|turkey|sardine|anchovy|scallop|sweetbread|carrot|celery|mushroom|squash|radish|parsnip|bean|pea|apple|orange|lemon|lime|banana|peach|pear|plum|cherry|chocolate|grape|roll|biscuit|cracker|cookie|truffle|quail|loaf|box|gelatine|clam|pineapple)s?\.?(?:\s+|$)/i) {
+    if ($line =~ /^\s{7,}(\d+(?:\s+\d+\/\d+)?|\d+\/\d+)(?:\s+(?:to|-|--)\s+\d+(?:\s+\d+\/\d+)?|\d+\/\d+)?\s+(?:.*?\s+)?(cup|tablespoon|teaspoon|pound|lb|quart|pint|gallon|peck|slice|sprig|stalk|can|square|ounce|egg|cucumber|crab|clove|head|artichoke|potato|potatoe|turnip|leek|breast|terrapin|oyster|knuckle|veal|beet|pepper|onion|tomatoe|chicken|fish|shrimp|lobster|salmon|lamb|pork|beef|mutton|duck|turkey|sardine|anchovy|scallop|sweetbread|carrot|almond|celery|mushroom|squash|radish|parsnip|bean|pea|apple|orange|lemon|lime|banana|peach|pear|plum|cherry|chocolate|grape|roll|biscuit|cracker|cookie|truffle|crumb|quail|loaf|box|gelatine|clam|pineapple)s?\.?(?:\s+|$)/i || $line =~ /^\s{7,}(Salt|Pepper|Butter)(\s+and\s+\w+)?\s*$/i) {
         # Start of ingredient list - look ahead to collect all ingredients
         my @ingredients;
         my $j = $i;
@@ -1524,6 +1698,10 @@ for (my $i = 0; $i < @lines; $i++) {
                 push @output, "\\end{minipage}";
                 push @output, "";
                 push @output, "\\vspace{0.3em}";
+            } else {
+                # Reduce spacing for single-column lists to match two-column
+                push @output, "";
+                push @output, "\\vspace{-0.5em}"; # Compensates for parskip (0.8em - 0.5em = 0.3em)
             }
 
             # Get the next non-blank line and output it with noindent
