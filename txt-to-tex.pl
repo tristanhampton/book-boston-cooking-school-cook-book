@@ -91,15 +91,37 @@ push @output, "  {\\normalfont\\large\\bfseries}"; # Font: large, bold (smaller 
 push @output, "  {}"; # No label (no numbering)
 push @output, "  {0pt}"; # No separation between label and title
 push @output, "  {\\underline}"; # Underline the text (not full-width)
+push @output, "\\titlespacing*{\\subsection}";
+push @output, "  {0pt}"; # Left margin
+push @output, "  {1.5em}"; # Space before (breathing room between recipes)
+push @output, "  {0.3em}"; # Space after (tight between title and ingredients)
 push @output, "";
 push @output, "% Customize chapter headers to show only chapter name (not \"Chapter X.\")";
 push @output, "\\renewcommand{\\chaptermark}[1]{\\markboth{#1}{}}";
 push @output, "";
-push @output, "\\title{The Boston Cooking-School Cook Book}";
-push @output, "\\author{Fannie Merritt Farmer}";
-push @output, "\\date{1910}";
+push @output, "% Remove paragraph indentation and add space between paragraphs";
+push @output, "\\setlength{\\parindent}{0pt}";
+push @output, "\\setlength{\\parskip}{0.8em}";
+push @output, "";
+push @output, "% Custom title page";
+push @output, "\\renewcommand{\\maketitle}{%";
+push @output, "  \\begin{titlepage}";
+push @output, "    \\centering";
+push @output, "    \\vspace*{\\fill}";
+push @output, "    {\\Huge\\bfseries The Boston Cooking-School Cook Book\\par}";
+push @output, "    \\vspace{2em}";
+push @output, "    \\includegraphics[width=5in]{divider-chapter.png}\\par";
+push @output, "    \\vspace{2em}";
+push @output, "    {\\Large Fannie Merritt Farmer\\par}";
+push @output, "    \\vspace{1em}";
+push @output, "    {\\large 1910\\par}";
+push @output, "    \\vspace*{\\fill}";
+push @output, "  \\end{titlepage}";
+push @output, "}";
 push @output, "";
 push @output, "\\begin{document}";
+push @output, "";
+push @output, "\\maketitle";
 push @output, "";
 
 # State tracking
@@ -444,7 +466,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 push @output, "\\hline";
                 push @output, "\\end{tabular}";
-                push @output, "\\vspace{2em}";
                 push @output, "";
             }
 
@@ -818,7 +839,6 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 push @output, "\\hline";
                 push @output, "\\end{tabular}";
-                push @output, "\\vspace{2em}";
                 push @output, "";
             }
 
@@ -1491,6 +1511,7 @@ for (my $i = 0; $i < @lines; $i++) {
 
             push @output, "\\begin{itemize}";
             push @output, "\\setlength{\\itemsep}{0pt}";
+            push @output, "\\setlength{\\parsep}{0pt}";
 
             foreach my $ing (@ingredients) {
                 push @output, "\\item $ing";
@@ -1502,7 +1523,7 @@ for (my $i = 0; $i < @lines; $i++) {
                 push @output, "\\end{multicols}}";
                 push @output, "\\end{minipage}";
                 push @output, "";
-                push @output, "\\vspace{1em}";
+                push @output, "\\vspace{0.3em}";
             }
 
             # Get the next non-blank line and output it with noindent
