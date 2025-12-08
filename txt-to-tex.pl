@@ -50,6 +50,7 @@ push @output, "\\usepackage{microtype}";
 push @output, "\\usepackage{titlesec}";
 push @output, "\\usepackage{enumitem}";
 push @output, "\\usepackage{array}";
+push @output, "\\usepackage{tabularx}";
 push @output, "\\usepackage[table]{xcolor}";
 push @output, "\\usepackage{multicol}";
 push @output, "\\usepackage{needspace}";
@@ -90,6 +91,9 @@ push @output, "  {\\normalfont\\large\\bfseries}"; # Font: large, bold (smaller 
 push @output, "  {}"; # No label (no numbering)
 push @output, "  {0pt}"; # No separation between label and title
 push @output, "  {\\underline}"; # Underline the text (not full-width)
+push @output, "";
+push @output, "% Customize chapter headers to show only chapter name (not \"Chapter X.\")";
+push @output, "\\renewcommand{\\chaptermark}[1]{\\markboth{#1}{}}";
 push @output, "";
 push @output, "\\title{The Boston Cooking-School Cook Book}";
 push @output, "\\author{Fannie Merritt Farmer}";
@@ -194,8 +198,10 @@ for (my $i = 0; $i < @lines; $i++) {
 
             # Start the table with the title as header (2 columns)
             push @output, "";
+            push @output, "\\vfill";
+            push @output, "\\begin{center}";
             push @output, "\\arrayrulecolor{tablerowgray}";
-            push @output, "\\begin{tabular}{lr}";
+            push @output, "\\begin{tabularx}{\\textwidth}{Xr}";
             push @output, "\\hline";
             push @output, "\\multicolumn{2}{c}{\\textbf{Table Of Measures And Weights}} \\\\";
             push @output, "\\hline";
@@ -246,18 +252,24 @@ for (my $i = 0; $i < @lines; $i++) {
                 $i++;
             }
 
-            push @output, "\\end{tabular}";
+            push @output, "\\end{tabularx}";
             push @output, "\\arrayrulecolor{black}";
+            push @output, "\\end{center}";
+            push @output, "\\vfill";
+            push @output, "\\pagebreak";
             push @output, "";
 
             $i--;  # Back up one line so the main loop processes the next line correctly
             next;
         }
 
-        push @output, "";
-        push @output, "\\needspace{15\\baselineskip}"; # Prevent recipe from splitting across pages
-        push @output, "\\section*{$section_title}";
-        push @output, "";
+        # Don't output section heading for Time Tables For Cooking (handled specially below)
+        unless ($section_title =~ /Time Tables For Cooking/i) {
+            push @output, "";
+            push @output, "\\needspace{15\\baselineskip}"; # Prevent recipe from splitting across pages
+            push @output, "\\section*{$section_title}";
+            push @output, "";
+        }
         $after_chapter = 0;  # Reset flag - section breaks the "after chapter" sequence
 
         $h3_used_count{$normalized_line}++;
@@ -432,6 +444,7 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 push @output, "\\hline";
                 push @output, "\\end{tabular}";
+                push @output, "\\vspace{2em}";
                 push @output, "";
             }
 
@@ -490,18 +503,14 @@ for (my $i = 0; $i < @lines; $i++) {
                 if ($line =~ /^\s+(Boiling|Broiling|Baking|Frying)\s*$/i) {
                     my $subsection = $1;
 
-                    # Add page break before each table except the first
-                    if (!$first_table) {
-                        push @output, "";
-                        push @output, "\\clearpage";
-                        push @output, "";
-                    }
                     $first_table = 0;
 
-                    # Start a new table for this subsection
+                    # Start a new table for this subsection with vertical and horizontal centering
                     push @output, "";
+                    push @output, "\\vfill";
+                    push @output, "\\begin{center}";
                     push @output, "\\arrayrulecolor{tablerowgray}";
-                    push @output, "\\begin{tabular}{lrr}";  # ARTICLES, Hours, Minutes (no vertical lines)
+                    push @output, "\\begin{tabularx}{\\textwidth}{Xrr}";  # ARTICLES, Hours, Minutes (no vertical lines)
                     push @output, "\\hline";
                     push @output, "\\multicolumn{3}{c}{\\textbf{Time Tables For Cooking — $subsection}} \\\\";
                     push @output, "\\hline";
@@ -542,9 +551,10 @@ for (my $i = 0; $i < @lines; $i++) {
                             if ($k < @lines) {
                                 my $next = $lines[$k];
                                 $next =~ s/\r$//;
-                                # If next line is subsection header or NOTE, we're done with this subsection
+                                # If next line is subsection header, NOTE, or new CHAPTER, we're done with this subsection
                                 last if $next =~ /^\s+(Boiling|Broiling|Baking|Frying)\s*$/i;
                                 last if $next =~ /^NOTE/i;
+                                last if $next =~ /^\s*CHAPTER\s+/i;
                             } else {
                                 last;
                             }
@@ -560,41 +570,50 @@ for (my $i = 0; $i < @lines; $i++) {
 
                         # Data rows start with spaces followed by text
                         if ($row =~ /^\s{2,}\S/) {
-                            $row =~ s/^\s+//;  # Remove leading spaces
+                            # Keep original row to determine column positions
+                            my $original_row = $row;
+                            $row =~ s/^\s+//;  # Remove leading spaces for parsing
 
                             # Try to parse: name followed by time values
                             # Format could be: "name    time" or "name    hours    minutes"
                             my $formatted_row = "";
+
+                            # First, try patterns with two time ranges (hours and minutes both present)
                             if ($row =~ /^(.+?)\s{2,}(\d+)\s+to\s+(\d+)\s+(\d+)\s+to\s+(\d+)$/) {
                                 # Format: "name    H1 to H2    M1 to M2"
                                 my ($name, $h1, $h2, $m1, $m2) = ($1, $2, $3, $4, $5);
                                 $name =~ s/\s+$//;
                                 $formatted_row = escape_latex($name) . " & $h1 to $h2 & $m1 to $m2 \\\\";
-                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s+(\d+\s+to\s+\d+)$/) {
-                                # Format: "name    hours    M1 to M2"
-                                my ($name, $hours, $mins) = ($1, $2, $3);
-                                $name =~ s/\s+$//;
-                                $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
                             } elsif ($row =~ /^(.+?)\s{2,}(\d+\s+to\s+\d+)\s+(\d+\s+to\s+\d+)$/) {
                                 # Format: "name    H1 to H2    M1 to M2"
                                 my ($name, $hours, $mins) = ($1, $2, $3);
                                 $name =~ s/\s+$//;
                                 $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
-                            } elsif ($row =~ /^(.+?)\s{2,}(\d+\s+to\s+\d+)\s*$/) {
-                                # Format: "name    X to Y" (minutes only)
-                                my ($name, $time) = ($1, $2);
+                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s+(\d+\s+to\s+\d+)$/) {
+                                # Format: "name    hours    M1 to M2"
+                                my ($name, $hours, $mins) = ($1, $2, $3);
                                 $name =~ s/\s+$//;
-                                $formatted_row = escape_latex($name) . " &  & $time \\\\";
+                                $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
                             } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s+(\d+)$/) {
                                 # Format: "name    hours    minutes" (two separate values)
                                 my ($name, $hours, $mins) = ($1, $2, $3);
                                 $name =~ s/\s+$//;
                                 $formatted_row = escape_latex($name) . " & $hours & $mins \\\\";
-                            } elsif ($row =~ /^(.+?)\s{2,}(\d+)\s*$/) {
-                                # Format: "name    X" (single time value - assume minutes)
+                            } elsif ($row =~ /^(.+?)\s{2,}([\d¼½¾]+(?:\s+to\s+[\d¼½¾]+)?)\s*$/) {
+                                # Format: "name    X to Y" or "name    X" (single time range/value)
+                                # Use column position in original row to determine if it's hours or minutes
                                 my ($name, $time) = ($1, $2);
                                 $name =~ s/\s+$//;
-                                $formatted_row = escape_latex($name) . " &  & $time \\\\";
+
+                                # Find where the time value starts in the original row
+                                my $time_pos = index($original_row, $time);
+
+                                # If time starts before column 60, it's hours; otherwise it's minutes
+                                if ($time_pos < 60) {
+                                    $formatted_row = escape_latex($name) . " & $time & \\\\";
+                                } else {
+                                    $formatted_row = escape_latex($name) . " &  & $time \\\\";
+                                }
                             } else {
                                 # Fallback: just output the row as-is in first column
                                 $formatted_row = escape_latex($row) . " &  &  \\\\";
@@ -618,14 +637,14 @@ for (my $i = 0; $i < @lines; $i++) {
                             push @output, "\\hline";
                         }
                         push @output, "\\arrayrulecolor{black}";
-                        push @output, "\\end{tabular}";
+                        push @output, "\\end{tabularx}";
                         push @output, "";
-                        push @output, "\\vspace{1em}";
+                        push @output, "\\vspace{2em}";
                         push @output, "";
 
-                        # Second table - start new table with same headers
+                        # Second table - start new table with same headers (still within center environment)
                         push @output, "\\arrayrulecolor{tablerowgray}";
-                        push @output, "\\begin{tabular}{lrr}";
+                        push @output, "\\begin{tabularx}{\\textwidth}{Xrr}";
                         push @output, "\\hline";
                         push @output, "ARTICLES & Hours & Minutes \\\\";
                         push @output, "\\hline";
@@ -634,7 +653,10 @@ for (my $i = 0; $i < @lines; $i++) {
                             push @output, "\\hline";
                         }
                         push @output, "\\arrayrulecolor{black}";
-                        push @output, "\\end{tabular}";
+                        push @output, "\\end{tabularx}";
+                        push @output, "\\end{center}";
+                        push @output, "\\vfill";
+                        push @output, "\\pagebreak";
                         push @output, "";
                     } else {
                         # Regular single-column table - output all rows
@@ -645,14 +667,12 @@ for (my $i = 0; $i < @lines; $i++) {
 
                         # Close this subsection's table
                         push @output, "\\arrayrulecolor{black}";
-                        push @output, "\\end{tabular}";
+                        push @output, "\\end{tabularx}";
+                        push @output, "\\end{center}";
+                        push @output, "\\vfill";
+                        push @output, "\\pagebreak";
                         push @output, "";
                     }
-
-                    # Add bottom margin after the table
-                    push @output, "\\vspace{10pt}";
-                    push @output, "";
-                    push @output, "\\noindent";
                 } else {
                     # Not a subsection header, skip this line
                     $j++;
@@ -798,6 +818,7 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 push @output, "\\hline";
                 push @output, "\\end{tabular}";
+                push @output, "\\vspace{2em}";
                 push @output, "";
             }
 

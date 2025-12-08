@@ -2,3 +2,6 @@
 *.log
 *.toc
 .claude/
+*.fls
+*.gz
+*.fdb_latexmk

@@ -6,6 +6,7 @@
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{array}
+\usepackage{tabularx}
 \usepackage[table]{xcolor}
 \usepackage{multicol}
 \usepackage{needspace}
@@ -47,6 +48,9 @@
   {0pt}
   {\underline}
 
+% Customize chapter headers to show only chapter name (not "Chapter X.")
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
 \title{The Boston Cooking-School Cook Book}
 \author{Fannie Merritt Farmer}
 \date{1910}
@@ -84,11 +88,6 @@ deeper thought and broader study of what to eat.
 
 
 \tableofcontents
-
-                  THE BOSTON COOKING-SCHOOL COOK BOOK
-
-
-
 
 
 \chapter{Food}
@@ -434,8 +433,6 @@ Water & 87\% \\
 \hline
 Lactose & 4.9\% \\
 \hline
-\multicolumn{2}{|l|}{\textit{Boston Chemist.}} \\
-\hline
 \end{tabular}
 
 \vspace{10pt}
@@ -507,8 +504,6 @@ Water & 5.34\% \\
 Mineral matter & .95\% \\
 \hline
 Casein & .71\% \\
-\hline
-\multicolumn{2}{|l|}{\textit{Pratt Institute.}} \\
 \hline
 \end{tabular}
 
@@ -1194,90 +1189,26 @@ prevented from escaping.
 \begin{itemize}
 \setlength{\itemsep}{0pt}
 \item By Freezing: Foods which spoil readily are frozen for transportation, and must be kept packed in ice until used. Examples: Fish and poultry.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Refrigeration: Foods so preserved are kept in cold storage. The cooling is accomplished by means of ice, or by a machine where compressed gas is cooled and then permitted to expand. Examples: meat, milk, butter, eggs, etc.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Canning: Which is preserving in air-tight glass jars, or tin cans hermetically sealed. When fruit is canned, sugar is usually added.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Sugar: Examples: fruit juices and condensed milk.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Exclusion of Air: Foods are preserved by exclusion of air in other ways than canning. Examples: grapes in bran, eggs in lime water, etc.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Drying: Drying consists in evaporation of nearly all moisture, and is generally combined with salting, except in vegetables and fruits.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Evaporation: There are examples where considerable moistureremains, though much is driven off. Example: beef extract.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Salting: There are two kinds of salting,--dry, and corning or salting in brine. Examples: salt codfish, beef, pork, tripe, etc.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Smoking: Some foods, after being salted, are hung in a closed room for several hours, where hickory wood is allowed to smother. Examples: ham, beef, and fish.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Pickling: Vinegar, to which salt is added, and sometimes sugar and spices, is scalded; and cucumbers, onions, and various kinds of fruit are allowed to remain in it.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Oil: Examples: sardines, anchovies, etc.
-\end{itemize}
-
-
-
-\begin{itemize}
-\setlength{\itemsep}{0pt}
 \item By Antiseptics: The least wholesome way is by the use of antiseptics. Borax and salicylic acid, when employed, should be used sparingly.
 \end{itemize}
 
 
 
 
+\vfill
+\begin{center}
 \arrayrulecolor{tablerowgray}
-\begin{tabular}{lr}
+\begin{tabularx}{\textwidth}{Xr}
 \hline
 \multicolumn{2}{c}{\textbf{Table Of Measures And Weights}} \\
 \hline
@@ -1325,17 +1256,18 @@ prevented from escaping.
 \hline
 4 tablespoons flour & 1 ounce \\
 \hline
-\end{tabular}
+\end{tabularx}
 \arrayrulecolor{black}
+\end{center}
+\vfill
+\pagebreak
 
 
 
-\needspace{15\baselineskip}
-\section*{Time Tables For Cooking}
-
-
+\vfill
+\begin{center}
 \arrayrulecolor{tablerowgray}
-\begin{tabular}{lrr}
+\begin{tabularx}{\textwidth}{Xrr}
 \hline
 \multicolumn{3}{c}{\textbf{Time Tables For Cooking — Boiling}} \\
 \hline
@@ -1347,17 +1279,17 @@ Eggs, soft cooked &  & 6 to 8 \\
 \hline
 Eggs, hard cooked &  & 35 to 45 \\
 \hline
-Mutton, leg &  & 2 to 3 \\
+Mutton, leg & 2 to 3 & \\
 \hline
-Ham, weight 12 to 14 lbs. &  & 4 to 5 \\
+Ham, weight 12 to 14 lbs. & 4 to 5 & \\
 \hline
-Corned Beef or Tongue &  & 3 to 4 \\
+Corned Beef or Tongue & 3 to 4 & \\
 \hline
-Turkey, weight 9 lbs. &  & 2 to 3 \\
+Turkey, weight 9 lbs. & 2 to 3 & \\
 \hline
-Fowl, weight 4 to 5 lbs. &  & 2 to 3 \\
+Fowl, weight 4 to 5 lbs. & 2 to 3 & \\
 \hline
-Chicken, weight 3 lbs.                          1 to 1 1/4 &  &  \\
+Chicken, weight 3 lbs. & 1 to 1¼ & \\
 \hline
 Lobster &  & 25 to 30 \\
 \hline
@@ -1379,13 +1311,13 @@ Asparagus &  & 20 to 30 \\
 \hline
 Peas &  & 20 to 60 \\
 \hline
-String Beans                                    1 to 2 1/2 &  &  \\
+String Beans & 1 to 2½ & \\
 \hline
-Lima and other Shell Beans                      1 to 1 1/4 &  &  \\
+Lima and other Shell Beans & 1 to 1¼ & \\
 \hline
 Beets, young &  & 45 \\
 \hline
-Beets, old &  & 3 to 4 \\
+Beets, old & 3 to 4 & \\
 \hline
 Cabbage &  & 35 to 60 \\
 \hline
@@ -1412,17 +1344,16 @@ Rice &  & 20 to 25 \\
 Macaroni &  & 20 to 30 \\
 \hline
 \arrayrulecolor{black}
-\end{tabular}
-
-\vspace{10pt}
-
-\noindent
-
-\clearpage
+\end{tabularx}
+\end{center}
+\vfill
+\pagebreak
 
 
+\vfill
+\begin{center}
 \arrayrulecolor{tablerowgray}
-\begin{tabular}{lrr}
+\begin{tabularx}{\textwidth}{Xrr}
 \hline
 \multicolumn{3}{c}{\textbf{Time Tables For Cooking — Broiling}} \\
 \hline
@@ -1451,17 +1382,16 @@ Small, thin Fish &  & 5 to 8 \\
 Liver and Tripe &  & 4 to 5 \\
 \hline
 \arrayrulecolor{black}
-\end{tabular}
-
-\vspace{10pt}
-
-\noindent
-
-\clearpage
+\end{tabularx}
+\end{center}
+\vfill
+\pagebreak
 
 
+\vfill
+\begin{center}
 \arrayrulecolor{tablerowgray}
-\begin{tabular}{lrr}
+\begin{tabularx}{\textwidth}{Xrr}
 \hline
 \multicolumn{3}{c}{\textbf{Time Tables For Cooking — Baking}} \\
 \hline
@@ -1497,23 +1427,23 @@ Cake (layer) &  & 20 to 30 \\
 \hline
 Cake (loaf) &  & 40 to 60 \\
 \hline
-Cake (pound)                                    1 1/4 to 1 1/2 &  &  \\
+Cake (pound) & 1¼ to 1½ & \\
 \hline
-Cake (fruit)                                    1 1/4 to 2 &  &  \\
+Cake (fruit) & 1¼ to 2 & \\
 \hline
-Cake (wedding) &  & 3 \\
+Cake (wedding) & 3 & \\
 \hline
 Baked batter puddings &  & 35 to 45 \\
 \hline
-Bread puddings &  & 1 \\
+Bread puddings & 1 & \\
 \hline
-Tapioca or Rice Pudding &  & 1 \\
+Tapioca or Rice Pudding & 1 & \\
 \hline
-Rice Pudding (poor man's) &  & 2 to 3 \\
+Rice Pudding (poor man's) & 2 to 3 & \\
 \hline
-Indian Pudding &  & 2 to 3 \\
+Indian Pudding & 2 to 3 & \\
 \hline
-Plum Pudding &  & 2 to 3 \\
+Plum Pudding & 2 to 3 & \\
 \hline
 Custard Pudding &  & 30 to 45 \\
 \hline
@@ -1528,12 +1458,12 @@ Patties &  & 20 to 25 \\
 Vol-au-vent &  & 50 to 60 \\
 \hline
 \arrayrulecolor{black}
-\end{tabular}
+\end{tabularx}
 
-\vspace{1em}
+\vspace{2em}
 
 \arrayrulecolor{tablerowgray}
-\begin{tabular}{lrr}
+\begin{tabularx}{\textwidth}{Xrr}
 \hline
 ARTICLES & Hours & Minutes \\
 \hline
@@ -1543,9 +1473,9 @@ Scalloped Oysters &  & 25 to 30 \\
 \hline
 Scalloped dishes of cooked mixtures &  & 12 to 15 \\
 \hline
-Baked Beans &  & 6 to 8 \\
+Baked Beans & 6 to 8 & \\
 \hline
-Braised Beef                                    3 1/2 to 4 1/2 &  &  \\
+Braised Beef & 3½ to 4½ & \\
 \hline
 Beef, sirloin or rib, rare, weight  5 lbs. & 1 & 5 \\
 \hline
@@ -1561,27 +1491,27 @@ Beef, rump, well done, weight 10 lbs. & 1 & 55 \\
 \hline
 Beef, (fillet) &  & 20 to 30 \\
 \hline
-Mutton (saddle)                                 1 1/4 to 1 1/2 &  &  \\
+Mutton (saddle) & 1¼ to 1½ & \\
 \hline
-Lamb (leg)                                      1 1/4 to 1 3/4 &  &  \\
+Lamb (leg) & 1¼ to 1¾ & \\
 \hline
-Lamb (fore-quarter)                             1 to 1 1/4 &  &  \\
+Lamb (fore-quarter) & 1 to 1¼ & \\
 \hline
 Lamb (chops) in paper cases &  & 15 to 20 \\
 \hline
-Veal (leg)                                      3 1/2 to 4 &  &  \\
+Veal (leg) & 3½ to 4 & \\
 \hline
-Veal (loin) &  & 2 to 3 \\
+Veal (loin) & 2 to 3 & \\
 \hline
-Pork (chine or sparerib)                        3 to 3 1/2 &  &  \\
+Pork (chine or sparerib) & 3 to 3½ & \\
 \hline
-Chicken, weight 3 to 4 lbs.                     1 to 1 1/2 &  &  \\
+Chicken, weight 3 to 4 lbs. & 1 to 1½ & \\
 \hline
-Turkey, weight 9 lbs.                           2 1/2 to 3 &  &  \\
+Turkey, weight 9 lbs. & 2½ to 3 & \\
 \hline
-Goose, weight 9 lbs. &  & 2 \\
+Goose, weight 9 lbs. & 2 & \\
 \hline
-Duck (domestic)                                 1 to 1 1/4 &  &  \\
+Duck (domestic) & 1 to 1¼ & \\
 \hline
 Duck (wild) &  & 20 to 30 \\
 \hline
@@ -1589,24 +1519,23 @@ Grouse &  & 25 to 30 \\
 \hline
 Partridge &  & 45 to 50 \\
 \hline
-Pigeons (potted) &  & 2 \\
+Pigeons (potted) & 2 & \\
 \hline
 Fish (thick), weight 3 to 4 lbs. &  & 45 to 60 \\
 \hline
 Fish (small) &  & 20 to 30 \\
 \hline
 \arrayrulecolor{black}
-\end{tabular}
-
-\vspace{10pt}
-
-\noindent
-
-\clearpage
+\end{tabularx}
+\end{center}
+\vfill
+\pagebreak
 
 
+\vfill
+\begin{center}
 \arrayrulecolor{tablerowgray}
-\begin{tabular}{lrr}
+\begin{tabularx}{\textwidth}{Xrr}
 \hline
 \multicolumn{3}{c}{\textbf{Time Tables For Cooking — Frying}} \\
 \hline
@@ -1625,17 +1554,10 @@ Fillets of Fish &  & 4 to 6 \\
 Smelts, Trout, and other small Fish &  & 3 to 5 \\
 \hline
 \arrayrulecolor{black}
-\end{tabular}
-
-\vspace{10pt}
-
-\noindent
-NOTE.--Length of time for cooking fish and meat does not depend so much
-on the number of pounds to be cooked as the extent of surface exposed to
-the heat.
-
-
-
+\end{tabularx}
+\end{center}
+\vfill
+\pagebreak
 
 
 \chapter{Beverages}
@@ -3587,8 +3509,6 @@ When sugar is partially melted, add three tablespoons flour.
 
 \vspace{1em}
 \noindent%
-                              \textit{French Confectioner}
-
 Cool milk; when lukewarm, add yeast cakes, and when they are dissolved
 add remaining ingredients, and beat thoroughly with hand ten minutes;
 let rise six hours. Keep in ice-box over night; in morning turn on
@@ -5794,6 +5714,7 @@ Macaroni & 11.7 & 1.6 & 72.9 & 3.0 & 10.8 \\
 \arrayrulecolor{black}
 \hline
 \end{tabular}
+\vspace{2em}
 
 \textit{Macaroni}, \textit{spaghetti}, and \textit{vermicelli} are made from wheaten flour,
 rich in gluten, moistened to a stiff dough with water, and forced
@@ -5864,6 +5785,7 @@ Oatmeal Mush with Apples &  &  &  \\
 \arrayrulecolor{black}
 \hline
 \end{tabular}
+\vspace{2em}
 
 Core apples, leaving large cavities; pare, and cook until soft in syrup
 made by boiling sugar and water together, allowing one cup sugar to one
@@ -11348,6 +11270,7 @@ Crabs, soft-shell & 15.8 & 1.5 & 2. & .7 &  & 80. \\
 \arrayrulecolor{black}
 \hline
 \end{tabular}
+\vspace{2em}
 
                                                   \textit{W. O. Atwater, Ph.D.}
 
@@ -13523,6 +13446,7 @@ Goose & 22.2 & 10.3 & 33.8 & .6 & 33.1 \\
 \arrayrulecolor{black}
 \hline
 \end{tabular}
+\vspace{2em}
 
                                             \textit{W. O. Atwater, Ph.D.}
 
@@ -16953,8 +16877,15 @@ hare.
 \needspace{15\baselineskip}
 \subsection*{Creamed Chicken}
 
-1 1/2 cups cold cooked chicken, cut in dice 1 cup White Sauce II 1/8 teaspoon
-celery salt. Heat chicken dice in sauce, to which celery salt has been added.
+
+\begin{itemize}
+\setlength{\itemsep}{0pt}
+\item 1 1/2 cups cold cooked chicken, cut in dice 
+\item 1 cup White Sauce II 
+\item 1/8 teaspoon celery salt. 
+\end{itemize}
+\noindent%
+Heat chicken dice in sauce, to which celery salt has been added.
 
 
 
@@ -18643,6 +18574,7 @@ Turnips & 1.4 & .2 & 8.7 & .8 & 88.9 \\
 \arrayrulecolor{black}
 \hline
 \end{tabular}
+\vspace{2em}
 
                                                \textit{W. O. Atwater, Ph.D.}
 
