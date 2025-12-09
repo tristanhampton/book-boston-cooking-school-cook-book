@@ -42,11 +42,14 @@ close($h4);
 my @output;
 
 # Document preamble
-push @output, "\\documentclass[11pt,letterpaper]{book}";
+push @output, "\\documentclass[10pt]{book}";
 push @output, "\\usepackage[utf8]{inputenc}";
 push @output, "\\usepackage[T1]{fontenc}";
 push @output, "\\usepackage{tgpagella}"; # TeX Gyre Pagella (Palatino-like)
-push @output, "\\usepackage[margin=1in]{geometry}";
+push @output, "% Page setup for folio printing on letter paper (2-up)";
+push @output, "\\usepackage[paperwidth=5.5in,paperheight=8.5in,";
+push @output, "            top=0.75in,bottom=0.75in,";
+push @output, "            inner=0.65in,outer=0.7in]{geometry}";
 push @output, "\\usepackage{microtype}";
 push @output, "\\usepackage{titlesec}";
 push @output, "\\usepackage{titletoc}"; # For customizing table of contents
@@ -72,7 +75,7 @@ push @output, "  {\\normalfont\\huge\\bfseries\\centering}";
 push @output, "  {}";
 push @output, "  {0pt}";
 push @output, "  {\\vspace*{-60pt}}";
-push @output, "  [{\\vspace{2ex}\\centering\\includegraphics[width=5in]{divider-chapter.png}\\vspace{-2ex}}]";
+push @output, "  [{\\vspace{2ex}\\centering\\includegraphics[width=4in]{divider-chapter.png}\\vspace{-2ex}}]";
 push @output, "\\titlespacing*{\\chapter}";
 push @output, "  {0pt}"; # Left margin
 push @output, "  {20pt}"; # Space before (reduced from default ~50pt)
@@ -120,7 +123,7 @@ push @output, "    \\centering";
 push @output, "    \\vspace*{\\fill}";
 push @output, "    {\\Huge\\bfseries The Boston Cooking-School Cook Book\\par}";
 push @output, "    \\vspace{2em}";
-push @output, "    \\includegraphics[width=5in]{divider-chapter.png}\\par";
+push @output, "    \\includegraphics[width=4in]{divider-chapter.png}\\par";
 push @output, "    \\vspace{2em}";
 push @output, "    {\\Large Fannie Merritt Farmer\\par}";
 push @output, "    \\vspace{1em}";
@@ -1225,6 +1228,7 @@ for (my $i = 0; $i < @lines; $i++) {
                 # Process the rest of the chapter as menus
                 $i += 2;  # Skip the chapter title line and next blank line
                 my @current_menu = ();
+                my $menu_counter = 0;  # Counter for menu numbering
 
                 while ($i < @lines) {
                     my $menu_line = $lines[$i];
@@ -1235,6 +1239,9 @@ for (my $i = 0; $i < @lines; $i++) {
                     if ($menu_line =~ /^\s*☸+\s*$/) {
                         # Output the collected menu as a table
                         if (@current_menu > 0) {
+                            # Increment menu counter
+                            $menu_counter++;
+
                             # First, split each item by multiple spaces to detect columns
                             my @rows;
                             my $max_cols = 1;
@@ -1249,10 +1256,15 @@ for (my $i = 0; $i < @lines; $i++) {
                             # Create table with appropriate number of columns
                             push @output, "";
                             push @output, "\\vspace{1em}";
-                            push @output, "\\begin{center}";
+                            push @output, "";
+                            push @output, "\\noindent";
+                            push @output, "\\textbf{Menu $menu_counter}";
+                            push @output, "";
+                            push @output, "\\vspace{0.5em}";
+                            push @output, "";
                             push @output, "{\\renewcommand{\\arraystretch}{1.5}";  # Increase row height
                             my $col_spec = "|" . (">{\\hspace{0.5em}}c<{\\hspace{0.5em}}|" x $max_cols);
-                            push @output, "\\begin{tabular}{$col_spec}";
+                            push @output, "\\begin{tabular*}{\\textwidth}{\@{\\extracolsep{\\fill}}$col_spec}";
                             push @output, "\\hline";
 
                             foreach my $row (@rows) {
@@ -1275,8 +1287,7 @@ for (my $i = 0; $i < @lines; $i++) {
                                 }
                             }
 
-                            push @output, "\\end{tabular}}";  # Close arraystretch group
-                            push @output, "\\end{center}";
+                            push @output, "\\end{tabular*}}";  # Close arraystretch group
                             push @output, "\\vspace{0.5em}";
                             push @output, "";
 
@@ -1329,6 +1340,9 @@ for (my $i = 0; $i < @lines; $i++) {
 
                 # Output any remaining menu
                 if (@current_menu > 0) {
+                    # Increment menu counter
+                    $menu_counter++;
+
                     # First, split each item by multiple spaces to detect columns
                     my @rows;
                     my $max_cols = 1;
@@ -1343,10 +1357,15 @@ for (my $i = 0; $i < @lines; $i++) {
                     # Create table with appropriate number of columns
                     push @output, "";
                     push @output, "\\vspace{1em}";
-                    push @output, "\\begin{center}";
+                    push @output, "";
+                    push @output, "\\noindent";
+                    push @output, "\\textbf{Menu $menu_counter}";
+                    push @output, "";
+                    push @output, "\\vspace{0.5em}";
+                    push @output, "";
                     push @output, "{\\renewcommand{\\arraystretch}{1.5}";  # Increase row height
                     my $col_spec = "|" . (">{\\hspace{0.5em}}c<{\\hspace{0.5em}}|" x $max_cols);
-                    push @output, "\\begin{tabular}{$col_spec}";
+                    push @output, "\\begin{tabular*}{\\textwidth}{\@{\\extracolsep{\\fill}}$col_spec}";
                     push @output, "\\hline";
 
                     foreach my $row (@rows) {
@@ -1369,8 +1388,8 @@ for (my $i = 0; $i < @lines; $i++) {
                         }
                     }
 
-                    push @output, "\\end{tabular}}";  # Close arraystretch group
-                    push @output, "\\end{center}";
+                    push @output, "\\end{tabular*}}";  # Close arraystretch group
+                    push @output, "\\vspace{0.5em}";
                     push @output, "";
                 }
 
@@ -1678,7 +1697,7 @@ for (my $i = 0; $i < @lines; $i++) {
 
             # Use two columns if more than 5 items
             if (@ingredients > 5) {
-                push @output, "\\begin{minipage}{0.7\\textwidth}";
+                push @output, "\\begin{minipage}{1.0\\textwidth}";
                 push @output, "{\\setlength{\\multicolsep}{0pt}\\setlength{\\columnsep}{2em}\\raggedcolumns%";
                 push @output, "\\begin{multicols}{2}";
             }
